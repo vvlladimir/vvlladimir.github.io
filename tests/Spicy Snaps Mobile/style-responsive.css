@@ -75,11 +75,13 @@ body {
     margin-top: 5px;
 }
 .wrapper-content {
+    max-width: 414px;
+    width: 100%;
     padding: 25px 20px 30px 20px;
 }
 .free-invite {
     background: linear-gradient(to left, #FF7854, #FD267D);
-    width: 374px;
+    width: 100%;
     min-height: 70px;
     display: flex;
     flex-direction: row;
@@ -272,18 +274,4 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-}
-@media all and (max-width: 520px) {
-    .wrapper {
-        width: 100%;
-    }
-    .login-wrapper {
-        width: 100%;
-    }
-    .free-invite {
-        width: 100%;
-    }
-    .wrapper-content {
-        width: 100%;
-    }
 }
