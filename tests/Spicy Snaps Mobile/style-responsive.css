@@ -112,10 +112,11 @@ body {
 }
 .tags {
     list-style: none;
-    margin: 0 0 26px 0; 
+    margin: 0 0 16px 0; 
     padding: 0;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     
 }
 .tags div {
@@ -131,6 +132,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+    margin-bottom: 10px;
     background-color: #FFFE92;
     padding: 0 25px;
 }
@@ -141,7 +143,7 @@ body {
     font-size: 22px;
     line-height: 30px;
     font-weight: bold;
-    margin-top: 24px;
+    margin-top: 14px;
     margin-bottom: 24px;
 }
 .title {
@@ -155,7 +157,7 @@ body {
     margin-bottom: 18px;
 }
 .list-of-girls div {
-    width: 115px;
+    width: 33%;
     height: 150px;
     border-radius: 5px;
     margin-right: 14px;
@@ -166,6 +168,7 @@ body {
 }
 .list-of-girls div img {
     height: 150px;
+    min-width: 100%;
 }
 .login-title {
     font-size: 16px;
