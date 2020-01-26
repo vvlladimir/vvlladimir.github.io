@@ -5,7 +5,7 @@
 }
 body {
     background: radial-gradient( #FFFFE8, #FFFE92);
-    padding: 26px 0 0 0;
+    padding: 20px 0 0 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -24,31 +24,31 @@ body {
     flex-direction: row;
     align-items: center;
     font-weight: bold;
-    font-size: 33px;
-    margin-bottom: 25px;
+    font-size: 26px;
+    margin-bottom: 20px;
 }
 .logo img {
-    width: 56px;
-    margin-right: 15px;
+    width: 45px;
+    margin-right: 12px;
 }
 .current-girl {
     background-image: url(img/image1.png);
     background-repeat: no-repeat;
-    background-position: 0 -24px;
-    background-size: 350px auto;
-    width: 350px;
-    height: 350px;
+    background-position: 0 -19px;
+    background-size: 280px auto;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
-    margin-bottom: 29px;
+    margin-bottom: 24px;
 } 
 
 .main-girl {
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 280px;
+    height: 280px;
     overflow: hidden;
     border-radius: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
   }
 .main-girl img {
     width: 100%;
@@ -58,45 +58,45 @@ body {
 .girl-name-wrapper {
     color: #0C006B;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 26px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 33px;
+    margin-bottom: 26px;
 }
 .verified {
     background-image: url(img/verified@2x.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-height: 30px;
-    min-width: 30px;
-    margin-left: 15px;
-    margin-top: 5px;
+    min-height: 24px;
+    min-width: 24px;
+    margin-left: 12px;
+    margin-top: 4px;
 }
 .free-invite {
     background: linear-gradient(to left, #FF7854, #FD267D);
-    width: 520px;
-    min-height: 100px;
+    width: 416px;
+    min-height: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 10px;
-    padding: 0 20px 0 17px;
+    border-radius: 8px;
+    padding: 0 16px 0 13px;
     color: #fff;
-    font-size: 21px;
+    font-size: 16px;
     justify-content: space-between;
-    margin-bottom: 45px;
+    margin-bottom: 36px;
 }
 .free-invite .timer {
     display: flex;
 }
 .hours, .minutes {
-    width: 58px;
-    height: 58px;
-    border-radius: 5px;
+    width: 46px;
+    height: 46px;
+    border-radius: 4px;
     border: 2px solid #fff;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     display: flex;
@@ -104,11 +104,11 @@ body {
     justify-content: center;
 }
 .minutes {
-    margin-left: 10px;
+    margin-left: 8px;
 }
 .tags {
     list-style: none;
-    margin: 0 0 26px 0; 
+    margin: 0 0 20px 0; 
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -116,146 +116,146 @@ body {
 }
 .tags div {
     border: 2px solid #FFA200;
-    width: 120px;
-    height: 50px;
-    border-radius: 25px;
+    width: 96px;
+    height: 40px;
+    border-radius: 20px;
     color: black;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 8px;
     background-color: white;
 }
 .tags div:last-child {
     margin-right: 0;
 }
 .invited {
-    font-size: 32px;
-    min-height: 43px;
+    font-size: 25px;
+    min-height: 34px;
     font-weight: 500;
-    margin-bottom: 36px;
+    margin-bottom: 28px;
     text-align: center;
 }
 .list-of-girls {
     display: flex;
     flex-direction: row;
-    margin-bottom: 33px;
+    margin-bottom: 26px;
     flex-wrap: wrap;
 }
 .list-of-girls div {
-    width: 160px;
-    height: 200px;
-    border-radius: 10px;
-    margin-right: 20px;
+    width: 128px;
+    height: 160px;
+    border-radius: 8px;
+    margin-right: 16px;
     overflow: hidden;
 } 
 .list-of-girls div:last-child {
     margin-right: 0;
 }
 .list-of-girls div img {
-    height: 200px;
+    height: 160px;
 }
 .login-title {
-    font-size: 24px;
+    font-size: 19px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 26px;
+    margin-bottom: 20px;
 }
 .login-wrapper {
     display: flex;
     flex-direction: column;
-    width: 460px;
+    width: 368px;
 }
 .login-input {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 60px;
-    border-radius: 5px;
+    height: 48px;
+    border-radius: 4px;
     border: 1px solid #D0D0D0;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .login-input input {
     width: 100%;
     border: none;
     border-left: 1px solid #D0D0D0;
-    border-radius: 0 5px 5px 0;
-    padding: 0 0 0 15px;
+    border-radius: 0 4px 4px 0;
+    padding: 0 0 0 12px;
 }
 .icon-username {
     background-color: #EEEEEE;
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background-image: url(img/icon.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 24px;
     background-position: center;
-    border-radius: 5px 0 0 5px;
+    border-radius: 4px 0 0 4px;
 }
 .icon-password {
     background-color: #EEEEEE;
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background-image: url(img/key.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 24px;
     background-position: center;
-    border-radius: 5px 0 0 5px;
+    border-radius: 4px 0 0 4px;
 }
 .icon-email {
     background-color: #EEEEEE;
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background-image: url(img/envelope.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 24px;
     background-position: center;
-    border-radius: 5px 0 0 5px;
+    border-radius: 4px 0 0 4px;
 }
 .btn-next {
     width: 100%;
-    height: 60px;
-    border-radius: 5px;
+    height: 48px;
+    border-radius: 4px;
     background-color: #FC3768;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     border: none;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 .sm-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 48px;
+    margin-bottom: 38px;
 }
 .sm-list div {
-    margin-right: 14px;
+    margin-right: 10px;
 }
 .sm-list div:last-child {
     margin-right: 0;
 }
 .sm-list .facebook {
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background: url(img/facebook@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 .sm-list .instagram {
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background: url(img/instagram@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 .sm-list .snapchat {
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background: url(img/snapchat@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -268,19 +268,19 @@ body {
         padding-right: 3%;
     }
     .main-girl {
-        width: 270px;
-        height: 270px;
+        width: 216px;
+        height: 216px;
     }
     .free-invite {
         width: 100%;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 16px;
         justify-content: center;
         text-align: center;
     }
     .invitation-text {
-        margin-bottom: 10px;
-        padding-right: 10px;
+        margin-bottom: 8px;
+        padding-right: 8px;
     }
     .login-wrapper {
         width: 100%;
@@ -288,14 +288,14 @@ body {
 }
 @media all and (max-width: 414px) {
     .tags div {
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
     .tags div:last-child {
         margin-bottom: 0;
     }
     .list-of-girls div {
-        margin-bottom: 20px;
-        margin-right: 10px;
+        margin-bottom: 16px;
+        margin-right: 8px;
     }
     .list-of-girls div:last-child {
         margin-bottom: 0;
@@ -311,7 +311,7 @@ body {
     }
     .girl-name {
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
     
     
@@ -319,7 +319,7 @@ body {
         justify-content: center;
     }
     .list-of-girls div {
-        margin-right: 10px;
+        margin-right: 8px;
     }
 
 }
