@@ -24,28 +24,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 25px 0 20px 0;
+    padding: 20px 0 16px 0;
 }
 .logo {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 32px;
+    font-size: 20px;
+    margin-bottom: 26px;
 }
 .logo img {
-    width: 41px;
-    margin-right: 15px;
+    width: 33px;
+    margin-right: 12px;
 }
 
 .main-girl {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     overflow: hidden;
     border-radius: 50%;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 .main-girl img {
     width: 100%;
@@ -55,54 +55,54 @@ body {
 .girl-name-wrapper {
     color: #16191C;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 16px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 .nick-name {
-    font-size: 16px;
+    font-size: 13px;
     color: #757678;
 }
 .verified {
     background-image: url(img/verified.png);
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 30px;
-    min-width: 30px;
-    margin-left: 15px;
-    margin-top: 5px;
+    min-height: 24px;
+    min-width: 24px;
+    margin-left: 12px;
+    margin-top: 4px;
 }
 .wrapper-content {
-    max-width: 414px;
+    max-width: 330px;
     width: 100%;
-    padding: 25px 20px 30px 20px;
+    padding: 20px 16px 24px 16px;
 }
 .free-invite {
     background: linear-gradient(to left, #FF7854, #FD267D);
     width: 100%;
-    min-height: 70px;
+    min-height: 56px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 10px;
-    padding: 0 10px 0 15px;
+    border-radius: 8px;
+    padding: 0 8px 0 12px;
     color: #fff;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
     justify-content: space-between;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .free-invite .timer {
     display: flex;
 }
 .hours, .minutes {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
     border: 2px solid #fff;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     display: flex;
@@ -110,11 +110,11 @@ body {
     justify-content: center;
 }
 .minutes {
-    margin-left: 10px;
+    margin-left: 8px;
 }
 .tags {
     list-style: none;
-    margin: 0 0 16px 0; 
+    margin: 0 0 13px 0; 
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -124,58 +124,58 @@ body {
 .tags div {
     border: 2px solid #F9F606;
     width: auto;
-    height: 40px;
-    border-radius: 25px;
+    height: 32px;
+    border-radius: 20px;
     color: black;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 500;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 8px;
+    margin-bottom: 8px;
     background-color: #FFFE92;
-    padding: 0 25px;
+    padding: 0 20px;
 }
 .tags div:last-child {
     margin-right: 0;
 }
 .invited {
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 17px;
+    line-height: 24px;
     font-weight: bold;
-    margin-top: 14px;
-    margin-bottom: 24px;
+    margin-top: 11px;
+    margin-bottom: 19px;
 }
 .title {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 .list-of-girls {
     display: flex;
     flex-direction: row;
-    margin-bottom: 18px;
+    margin-bottom: 14px;
 }
 .list-of-girls div {
     width: 33%;
-    height: 150px;
-    border-radius: 5px;
-    margin-right: 14px;
+    height: 120px;
+    border-radius: 4px;
+    margin-right: 11px;
     overflow: hidden;
 } 
 .list-of-girls div:last-child {
     margin-right: 0;
 }
 .list-of-girls div img {
-    height: 150px;
+    height: 120px;
     min-width: 100%;
 }
 .login-title {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
-    margin-bottom: 26px;
+    margin-bottom: 20px;
     color: #434343;
 }
 .login-wrapper {
@@ -187,89 +187,89 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 60px;
-    border-radius: 5px;
+    height: 48px;
+    border-radius: 4px;
     border: 1px solid #D0D0D0;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .login-input input {
     width: 100%;
     border: none;
     border-left: 1px solid #D0D0D0;
-    border-radius: 0 5px 5px 0;
-    padding: 0 0 0 15px;
+    border-radius: 0 4px 4px 0;
+    padding: 0 0 0 12px;
     font-size: 1rem;
 }
 .icon-username {
     background-color: #EEEEEE;
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background-image: url(img/icon.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 24px;
     background-position: center;
-    border-radius: 5px 0 0 5px;
+    border-radius: 4px 0 0 4px;
 }
 .icon-password {
     background-color: #EEEEEE;
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background-image: url(img/key.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 24px;
     background-position: center;
-    border-radius: 5px 0 0 5px;
+    border-radius: 4px 0 0 4px;
 }
 .icon-email {
     background-color: #EEEEEE;
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background-image: url(img/envelope.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 24px;
     background-position: center;
-    border-radius: 5px 0 0 5px;
+    border-radius: 4px 0 0 4px;
 }
 .btn-next {
     width: 100%;
-    height: 60px;
-    border-radius: 5px;
+    height: 48px;
+    border-radius: 4px;
     background-color: #FC3768;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     border: none;
 }
 .sm-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 48px;
+    margin-bottom: 38px;
 }
 .sm-list div {
-    margin-right: 14px;
+    margin-right: 10px;
 }
 .sm-list div:last-child {
     margin-right: 0;
 }
 .sm-list .facebook {
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background: url(img/facebook@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 .sm-list .instagram {
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background: url(img/instagram@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 .sm-list .snapchat {
-    min-width: 58px;
-    height: 58px;
+    min-width: 46px;
+    height: 46px;
     background: url(img/snapchat@2x.png);
     background-repeat: no-repeat;
     background-size: contain;

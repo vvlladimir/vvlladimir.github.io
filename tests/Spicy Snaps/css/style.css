@@ -237,7 +237,7 @@ body {
     height: 46px;
     background-image: url(../img/icon.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 24px;
     background-position: center;
     border-radius: 4px 0 0 4px;
 }
@@ -247,7 +247,7 @@ body {
     height: 46px;
     background-image: url(../img/key.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 24px;
     background-position: center;
     border-radius: 4px 0 0 4px;
 }
@@ -257,7 +257,7 @@ body {
     height: 46px;
     background-image: url(../img/envelope.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 24px;
     background-position: center;
     border-radius: 4px 0 0 4px;
 }
