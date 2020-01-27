@@ -97,7 +97,7 @@ body {
 .free-invite .timer {
     display: flex;
 }
-.hours, .minutes {
+.counter-box {
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -109,7 +109,7 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-.minutes {
+.counter-box:last-child {
     margin-left: 8px;
 }
 .tags {

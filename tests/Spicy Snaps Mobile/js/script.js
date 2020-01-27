@@ -1,30 +1,26 @@
-// Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+var countDownDate = new Date().getTime() + 300480;
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+            var x = setInterval(function () {
 
-  // Get today's date and time
-  var now = new Date().getTime();
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                minutes = "0" + minutes;
 
-  // Display the result in the element with id="timer"
-  //   document.getElementById("timer").innerHTML =  days + "d " + hours + "h "
-  //+ minutes + "m " + seconds + "s ";
-  document.getElementById("hours").innerHTML = hours + " ";
-  document.getElementById("minutes").innerHTML = minutes + " ";
+                if (seconds < 10) {
+                    seconds = "0" + seconds;
+                }
+                document.getElementById("minute").innerHTML = minutes;
+                document.getElementById("second").innerHTML = seconds;
 
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("timer").innerHTML = "EXPIRED";
-  }
-}, 1000);
+                // If the count down is over, write some text
+                if (distance <= 0) {
+                    clearInterval(x);
+                    alert("Expired");
+                    document.getElementById("minute").innerHTML = "00";
+                    document.getElementById("second").innerHTML = "00";
+                }
+            }, 1000);
