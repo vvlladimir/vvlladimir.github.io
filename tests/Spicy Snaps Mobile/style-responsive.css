@@ -192,8 +192,8 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 48px;
-    border-radius: 4px;
+    height: 60px;
+    border-radius: 5px;
     border: 1px solid #D0D0D0;
     margin-bottom: 16px;
 }
@@ -201,44 +201,44 @@ body {
     width: 100%;
     border: none;
     border-left: 1px solid #D0D0D0;
-    border-radius: 0 4px 4px 0;
-    padding: 0 0 0 12px;
+    border-radius: 0 5px 5px 0;
+    padding: 0 0 0 15px;
     font-size: 1rem;
 }
 .icon-username {
     background-color: #EEEEEE;
-    min-width: 46px;
-    height: 46px;
+    min-width: 58px;
+    height: 58px;
     background-image: url(img/icon.png);
     background-repeat: no-repeat;
-    background-size: 24px;
+    background-size: auto;
     background-position: center;
-    border-radius: 4px 0 0 4px;
+    border-radius: 5px 0 0 5px;
 }
 .icon-password {
     background-color: #EEEEEE;
-    min-width: 46px;
-    height: 46px;
+    min-width: 58px;
+    height: 58px;
     background-image: url(img/key.png);
     background-repeat: no-repeat;
-    background-size: 24px;
+    background-size: auto;
     background-position: center;
-    border-radius: 4px 0 0 4px;
+    border-radius: 5px 0 0 5px;
 }
 .icon-email {
     background-color: #EEEEEE;
-    min-width: 46px;
-    height: 46px;
+    min-width: 58px;
+    height: 58px;
     background-image: url(img/envelope.png);
     background-repeat: no-repeat;
-    background-size: 24px;
+    background-size: auto;
     background-position: center;
-    border-radius: 4px 0 0 4px;
+    border-radius: 5px 0 0 5px;
 }
 .btn-next {
     width: 100%;
     height: 60px;
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #FC3768;
     color: #fff;
     font-size: 20px;
@@ -287,5 +287,54 @@ body {
     }
     .btn-next {
         height: 48px;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    .login-input {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 48px;
+        border-radius: 4px;
+        border: 1px solid #D0D0D0;
+        margin-bottom: 16px;
+    }
+    .login-input input {
+        width: 100%;
+        border: none;
+        border-left: 1px solid #D0D0D0;
+        border-radius: 0 4px 4px 0;
+        padding: 0 0 0 12px;
+        font-size: 1rem;
+    }
+    .icon-username {
+        background-color: #EEEEEE;
+        min-width: 46px;
+        height: 46px;
+        background-image: url(img/icon.png);
+        background-repeat: no-repeat;
+        background-size: 24px;
+        background-position: center;
+        border-radius: 4px 0 0 4px;
+    }
+    .icon-password {
+        background-color: #EEEEEE;
+        min-width: 46px;
+        height: 46px;
+        background-image: url(img/key.png);
+        background-repeat: no-repeat;
+        background-size: 24px;
+        background-position: center;
+        border-radius: 4px 0 0 4px;
+    }
+    .icon-email {
+        background-color: #EEEEEE;
+        min-width: 46px;
+        height: 46px;
+        background-image: url(img/envelope.png);
+        background-repeat: no-repeat;
+        background-size: 24px;
+        background-position: center;
+        border-radius: 4px 0 0 4px;
     }
 }
