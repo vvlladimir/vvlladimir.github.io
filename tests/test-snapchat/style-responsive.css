@@ -271,6 +271,12 @@ body {
         width: 216px;
         height: 216px;
     }
+    .list-of-girls div {
+        margin-bottom: 16px;
+    }
+    .list-of-girls div:last-child {
+        margin-bottom: 0;
+    }
     .free-invite {
         width: 100%;
         flex-wrap: wrap;
@@ -282,6 +288,11 @@ body {
     }
     .login-wrapper {
         width: 100%;
+    }
+}
+@media all and (max-width: 450px) {
+    .list-of-girls div {
+        width: 115px;
     }
 }
 @media all and (max-width: 414px) {
