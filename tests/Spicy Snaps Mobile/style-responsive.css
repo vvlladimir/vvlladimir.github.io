@@ -25,24 +25,25 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px 0 16px 0;
+    margin-bottom: 28px;
 }
 .logo {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 26px;
 }
 .logo img {
-    width: 33px;
-    margin-right: 12px;
+    width: 40px;
+    margin-right: 15px;
 }
 
 .main-girl {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
     border-radius: 50%;
     margin-bottom: 20px;
@@ -55,14 +56,14 @@ body {
 .girl-name-wrapper {
     color: #16191C;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 6px;
 }
 .nick-name {
-    font-size: 13px;
+    font-size: 16px;
     color: #757678;
 }
 .verified {
@@ -75,24 +76,24 @@ body {
     margin-top: 4px;
 }
 .wrapper-content {
-    max-width: 330px;
+    max-width: 416px;
     width: 100%;
-    padding: 20px 16px 24px 16px;
 }
 .free-invite {
-    background: linear-gradient(to left, #FF7854, #FD267D);
     width: 100%;
-    min-height: 56px;
+    font-weight: bold;
+    background: linear-gradient(to left, #FF7854, #FD267D);
+    min-height: 70px;
     display: flex;
     flex-direction: row;
     align-items: center;
     border-radius: 8px;
-    padding: 0 8px 0 12px;
+    padding: 0 16px 0 13px;
     color: #fff;
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 16px;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
+
 }
 .free-invite .timer {
     display: flex;
@@ -114,7 +115,7 @@ body {
 }
 .tags {
     list-style: none;
-    margin: 0 0 13px 0; 
+    margin: 0 0 28px 0;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -123,44 +124,46 @@ body {
 }
 .tags div {
     border: 2px solid #F9F606;
-    width: auto;
-    height: 32px;
+    margin-bottom: 8px;
+    background-color: #FFFE92;
+    padding: 0 20px;
+    width: 96px;
+    height: 40px;
     border-radius: 20px;
     color: black;
-    font-size: 11px;
+    font-size: 16px;
     font-weight: 500;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: 8px;
-    margin-bottom: 8px;
-    background-color: #FFFE92;
-    padding: 0 20px;
 }
 .tags div:last-child {
     margin-right: 0;
 }
 .invited {
-    font-size: 17px;
+    font-size: 22px;
     line-height: 24px;
     font-weight: bold;
-    margin-top: 11px;
-    margin-bottom: 19px;
+    margin-bottom: 20px;
+    color: #16191C;
 }
 .title {
-    font-size: 13px;
+    font-size: 20px;
+    line-height: 24px;
     font-weight: bold;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
+    color: #16191C;
 }
 .list-of-girls {
     display: flex;
     flex-direction: row;
-    margin-bottom: 14px;
+    margin-bottom: 28px;
 }
 .list-of-girls div {
     width: 33%;
-    height: 120px;
+    height: 160px;
     border-radius: 4px;
     margin-right: 11px;
     overflow: hidden;
@@ -169,11 +172,12 @@ body {
     margin-right: 0;
 }
 .list-of-girls div img {
-    height: 120px;
+    height: 160px;
     min-width: 100%;
 }
 .login-title {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 24px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #434343;
@@ -182,6 +186,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 28px;
 }
 .login-input {
     display: flex;
@@ -232,11 +237,11 @@ body {
 }
 .btn-next {
     width: 100%;
-    height: 48px;
+    height: 60px;
     border-radius: 4px;
     background-color: #FC3768;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
 }
 .sm-list {
@@ -274,4 +279,10 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+@media all and (max-width: 520px) {
+    .wrapper-content {
+        max-width: 100%;
+        padding: 0 20px;
+    }
 }
