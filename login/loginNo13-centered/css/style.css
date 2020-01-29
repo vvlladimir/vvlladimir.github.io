@@ -455,3 +455,71 @@ body {
         height: 37px;
     } */
 }
+@media (min-width: 600px) and (max-height: 779px) {
+    .left-wrapper {
+        width: 374px;
+    }
+    .login-content {
+        padding: 45px 20px 20px 20px;
+    }
+    .login-title {
+        padding-left: 12px;
+    }
+    .login-title div:nth-child(1) {
+        font-size: 20px;
+    }
+    .login-title div:nth-child(2) {
+        font-size: 38px;
+    }
+    .login-title div:nth-child(3) {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .plus18 {
+        width: 98px;
+        height: 98px;
+        line-height: 98px;
+        font-size: 40px;
+        top: -30px;
+        right: 23px;
+    }
+    .btn-login-next {
+        height: 60px;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .login-form {
+        margin-top: 27px;
+    }
+    .login-form .login-input input {
+        height: 60px;
+        font-size: 16px;
+        padding-top: 34px;
+    }
+    .login-form .login-input label {
+        font-size: 13px;
+    }
+    .login-form .login-input.username-input > .icon-check,
+    .login-form .login-input.password-input > .icon-eye {
+        right: 15px;
+    }
+    .social-content {
+        padding: 0;
+        margin-top: 20px;
+    }
+    .social-title {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .social-divider {
+        width: 70px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 2px;
+        background-color: #fff;
+    }
+    .facebook, .instagram, .snapchat {
+        width: 45px;
+        height: 45px;
+    }
+}
