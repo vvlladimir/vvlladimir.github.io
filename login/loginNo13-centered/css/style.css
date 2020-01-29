@@ -199,9 +199,6 @@ body {
 }
 
 @media (max-width: 1366px) {
-    html {
-        background-position: 80% center;
-    }
     .login-content {
         padding: 45px 20px 20px 20px;
     }
@@ -251,36 +248,13 @@ body {
         height: 45px;
     }
 }
-@media (max-width: 1081px) {
-    html {
-        background-position: 80% center;
-    }
-}
-@media (max-width: 1024px) {
-    html {
-        background-position: 100% center;
-    }
-    .right-side {
-        display: none;
-    }
-}
-@media (max-width: 720px) {
-    html {
-        background-position: 90% center;
-    }
-}
+
 @media (max-width: 530px) {
     body {
         padding: 0 20px;
     }
-    .left-wrapper {
-        width: 100%;
-    }
 }
 @media (max-width: 414px) {
-    html {
-        background-position: 84% center;
-    }
     body {
         padding: 0 20px;
     }
@@ -368,7 +342,58 @@ body {
         margin-top: 10px;
     }
 }
-@media (max-height: 414px) {
+@media (max-height: 960px) {
+    .login-content {
+        padding: 45px 20px 20px 20px;
+    }
+    .login-title div:nth-child(1) {
+        font-size: 20px;
+    }
+    .login-title div:nth-child(2) {
+        font-size: 38px;
+    }
+    .login-title div:nth-child(3) {
+        font-size: 16px;
+    }
+    .plus18 {
+        width: 98px;
+        height: 98px;
+        line-height: 98px;
+        font-size: 40px;
+    }
+    .btn-login-next {
+        height: 60px;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .login-form .login-input input {
+        height: 60px;
+        font-size: 16px;
+    }
+    .login-form .login-input label {
+        font-size: 12px;
+    }
+    .social-content {
+        padding: 0;
+        margin-top: 20px;
+    }
+    .social-title {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .social-divider {
+        width: 70px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #A7A7A7;
+    }
+    .facebook, .instagram, .snapchat {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-height: 740px) {
     .login-form {
         margin-top: 0;
     }
