@@ -382,11 +382,9 @@ body {
     .login-form .login-input input {
         height: 60px;
         font-size: 16px;
-        padding-left: 10px;
     }
     .login-form .login-input label {
         font-size: 13px;
-        left: 10px;
     }
     .social-content {
         padding: 0;
@@ -459,10 +457,5 @@ body {
     .facebook, .instagram, .snapchat {
         width: 37px;
         height: 37px;
-    }
-}
-@media (max-height: 360px) {
-    .plus18 {
-        top: 8px;
     }
 }
