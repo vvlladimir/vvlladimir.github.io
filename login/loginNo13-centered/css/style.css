@@ -429,6 +429,9 @@ body {
     .facebook, .instagram {
         margin-right: 8px;
     }
+    .social-title {
+        font-size: 16px;
+    }
     .social-divider {
         width: 55px;
         margin-left: 20px;
