@@ -97,8 +97,19 @@ body {
     border: 1px solid #E0CCCB;
     padding: 44px 20px 14px 20px;
     font-size: 20px;
-    color: #999999;
+    color: #1D1B1D;
 }
+.login-form .login-input input::-webkit-input-placeholder { /* Edge */
+    color: #999999;
+  }
+  
+  .login-form .login-input input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #999999;
+  }
+  
+  .login-form .login-input input::placeholder {
+    color: #999999;
+  }
 .login-form .login-input label {
     font-size: 16px;
     color: #C69993;
@@ -227,7 +238,7 @@ body {
         font-size: 16px;
     }
     .login-form .login-input label {
-        font-size: 12px;
+        font-size: 13px;
     }
     .social-content {
         padding: 0;
@@ -292,9 +303,11 @@ body {
     .login-form .login-input input {
         height: 60px;
         font-size: 16px;
+        padding-left: 10px;
     }
     .login-form .login-input label {
-        font-size: 12px;
+        font-size: 13px;
+        left: 10px;
     }
     .social-content {
         padding: 0;
@@ -369,9 +382,11 @@ body {
     .login-form .login-input input {
         height: 60px;
         font-size: 16px;
+        padding-left: 10px;
     }
     .login-form .login-input label {
-        font-size: 12px;
+        font-size: 13px;
+        left: 10px;
     }
     .social-content {
         padding: 0;
@@ -413,6 +428,11 @@ body {
     .login-form .login-input {
         margin-bottom: 5px;
     }
+    .login-form .login-input label {
+        font-size: 13px;
+        top: 8px;
+        left: 10px;
+    }
     .plus18 {
         width: 68px;
         height: 68px;
@@ -430,6 +450,7 @@ body {
         height: 40px;
         font-size: 15px;
         padding-top: 34px;
+        padding-left: 10px;
     }
     .btn-login-next {
         height: 40px;
@@ -438,5 +459,10 @@ body {
     .facebook, .instagram, .snapchat {
         width: 37px;
         height: 37px;
+    }
+}
+@media (max-height: 360px) {
+    .plus18 {
+        top: 8px;
     }
 }
