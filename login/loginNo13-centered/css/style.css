@@ -213,159 +213,6 @@ body {
     height: 58px;
 }
 
-/* @media (max-width: 1366px) {
-    .login-content {
-        padding: 45px 20px 20px 20px;
-    }
-    .btn-login-next {
-        height: 60px;
-        font-size: 18px;
-        margin-top: 0;
-        line-height: 60px;
-    }
-    .login-form .login-input input {
-        height: 60px;
-        font-size: 16px;
-    }
-    .login-form .login-input label {
-        font-size: 13px;
-    }
-    .social-content {
-        padding: 0;
-        margin-top: 20px;
-    }
-    .social-title {
-        font-size: 14px;
-        font-weight: 500;
-    }
-    .social-divider {
-        width: 70px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .facebook, .instagram, .snapchat {
-        width: 45px;
-        height: 45px;
-    }
-} */
-
-/* @media (max-width: 530px) {
-    body {
-        padding: 0 20px;
-    }
-} */
-/* @media (max-width: 414px) {
-    body {
-        padding: 0 20px;
-    }
-    .right-side {
-        display: none;
-    }
-    .left-wrapper {
-        width: 100%;
-    }
-    .login-content {
-        padding: 45px 20px 20px 20px;
-    }
-    .login-title {
-        padding-left: 12px;
-    }
-    .login-title div:nth-child(1) {
-        font-size: 20px;
-    }
-    .login-title div:nth-child(2) {
-        font-size: 38px;
-    }
-    .login-title div:nth-child(3) {
-        font-size: 16px;
-        margin-top: 8px;
-    }
-    .plus18 {
-        width: 98px;
-        height: 98px;
-        line-height: 98px;
-        font-size: 40px;
-        top: -30px;
-        right: 23px;
-    }
-    .btn-login-next {
-        height: 60px;
-        font-size: 18px;
-        margin-top: 0;
-        line-height: 60px;
-    }
-    .login-form {
-        margin-top: 27px;
-    }
-    .login-form .login-input input {
-        height: 60px;
-        font-size: 16px;
-        padding-top: 34px;
-    }
-    .login-form .login-input label {
-        font-size: 13px;
-    }
-    .login-form .login-input.username-input > .icon-check,
-    .login-form .login-input.password-input > .icon-eye {
-        right: 15px;
-    }
-    .social-content {
-        padding: 0;
-        margin-top: 20px;
-    }
-    .social-title {
-        font-size: 14px;
-        font-weight: 500;
-    }
-    .social-divider {
-        width: 70px;
-        margin-left: 20px;
-        margin-right: 20px;
-        height: 2px;
-        background-color: #fff;
-    }
-    .facebook, .instagram, .snapchat {
-        width: 45px;
-        height: 45px;
-    }
-} */
-/* @media (max-height: 940px) {
-    .login-content {
-        padding: 45px 20px 20px 20px;
-    }
-    .btn-login-next {
-        height: 60px;
-        font-size: 18px;
-        margin-top: 0;
-        line-height: 60px;
-    }
-    .login-form .login-input input {
-        height: 60px;
-        font-size: 16px;
-    }
-    .login-form .login-input label {
-        font-size: 13px;
-    }
-    .social-content {
-        padding: 0;
-        margin-top: 20px;
-    }
-    .social-title {
-        font-size: 14px;
-        font-weight: 500;
-    }
-    .facebook, .instagram, .snapchat {
-        width: 45px;
-        height: 45px;
-    }
-} */
-
-/* @media (max-height: 770px) {
-    .login-form .login-input label {
-        font-size: 13px;
-        top: 8px;
-    }
-} */
 @media (max-width: 1680px) and (max-height: 1050px) {
     .left-wrapper {
         width: 340px;
@@ -406,8 +253,9 @@ body {
         font-size: 15px;
     }
     .login-form .login-input label {
-        top: 7px;
+        top: 5px;
         left: 10px;
+        font-size: 13px;
     }
     .login-form .login-input.username-input > .icon-check,
     .login-form .login-input.password-input > .icon-eye {
@@ -439,142 +287,22 @@ body {
     }
 }
 
-/* @media (min-width: 600px) and (max-height: 779px) {
+@media (max-width: 414px) {
+    .left-side {
+        padding: 30px;
+        margin-top: 20px;
+    }
     .left-wrapper {
-        width: 374px;
-    }
-    .login-content {
-        padding: 45px 20px 20px 20px;
-    }
-    .login-title {
-        padding-left: 12px;
-    }
-    .login-title div:nth-child(1) {
-        font-size: 20px;
-    }
-    .login-title div:nth-child(2) {
-        font-size: 38px;
-    }
-    .login-title div:nth-child(3) {
-        font-size: 16px;
-        margin-top: 8px;
-    }
-    .plus18 {
-        width: 98px;
-        height: 98px;
-        line-height: 98px;
-        font-size: 40px;
-        top: -30px;
-        right: 23px;
-    }
-    .btn-login-next {
-        height: 60px;
-        font-size: 18px;
-        margin-top: 0;
-        line-height: 60px;
-    }
-    .login-form {
-        margin-top: 27px;
-    }
-    .login-form .login-input input {
-        height: 60px;
-        font-size: 16px;
-        padding-top: 34px;
-    }
-    .login-form .login-input label {
-        font-size: 13px;
-    }
-    .login-form .login-input.username-input > .icon-check,
-    .login-form .login-input.password-input > .icon-eye {
-        right: 15px;
+        width: 100%;
     }
     .social-content {
         padding: 0;
         margin-top: 20px;
     }
-    .social-title {
-        font-size: 14px;
-        font-weight: 500;
-    }
-    .social-divider {
-        width: 70px;
-        margin-left: 20px;
-        margin-right: 20px;
-        height: 2px;
-        background-color: #fff;
-    }
-    .facebook, .instagram, .snapchat {
-        width: 45px;
-        height: 45px;
-    }
-} */
-/*@media (max-width: 320px) and (max-height: 568px)*/
-/* @media (max-width: 599px) {
-    .left-wrapper {
-        width: 320px;
+    .btn-login-next {
+        font-size: 20px;
     }
     .login-content {
-        padding: 30px 10px 10px 10px;
+        padding: 35px 10px 10px 10px;
     }
-    .plus18 {
-        width: 80px;
-        height: 80px;
-        line-height: 80px;
-        font-size: 30px;
-        top: -20px;
-        right: 9px;
-    }
-    .login-title div:nth-child(1) {
-        font-size: 22px;
-        margin-bottom: 0;
-    }
-    .login-title div:nth-child(2) {
-        font-size: 43px;
-        margin-top: 6px;
-    }
-    .login-title div:nth-child(3) {
-        font-size: 20px;
-        margin-top: 14px;
-    }
-    .login-form {
-        margin-top: 30px;
-    }
-    .login-form .login-input {
-        margin-bottom: 14px;
-    }
-    .login-form .login-input input {
-        height: 46px;
-        padding-top: 30px;
-        padding-left: 10px;
-        font-size: 15px;
-    }
-    .login-form .login-input label {
-        top: 7px;
-        left: 10px;
-    }
-    .login-form .login-input.username-input > .icon-check,
-    .login-form .login-input.password-input > .icon-eye {
-        right: 10px;
-    }
-    .social-content {
-        padding: 0 10px;
-        margin-top: 20px;
-    }
-    .btn-login-next {
-        height: 53px;
-        margin-top: 12px;
-        line-height: 53px;
-    }
-    .facebook, .instagram, .snapchat {
-        width: 38px;
-        height: 38px;
-    }
-    .facebook, .instagram {
-        margin-right: 8px;
-    }
-    .social-divider {
-        width: 55px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-} */
+}
