@@ -153,6 +153,9 @@ body {
     border: none;
     border-radius: 4px;
     margin-top: 18px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 80px;
 }
 
 
@@ -218,6 +221,7 @@ body {
         height: 60px;
         font-size: 18px;
         margin-top: 0;
+        line-height: 60px;
     }
     .login-form .login-input input {
         height: 60px;
@@ -288,6 +292,7 @@ body {
         height: 60px;
         font-size: 18px;
         margin-top: 0;
+        line-height: 60px;
     }
     .login-form {
         margin-top: 27px;
@@ -332,6 +337,7 @@ body {
         height: 60px;
         font-size: 18px;
         margin-top: 0;
+        line-height: 60px;
     }
     .login-form .login-input input {
         height: 60px;
@@ -414,6 +420,7 @@ body {
     .btn-login-next {
         height: 53px;
         margin-top: 12px;
+        line-height: 53px;
     }
     .facebook, .instagram, .snapchat {
         width: 38px;
@@ -461,6 +468,7 @@ body {
         height: 60px;
         font-size: 18px;
         margin-top: 0;
+        line-height: 60px;
     }
     .login-form {
         margin-top: 27px;
@@ -552,6 +560,7 @@ body {
     .btn-login-next {
         height: 53px;
         margin-top: 12px;
+        line-height: 53px;
     }
     .facebook, .instagram, .snapchat {
         width: 38px;
