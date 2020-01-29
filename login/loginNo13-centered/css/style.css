@@ -393,7 +393,7 @@ body {
     }
 }
 
-@media (max-height: 740px) {
+@media (max-height: 720px) {
     .login-form {
         margin-top: 0;
     }
@@ -428,7 +428,7 @@ body {
     }
     .login-form .login-input input {
         height: 40px;
-        font-size: 14px;
+        font-size: 15px;
         padding-top: 34px;
     }
     .btn-login-next {
@@ -436,7 +436,7 @@ body {
         font-size: 16px;
     }
     .facebook, .instagram, .snapchat {
-        width: 35px;
-        height: 35px;
+        width: 37px;
+        height: 37px;
     }
 }
