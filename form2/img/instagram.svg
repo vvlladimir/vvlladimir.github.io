@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.008" x2="0.5" y2="0.998" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e09b3d"/>
+      <stop offset="0.3" stop-color="#c74c4d"/>
+      <stop offset="0.6" stop-color="#c21975"/>
+      <stop offset="1" stop-color="#7024c4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="-0.451" y2="1.462" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" y1="-1.396" y2="6.586" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path">
+      <circle id="_47204517_292382274956927_6343880894930625161_n" data-name="47204517_292382274956927_6343880894930625161_n" cx="29" cy="29" r="29" transform="translate(-0.048 -0.362)" fill="#fff" stroke="#dc5cff" stroke-width="1" opacity="0.9"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.207" cy="1.202" r="1.514" gradientTransform="matrix(0.644, -0.765, 0.506, 0.425, -0.534, 0.849)" gradientUnits="objectBoundingBox">
+      <stop offset="0.073" stop-color="#eacc7b"/>
+      <stop offset="0.184" stop-color="#ecaa59"/>
+      <stop offset="0.307" stop-color="#ef802e"/>
+      <stop offset="0.358" stop-color="#ef6d3a"/>
+      <stop offset="0.46" stop-color="#f04b50"/>
+      <stop offset="0.516" stop-color="#f03e58"/>
+      <stop offset="0.689" stop-color="#db359e"/>
+      <stop offset="0.724" stop-color="#ce37a4"/>
+      <stop offset="0.789" stop-color="#ac3cb4"/>
+      <stop offset="0.877" stop-color="#7544cf"/>
+      <stop offset="0.98" stop-color="#2b4ff2"/>
+    </radialGradient>
+  </defs>
+  <g id="instagram" transform="translate(0.048 0.362)">
+    <g id="instagram-2" data-name="instagram" transform="translate(14.252 14.252)">
+      <path id="Path_6957" data-name="Path 6957" d="M20.493,0H8.7A8.705,8.705,0,0,0,0,8.7v11.8a8.705,8.705,0,0,0,8.7,8.7h11.8a8.705,8.705,0,0,0,8.7-8.7V8.7A8.705,8.705,0,0,0,20.493,0Zm5.759,20.493a5.759,5.759,0,0,1-5.759,5.759H8.7a5.759,5.759,0,0,1-5.759-5.759V8.7A5.759,5.759,0,0,1,8.7,2.936h11.8A5.759,5.759,0,0,1,26.252,8.7v11.8Z" fill="url(#linear-gradient)"/>
+      <path id="Path_6958" data-name="Path 6958" d="M140.549,133a7.549,7.549,0,1,0,7.549,7.549A7.558,7.558,0,0,0,140.549,133Zm0,12.162a4.613,4.613,0,1,1,4.613-4.613A4.613,4.613,0,0,1,140.549,145.162Z" transform="translate(-125.955 -125.955)" fill="url(#linear-gradient-2)"/>
+      <circle id="Ellipse_95" data-name="Ellipse 95" cx="1.809" cy="1.809" r="1.809" transform="translate(20.349 5.293)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g id="icons8-instagram">
+      <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_6960" data-name="Path 6960" d="M54.108,68.638H21.53A12.567,12.567,0,0,1,9,56.108V23.53A12.567,12.567,0,0,1,21.53,11H54.108a12.567,12.567,0,0,1,12.53,12.53V56.108A12.567,12.567,0,0,1,54.108,68.638Z" transform="translate(-8.989 -11)" fill="url(#radial-gradient)"/>
+      </g>
+      <g id="Group_965" data-name="Group 965" transform="translate(14.202 14.191)">
+        <path id="Path_6961" data-name="Path 6961" d="M29.628,19.581c3.958,0,4.388,0,5.937.086a9.55,9.55,0,0,1,2.754.516,4.946,4.946,0,0,1,2.84,2.84,9.55,9.55,0,0,1,.516,2.754v5.851c0,3.958,0,4.388-.086,5.937a9.55,9.55,0,0,1-.516,2.754,4.946,4.946,0,0,1-2.84,2.84,9.55,9.55,0,0,1-2.754.516H29.628c-3.958,0-4.388,0-5.937-.086a9.55,9.55,0,0,1-2.754-.516,4.946,4.946,0,0,1-2.84-2.84,9.55,9.55,0,0,1-.516-2.754V31.628c0-3.958,0-4.388.086-5.937a9.55,9.55,0,0,1,.516-2.754,4.946,4.946,0,0,1,2.84-2.84,9.55,9.55,0,0,1,2.754-.516h5.851m0-2.581c-3.958,0-4.474,0-6.023.086a11.6,11.6,0,0,0-3.528.688A6.2,6.2,0,0,0,17.5,19.5a9.658,9.658,0,0,0-1.721,2.581,11.6,11.6,0,0,0-.688,3.528C15,27.154,15,27.67,15,31.628s0,4.474.086,6.023a11.6,11.6,0,0,0,.688,3.528A6.2,6.2,0,0,0,17.5,43.761a8.473,8.473,0,0,0,2.581,1.721,11.6,11.6,0,0,0,3.528.688c1.549.086,2.065.086,6.023.086s4.474,0,6.023-.086a11.6,11.6,0,0,0,3.528-.688,6.2,6.2,0,0,0,2.581-1.721,8.473,8.473,0,0,0,1.721-2.581,11.6,11.6,0,0,0,.688-3.528c.086-1.549.086-2.065.086-6.023s0-4.474-.086-6.023a11.6,11.6,0,0,0-.688-3.528A6.2,6.2,0,0,0,41.761,19.5a9.658,9.658,0,0,0-2.581-1.721,11.6,11.6,0,0,0-3.528-.688C34.1,17,33.586,17,29.628,17Z" transform="translate(-15 -17)" fill="#fff"/>
+        <path id="Path_6962" data-name="Path 6962" d="M30.744,25a7.744,7.744,0,1,0,7.744,7.744A7.712,7.712,0,0,0,30.744,25Zm0,12.907a5.163,5.163,0,1,1,5.163-5.163A5.178,5.178,0,0,1,30.744,37.907Z" transform="translate(-16.116 -18.116)" fill="#fff"/>
+        <circle id="Ellipse_96" data-name="Ellipse 96" cx="1.721" cy="1.721" r="1.721" transform="translate(20.651 5.163)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

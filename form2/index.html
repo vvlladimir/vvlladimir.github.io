@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>18+ Age</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/responsive.css" type="text/css">
+
+    </head>
+
+    <body>
+        
+        <section class="main">
+            
+            
+            <div class="container">
+                
+
+                <div class="main-content">
+                    <div class="leftPanel">
+                        <div class="expire-box">
+                            <p>time left</p>
+                            <div class="counter">
+                                <div id="minute" class="counter-box">04</div>
+                                <div id="second" class="counter-box">59</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="rightPanel">
+                        <div class="form-box">
+                            <div class="logo-icon"><img src="img/logo.svg" alt="logo"></div>
+                            <div class="form-title">
+                                <h2>get started</h2>
+                                <p>Verify your age to start chatting now! Free membership.</p>
+                                <h3>Free age verification</h3>
+                            </div>
+                            <form>
+                                <div class="user">
+                                    <div class="user-id">
+                                        <div class="input-image">
+                                            <img src="img/user-icon.svg">
+                                        </div>
+                                        <div class="input-section">
+                                            <input type="text" placeholder="Username">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pass">
+                                    <div class="password-type">
+                                        <div class="input-image">
+                                            <img src="img/key.svg">
+                                        </div>
+                                        <div class="input-section">
+                                            <input type="text" placeholder="Password">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="emailadd">
+                                    <div class="email-box">
+                                        <div class="input-image">
+                                            <img src="img/envelope.svg">
+                                        </div>
+                                        <div class="input-section">
+                                            <input type="email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="button-login">chat now</a>
+                                <p>Already have an account? <a href="#" class="signin">Sign In</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+            var countDownDate = new Date().getTime() + 300480;
+
+            var x = setInterval(function () {
+
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                minutes = "0" + minutes;
+
+                if (seconds < 10) {
+                    seconds = "0" + seconds;
+                }
+                document.getElementById("minute").innerHTML = minutes;
+                document.getElementById("second").innerHTML = seconds;
+
+                // If the count down is over, write some text
+                if (distance <= 0) {
+                    clearInterval(x);
+                    alert("Expired");
+                    document.getElementById("minute").innerHTML = "00";
+                    document.getElementById("second").innerHTML = "00";
+                }
+            }, 1000);
+
+
+
+           
+        </script>
+    </body>
+
+</html>

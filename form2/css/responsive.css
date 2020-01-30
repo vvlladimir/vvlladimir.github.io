@@ -1,0 +1,1048 @@
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .user-image {
+    height: 215px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .container {
+    max-width: 85%;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+
+  /* header */
+  header {
+    margin-top: 40px;
+  }
+
+  header .logo span.logo-text {
+    font-size: 24px;
+  }
+
+  header .menu-bar .btn {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  header .toggel-button {
+    width: 32px;
+  }
+
+  /* header end */
+
+  /* left-pannel-start*/
+  .leftPanel {
+    margin-top: 100px;
+  }
+
+  .leftPanel .expire-box p {
+    font-size: 22px;
+  }
+
+  .expire-box .counter {
+    margin-left: 21px;
+  }
+
+  .counter-box {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    font-size: 22px;
+  }
+
+  .channel-box h1 {
+    font-size: 52px;
+    line-height: 97px;
+  }
+
+  .channel-box .true {
+    margin-top: 0px;
+  }
+
+  .hobbies {
+    margin-bottom: 35px;
+    height: 65px;
+  }
+
+  .hobbies-btn {
+    width: 152px;
+    height: 62px;
+    font-size: 26px;
+  }
+
+  .user-image {
+    width: 152px;
+    height: 190px;
+  }
+
+  .user-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .social-icon {
+    margin-top: 35px;
+  }
+
+  .social-icon .icon img {
+    width: 47px;
+    height: 47px;
+  }
+
+  /* left-pannel-end */
+
+  /* right pannel */
+
+  .form-box {
+    width: 352px;
+    margin-top: 77px;
+  }
+  .form-title p {
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .form-title p a {
+    font-size: 12px;
+  }
+  .logo-icon {
+    margin-top: 40.6px;
+  }
+
+  .form-title h2 {
+    font-size: 22px;
+    margin: 26px 0px 10px 0px;
+  }
+
+  .form-title h3 {
+    font-size: 18px;
+  }
+
+  .form-box form {
+    padding: 0 28px;
+    margin-top: 5px;
+  }
+
+  .emailadd,
+  .user,
+  .pass {
+    height: 47px;
+    margin-bottom: 18px;
+  }
+
+  .form-box form .input-image {
+    width: 47px;
+    height: 47px;
+  }
+
+  .form-box form .input-section {
+    font-size: 14px;
+  }
+
+  .form-box form button {
+    height: 48px;
+    font-size: 18px;
+  }
+
+  form p {
+    font-size: 14px;
+    margin: 22px 0 35px;
+  }
+
+  /* right-pannel-end */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .left {
+    left: 10px;
+    width: 30px;
+  }
+
+  .right {
+    right: 10px;
+    width: 30px;
+  }
+
+  .left img,
+  .right img {
+    width: 20px;
+  }
+
+  .container {
+    max-width: 924px;
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+
+  /* header */
+  header {
+    margin-top: 40px;
+  }
+
+  .logo img {
+    width: 36px;
+  }
+
+  header .logo span.logo-text {
+    font-size: 22px;
+  }
+
+  header .menu-bar .btn {
+    width: 90px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  header .toggel-button {
+    width: 25px;
+    margin-left: 30px;
+  }
+
+  /* header end */
+
+  /* left-pannel-start*/
+  .leftPanel {
+    margin-top: 80px;
+  }
+
+  .leftPanel .expire-box p {
+    font-size: 20px;
+  }
+
+  .expire-box .counter {
+    margin-left: 18px;
+  }
+
+  .counter-box {
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    font-size: 20px;
+  }
+
+  .channel-box h1 {
+    font-size: 48px;
+    line-height: 77px;
+  }
+
+  .channel-box .true {
+    margin-top: 0px;
+  }
+
+  .hobbies {
+    margin-bottom: 30px;
+    height: 55px;
+  }
+
+  .hobbies-btn {
+    width: 122px;
+    height: 52px;
+    font-size: 22px;
+  }
+
+  .user-image {
+    width: 122px;
+    height: 160px;
+  }
+
+  .user-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .social-icon {
+    margin-top: 30px;
+  }
+
+  .social-icon .icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* left-pannel-end */
+
+  /* right pannel */
+
+  .form-box {
+    width: 362px;
+    margin-top: 47px;
+  }
+
+  .logo-icon {
+    margin-top: 30px;
+  }
+
+  .logo-icon img {
+    width: 27.75px;
+    height: 38.49px;
+  }
+
+  .form-title p {
+    padding: 0 24px;
+  }
+
+  .form-title h2 {
+    font-size: 22px;
+    margin: 26px 0px 10px 0px;
+  }
+
+  .form-title h3 {
+    font-size: 16px;
+    margin: 10px 0px;
+  }
+
+  .form-box form {
+    padding: 0 20px;
+    margin-top: 0px;
+  }
+
+  .emailadd,
+  .user,
+  .pass {
+    height: 42px;
+    margin-bottom: 15px;
+  }
+
+  .form-box form .input-image {
+    width: 42px;
+    height: 42px;
+  }
+
+  .input-image img {
+    width: 23px;
+  }
+
+  .form-box form input {
+    font-size: 14px;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .form-box form button {
+    height: 41px;
+    font-size: 16px;
+  }
+
+  form p {
+    font-size: 14px;
+    margin: 20px 0 30px;
+  }
+
+  /* right-pannel-end */
+  footer {
+    margin-top: 20px;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-carousel {
+    display: none;
+  }
+  .owl-dot button {
+    background-size: cover !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .left {
+    left: 10px;
+    width: 30px;
+  }
+
+  .right {
+    right: 10px;
+    width: 30px;
+  }
+
+  .left img,
+  .right img {
+    width: 20px;
+  }
+
+  .container {
+    max-width: 675px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+
+  /* header */
+  header {
+    margin-top: 30px;
+  }
+
+  .logo img {
+    width: 30px;
+  }
+
+  header .logo span.logo-text {
+    font-size: 20px;
+  }
+
+  header .menu-bar .btn {
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  header .toggel-button {
+    width: 22px;
+    margin-left: 25px;
+  }
+
+  /* header end */
+
+  /* left-pannel-start*/
+  .leftPanel {
+    margin-top: 65px;
+  }
+
+  .leftPanel .expire-box p {
+    font-size: 18px;
+  }
+
+  .expire-box .counter {
+    margin-left: 15px;
+  }
+
+  .counter-box {
+    width: 36px;
+    height: 36px;
+    margin-left: 6px;
+    font-size: 18px;
+  }
+
+  .channel-box h1 {
+    font-size: 42px;
+    line-height: 66px;
+  }
+
+  .channel-box img {
+    width: 22px;
+  }
+
+  .channel-box .true {
+    margin-top: 0px;
+  }
+
+  .hobbies {
+    margin-bottom: 26px;
+    height: 50px;
+  }
+
+  .hobbies-btn {
+    width: 102px;
+    height: 44px;
+    font-size: 20px;
+  }
+
+  .hobbies-btn:nth-child(2) {
+    margin: 0 13px;
+  }
+
+  .user-image {
+    width: 102px;
+    height: 140px;
+  }
+
+  .user-image:nth-child(2) {
+    margin: 0 18px;
+  }
+
+  .user-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .social-icon {
+    margin-top: 25px;
+  }
+
+  .social-icon .icon img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .social-icon .icon {
+    margin-right: 10px;
+  }
+
+  /* left-pannel-end */
+
+  /* right pannel */
+  .form-box {
+    width: 315px;
+    margin-top: 27px;
+  }
+
+  .logo-icon {
+    margin-top: 24px;
+  }
+
+  .logo-icon img {
+    width: 24.75px;
+    height: 32.49px;
+  }
+
+  .form-title p {
+    padding: 0 22px;
+  }
+
+  .form-title h2 {
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+  }
+
+  .form-title h3 {
+    font-size: 16px;
+    margin: 10px 0px;
+  }
+
+  .form-box form {
+    padding: 0 18px;
+    margin-top: 0px;
+  }
+
+  .emailadd,
+  .user,
+  .pass {
+    height: 38px;
+    margin-bottom: 15px;
+  }
+
+  .form-box form .input-image {
+    width: 38px;
+    height: 38px;
+  }
+
+  .input-image img {
+    width: 20px;
+  }
+
+  .form-box form input {
+    font-size: 14px;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .form-box form button {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  form p {
+    font-size: 14px;
+    margin: 18px 0 25px;
+  }
+
+  /* right-pannel-end */
+  footer {
+    margin-top: 50px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  section.banner {
+    display: none;
+  }
+
+  .container {
+    padding: 0 30px;
+  }
+
+  .left,
+  .right {
+    display: none;
+  }
+
+  .color-banner {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background-image: linear-gradient(to right bottom, #fd267d, #ff3e6f, #ff5364, #ff665b, #ff7854);
+    opacity: 0.1;
+  }
+
+  .main-content {
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  header {
+    margin-top: 20px;
+  }
+
+  .toggel-button {
+    margin-left: 20px;
+    display: flex;
+    align-items: right;
+    flex-flow: row-reverse;
+  }
+
+  .toggel-button {
+    margin-left: 20px;
+  }
+
+  .logo span.logo-text {
+    color: #434343;
+    font-size: 24px;
+  }
+
+  .logo img {
+    width: 30px;
+  }
+
+  header .menu-bar .btn {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .toggel-button img {
+    width: 80%;
+  }
+
+  .leftPanel {
+    margin-top: 20px;
+  }
+
+  .expire-box {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .expire-box p {
+    color: #434343;
+  }
+
+  .counter-box {
+    color: #434343;
+    border-color: #fd267d;
+  }
+
+  .counter-box:nth-child(2) {
+    border-color: #ff7854;
+  }
+
+  .channel-box {
+    display: none;
+  }
+
+  .hobbies {
+    display: none;
+  }
+
+  /* profile */
+  .profile-squre {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+
+  .profile-squre-pic {
+    display: none;
+    /* width: calc(100% - 130px);
+        flex-flow: column;
+        border-radius: 10px;
+        height: 500px;
+        background-image: url(../img/main-bg.png);
+        background-size: cover;
+        background-position: center;
+        position: relative; */
+  }
+
+  .profile-img {
+    display: none;
+    flex-flow: column;
+    width: 110px;
+  }
+
+  .user-image {
+    display: flex;
+    flex-flow: column;
+    width: 110px;
+    height: 153px;
+  }
+
+  .user-image:nth-child(2) {
+    margin: 20px 0px;
+  }
+
+  .user-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .social-icon-two {
+    display: flex;
+    flex-flow: column;
+    width: 32px;
+    position: absolute;
+    margin: 10px 0px 0px 10px;
+    top: 0;
+    z-index: 5;
+  }
+
+  .icon-two {
+    display: flex;
+    flex-flow: column;
+    width: 36px;
+  }
+
+  .icon-two img {
+    width: 36px;
+  }
+
+  .profile-like {
+    display: flex;
+    flex-flow: row;
+    width: calc(100% - 170px);
+    position: absolute;
+    bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+  }
+
+  .content-carousel {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .like,
+  .dislike {
+    display: flex;
+    flex-flow: column;
+    width: 60px;
+    background-color: #fff;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .like {
+    margin-right: 15px;
+  }
+
+  .social-icon {
+    display: none;
+  }
+
+  .form-box {
+    margin: 0;
+    width: 100%;
+  }
+
+  .channel-box-two {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .channel-box-two h1 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+
+  .channel-box-two img {
+    width: 20px;
+    margin-left: 8px;
+    margin-top: -20px;
+  }
+
+  .hobbies-two {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+  }
+
+  .hobbies-btn {
+    width: 120px;
+    height: 50px;
+    font-size: 22px;
+  }
+
+  .logo-icon {
+    display: none;
+  }
+
+  .form-title h2 {
+    display: none;
+  }
+
+  .form-box p {
+    display: none;
+  }
+
+  .form-title {
+    align-items: left;
+    align-items: end;
+  }
+
+  .form-box form {
+    padding: 0px;
+    margin-top: 6px;
+  }
+
+  footer {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .owl-carousel .owl-dots button {
+    height: 190px !important;
+    margin-bottom: 20px !important;
+    border-radius: 10px;
+    background-size: cover !important;
+  }
+
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 610px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .owl-carousel {
+    width: 100% !important;
+  }
+
+  .owl-carousel .owl-dots {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: 15px;
+  }
+
+  .owl-carousel button.owl-dot {
+    width: 31%;
+    padding: 0 10px;
+    background-position: center !important;
+    background-size: cover !important;
+  }
+
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel button.owl-dot {
+    margin-bottom: 0px !important;
+  }
+
+  .profile-like {
+    bottom: 230px;
+    width: 100%;
+  }
+
+  .left,
+  .right {
+    display: none;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .expire-box p {
+    font-size: 22px;
+  }
+
+  .icon-two {
+    width: 32px;
+  }
+
+  .channel-box-two h1 {
+    font-size: 26px;
+  }
+
+  .hobbies-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .hobbies-btn:nth-child(2) {
+    margin: 0 10px;
+  }
+
+  .form-title h3 {
+    font-size: 22px;
+  }
+
+  .emailadd,
+  .user,
+  .pass {
+    height: 60px;
+  }
+
+  .form-box form .input-image {
+    height: 60px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .like,
+  .dislike {
+    width: 50px;
+    height: 50px;
+  }
+
+  .profile-like a.like img {
+    width: 50%;
+  }
+
+  footer p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 414px) {
+  .owl-carousel .owl-item img {
+    height: 500px;
+  }
+
+  .owl-carousel .owl-dots button {
+    height: 153px !important;
+  }
+
+  .profile-like {
+    bottom: 185px;
+  }
+}
+
+@media (max-width: 380px) {
+  .owl-carousel .owl-dots button {
+    height: 120px !important;
+  }
+
+  .profile-like {
+    bottom: 160px;
+  }
+
+  .form-title h3 {
+    font-size: 18px;
+  }
+
+  .owl-carousel .owl-item img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 320px) {
+  .owl-carousel .owl-item img {
+    height: 400px;
+  }
+
+  .left,
+  .right {
+    display: none;
+  }
+
+  header {
+    margin-top: 10px;
+  }
+
+  .logo span.logo-text {
+    font-size: 22px;
+  }
+
+  .expire-box p {
+    font-size: 18px;
+  }
+
+  .counter-box {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .leftPanel {
+    margin-top: 10px;
+  }
+
+  .profile-squre {
+    margin-top: 15px;
+  }
+
+  .profile-squre-pic {
+    height: 400px;
+    flex-flow: row;
+    width: 100%;
+  }
+
+  .like,
+  .dislike {
+    width: 40px;
+    height: 40px;
+  }
+
+  .profile-like a.like img,
+  .profile-like a.dislike img {
+    width: 40%;
+  }
+
+  .user-image {
+    height: auto;
+  }
+
+  .profile-img {
+    display: none;
+    flex-flow: row;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .owl-carousel .owl-dots button {
+    height: 120px !important;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    /* background-position: center; */
+    background-size: cover;
+    margin-bottom: 0 !important;
+  }
+
+  .user-image:nth-child(2) {
+    margin: 0px 10px;
+  }
+
+  .profile-like {
+    bottom: 155px;
+  }
+
+  .channel-box-two h1 {
+    margin-top: 0;
+  }
+}

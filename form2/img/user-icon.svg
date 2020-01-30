@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="icon" transform="translate(-1031 -485)">
+    <circle id="Ellipse_100" data-name="Ellipse 100" cx="15" cy="15" r="15" transform="translate(1031 485)" fill="#8e8f90"/>
+    <g id="black-male-user-symbol" transform="translate(1033.533 490)">
+      <path id="Path_6999" data-name="Path 6999" d="M23.568,18.918l-.081.1a12.94,12.94,0,0,1-9.97,4.947,12.939,12.939,0,0,1-9.97-4.947l-.08-.1.019-.124a10.275,10.275,0,0,1,4.927-7.577l.189-.109.151.158a6.569,6.569,0,0,0,9.527,0l.151-.158.189.109a10.277,10.277,0,0,1,4.927,7.577Zm-10.05-6.951A5.984,5.984,0,1,0,7.534,5.983,5.99,5.99,0,0,0,13.517,11.967Z" transform="translate(-1.255 -1.496)" fill="#eee"/>
+    </g>
+  </g>
+</svg>
