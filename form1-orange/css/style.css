@@ -1,0 +1,1732 @@
+@font-face {
+    font-family: "18+";
+    src: url("../fonts/google/GoogleSans-Italic.woff2") format("woff2"), url("../fonts/google/GoogleSans-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "18+";
+    src: url("../fonts/google/GoogleSans-Bold.woff2") format("woff2"), url("../fonts/google/GoogleSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "18+";
+    src: url("../fonts/google/GoogleSans-Medium.woff2") format("woff2"), url("../fonts/google/GoogleSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "18+";
+    src: url("../fonts/google/GoogleSans-Regular.woff2") format("woff2"), url("../fonts/google/GoogleSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    position: relative;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+    font-family: "18+";
+    font-size: 1.125rem;
+    font-weight: normal;
+    -webkit-font-smoothing: auto;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f6f4;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+    cursor: unset !important;
+}
+
+#login {
+    position: relative;
+    width: 100%;
+}
+header {
+    padding: 30px 0;
+}
+.logo {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo span.logo-text {
+    color: #434343;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15.6px;
+}
+
+
+.invite {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.login-page-content {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.container {
+    width: 1660px;
+    margin: 0 auto;
+}
+
+.round-shape {
+    position: relative;
+    width: 74%;
+    display: flex;
+    flex-flow: column;
+    background-image: linear-gradient(to right bottom, #dbf2fd, #dff3fd, #e3f4fe, #e7f6fe, #ebf7fe, #edf8fe, #eff9fe, #f1fafe, #f2fbfe, #f3fbfe, #f4fcfe, #f5fcfe);
+    height: 100vh;
+}
+
+.round-shape::after {
+    content: "";
+    position: relative;
+    background-image: url(../image/shape-one.png);
+    width: 100%;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.toys {
+    width: 26%;
+    display: flex;
+    flex-flow: column;
+    background-image: url(../image/toys.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.heart-section {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    top: 13%;
+    left: 6.8%;
+    width: 748px;
+}
+
+.heart-one {
+    top: 19.4px;
+    position: relative;
+    width: 38.19px;
+    height: 35.14px;
+}
+
+.heart-two {
+    top: 0px;
+    position: absolute;
+    left: 284px;
+    width: 50px;
+    height: 46px;
+}
+
+.heart-three {
+    width: 64.59px;
+    height: 59.42px;
+    left: 73.8px;
+    bottom: 79.2;
+    top: 595.3px;
+    position: absolute;
+}
+
+.heart-four {
+    width: 29.53px;
+    height: 27.17px;
+    right: 0px;
+    position: absolute;
+    top: 516.4px;
+}
+
+.heart-five {
+    position: absolute;
+    width: 29.19;
+    width: 29.19px;
+    height: 26.86px;
+    top: 579.6px;
+    left: 350.5px;
+}
+
+/* .round-shape-section start */
+.round-shape-section {
+    width: 937px;
+    height: 850px;
+    position: absolute;
+    display: flex;
+    flex-flow: row;
+    top: 10%;
+    left: 10.5%;
+}
+
+.shape {
+    width: 178px;
+    height: 178px;
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(253, 38, 125, 0.04);
+    border-radius: 50%;
+    left: 0px;
+}
+
+.shape::after {
+    position: absolute;
+    content: "";
+    width: 152px;
+    height: 152px;
+    background-color: rgba(253, 38, 125, 0.2);
+    border-radius: 50%;
+}
+
+.shape img {
+    z-index: 1;
+}
+
+.shapeone {
+    width: 178px;
+    height: 178px;
+}
+
+.shape.shapetwo {
+    top: 0px;
+    left: 60%;
+    position: absolute;
+}
+
+.shape.shapefour {
+    left: 81%;
+    top: 28.5%;
+    position: absolute;
+}
+
+.shapethree {
+    width: 146px;
+    height: 146px;
+}
+
+.shapethree::after {
+    width: 124px;
+    height: 124px;
+}
+
+.shapethree {
+    width: 146px;
+    height: 146px;
+    top: 24.7%;
+    left: 39.3%;
+    position: absolute;
+}
+
+.shape.shapefive {
+    width: 145px;
+    height: 145px;
+    top: 67%;
+    left: 14%;
+    position: absolute;
+}
+
+.shapefive::after {
+    width: 125px;
+    height: 125px;
+}
+
+.shape.shapesix {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 68%;
+    left: 40.5%;
+}
+
+.shapesix::after {
+    width: 230px;
+    height: 230px;
+}
+
+/* .round-shape-section end */
+
+/* text-box-start */
+.text-box {
+    position: absolute;
+    top: 43%;
+    left: 9.9%;
+    width: 718px;
+}
+
+.text-box p {
+    font-size: 34px;
+    line-height: 43px;
+    margin: 0px 0px 21px 0px;
+    color: #434343;
+    font-weight: 500;
+}
+
+.text-box h1 {
+    font-size: 71px;
+    font-weight: bold;
+    line-height: 88px;
+    color: #f35414;
+    margin: 0px;
+}
+
+/* text-box-end */
+
+/* login-box */
+.login-box {
+    display: flex;
+    flex-flow: column;
+    width: 433px;
+    align-self: center;
+}
+
+.expire-box {
+    display: flex;
+    flex-flow: nowrap;
+    background-image: linear-gradient(to right, #fd267d, #ff3e6f, #ff5364, #ff665b, #ff7854);
+    height: 100px;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 17px;
+    justify-content: space-between;
+}
+
+.expire-box p {
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.counter-box {
+    width: 56.5px;
+    height: 56.5px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: solid 2px #fff;
+    margin-left: 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.counter {
+    display: flex;
+    flex-flow: row;
+}
+
+.create-account {
+    display: flex;
+    flex-flow: column;
+    height: 447px;
+    width: 100%;
+    border-radius: 10px;
+    border: solid 1px #FD3148;
+    margin: 33px 0px 29px 0px;
+    background-color: #fff;
+}
+
+.create-account form {
+    padding: 0px 30px;
+}
+
+.create-account form h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #434343;
+    margin: 30px 0px 16px 0px;
+}
+
+
+.emailadd,
+.user,
+.pass {
+    display: flex;
+    flex-flow: row;
+    width: 99%;
+    height: 68px;
+    border: solid 1px #f35414;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user {
+    margin-bottom: 24px;
+}
+
+.pass {
+    margin-bottom: 22px;
+}
+
+.email-box {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 100%
+}
+
+.user-id {
+    display: flex;
+    flex-flow: row;
+}
+
+.password-type {
+    display: flex;
+    flex-flow: row;
+}
+
+.input-image {
+
+    width: 74px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.input-section {
+    display: flex;
+    flex-flow: column;
+    height: 45px;
+    width: calc(100% - 60px);
+    justify-content: center;
+}
+
+.create-account form label {
+    font-size: 14px;
+    margin-bottom: 3px;
+    font-weight: 600;
+    margin-left: 3px;
+    line-height: 17px;
+}
+
+.create-account form input {
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: #999999;
+    margin-left: 5px;
+}
+
+.user-validation {
+    margin-right: 25px;
+}
+
+
+.user-view {
+    /* margin-right: 25px; */
+    padding-right: 20px;
+}
+
+.create-account form button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #f35414;
+    /* padding: 13px 0px 17px 0px; */
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    height: 60px;
+}
+
+.social-icon {
+    display: flex;
+    flex-flow: nowrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.social-icon .icon {
+    margin: 0px 7px;
+}
+
+.social-icon .icon img {
+    width: 58px;
+    height: 58px;
+}
+
+@media (min-width:1601px) and (max-width:1919px) {
+
+    .shape.shapeone,
+    .shape.shapetwo,
+    .shape.shapefour {
+        width: 160px;
+        height: 160px;
+    }
+
+    .shape.shapeone:after,
+    .shape.shapetwo:after,
+    .shape.shapefour:after {
+        width: 140px;
+        height: 140px;
+    }
+
+    .shape.shapeone img,
+    .shape.shapetwo img,
+    .shape.shapefour img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .shape.shapesix {
+        width: 220px;
+        height: 220px;
+    }
+
+    .shape.shapesix:after {
+        width: 200px;
+        height: 200px;
+    }
+
+    .shape.shapesix img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .shape.shapefour {
+        left: 75%;
+    }
+
+    .round-shape-section {
+        height: calc(100% - 10%);
+    }
+
+    .round-shape {
+        width: calc(100% - 430px);
+    }
+
+    .login-box {
+        height: 100%;
+        top: 0;
+        justify-content: center;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1670px) {
+    .shape.shapefour {
+        left: 70%;
+    }
+}
+
+
+
+
+@media (min-width:1200px) and (max-width:1600px) {
+    .container {
+        width: 1328px;
+    }
+
+    .heart-section {
+        top: 4.4%;
+        left: 2%;
+        width: 598px;
+    }
+
+    .heart-one {
+        width: 33.19px;
+        height: 30.14px;
+    }
+
+    .round-shape-section {
+        top: 6%;
+        left: 4.25%;
+    }
+
+    .text-box {
+        top: 0;
+        left: 6%;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    .login-box {
+        width: 25.4%;
+        top: 0;
+        height: 100%;
+        justify-content: center;
+        z-index: 2;
+        left: 61.3%;
+    }
+
+    .shapeone,
+    .shapefour,
+    .shapetwo {
+        width: 158px;
+        height: 158px;
+    }
+
+    .shape::after {
+        width: 132px;
+        height: 132px;
+    }
+
+    .shape.shapefive:after {
+        width: 126pz;
+        width: 126px;
+        height: 126px;
+    }
+
+    .round-shape-section .shape img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .shapethree {
+        width: 142px;
+        height: 142px;
+        top: 20%;
+    }
+
+    .shape::after {
+        width: 132px;
+        height: 132px;
+    }
+
+    .shapethree::after {
+        width: 122px;
+        height: 122px;
+    }
+
+    .shape.shapesix {
+        width: 200px;
+        height: 200px;
+        top: 74%;
+        left: 50%;
+    }
+
+    .shape.shapefive {
+        left: 20%;
+    }
+
+    .shapesix::after {
+        width: 175px;
+        height: 175px;
+    }
+
+    .round-shape-section {
+        height: 90%;
+        width: 56%;
+        top: 0;
+        left: 1%;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .text-box p {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .text-box h1 {
+        font-size: 61px;
+    }
+
+    .expire-box {
+        height: 80px;
+    }
+
+    .expire-box p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .counter-box {
+        width: 46.5px;
+        height: 46.5px;
+        font-size: 22px;
+    }
+
+    .create-account form h2 {
+        font-size: 24px;
+    }
+
+    .emailadd,
+    .user,
+    .pass {
+        width: 100%;
+        height: 58px;
+    }
+
+    .input-image {
+        width: 45px;
+    }
+
+    .create-account {
+        height: auto;
+    }
+
+    form button {
+        margin-bottom: 30px;
+    }
+
+    .password-type {
+        width: 80%;
+        /* margin: 0 0 0 15px; */
+    }
+
+    .user-validation {
+        /* padding-right: 10px; */
+    }
+
+    .user-id {
+        width: 80%;
+        /* margin: 0 0 0 15px; */
+    }
+
+    .create-account form input {
+        font-size: 16px;
+    }
+
+    .user-view img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .input-image img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .heart-section {
+        top: 3%;
+        left: 2.8%;
+        width: 448px;
+    }
+
+    .heart-one {
+        width: 18.19px;
+        height: 15.14px;
+    }
+
+    .heart-two {
+        width: 30px;
+        height: 26px;
+    }
+
+    .heart-three {
+        width: 44.59px;
+        height: 39.42px;
+    }
+
+    .heart-five {
+        width: 19.19px;
+        height: 16.86px;
+    }
+
+    .heart-three {
+        width: 44.59px;
+        height: 39.42px;
+        left: 5%
+    }
+
+    .heart-four {
+        top: 450px;
+    }
+
+    .round-shape-section {
+        left: 0px;
+    }
+
+    .round-shape-section {
+        width: 600px;
+        height: 90%;
+        top: 0;
+        left: 1%;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .shape img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .shapeone,
+    .shapefour,
+    .shapetwo {
+        width: 110px;
+        height: 110px;
+    }
+
+    .shape::after {
+        width: 112px;
+        height: 112px;
+    }
+
+    .shape.shapefive:after {
+        width: 91px;
+        height: 91px;
+    }
+
+    .round-shape-section .shape img {
+        width: 55%;
+        height: 55%;
+    }
+
+    .shapethree {
+        width: 115px;
+        height: 115px;
+        left: 29.3%;
+        top: 20%;
+    }
+
+    .shape::after {
+        width: 82px;
+        height: 82px;
+    }
+
+    .shapethree::after {
+        width: 90px;
+        height: 90px;
+    }
+
+    .shape.shapesix {
+        width: 170px;
+        height: 170px;
+        top: 74%;
+        left: 48%;
+    }
+
+    .shape.shapefive {
+        width: 115px;
+        height: 115px;
+        left: 20%;
+    }
+
+    .shapesix::after {
+        width: 145px;
+        height: 145px;
+    }
+
+    .shape.shapefour {
+        left: 67%;
+    }
+
+    .shape.shapesix img {
+        width: 75%;
+        height: 75%;
+    }
+
+    .text-box {
+        top: 0;
+        left: 1.9%;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+    }
+
+    .text-box p {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .text-box h1 {
+        font-size: 51px;
+    }
+
+    .login-box {
+        width: 329px;
+        height: 100%;
+        left: 57.2%;
+        justify-content: center;
+        top: 0;
+    }
+
+    .expire-box {
+        height: 60px;
+    }
+
+    .expire-box p {
+        font-size: 16px;
+        line-height: 12px;
+    }
+
+    .counter-box {
+        width: 36.5px;
+        height: 36.5px;
+        font-size: 18px;
+    }
+
+    .create-account form {
+        padding: 0px 20px;
+    }
+
+    .create-account form h2 {
+        margin: 20px 0px 16px 0px;
+        font-size: 22px;
+    }
+
+    .emailadd,
+    .user,
+    .pass {
+        width: 99%;
+        height: 48px;
+    }
+
+    .input-image {
+        width: 54px;
+    }
+
+    .input-image img {
+        width: 50%;
+        text-align: center;
+    }
+
+    .create-account form label {
+        font-size: 12px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        line-height: 17px;
+    }
+
+    .create-account form input {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .create-account {
+        height: 355px;
+    }
+
+    .create-account form button {
+        height: 50px;
+    }
+
+    .social-icon .icon img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .toys {
+        width: 30%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .round-shape-section {
+        left: 0%;
+    }
+
+    .heart-section {
+        width: 350px;
+        left: 3%;
+        top: 5%;
+    }
+
+    .heart-one {
+        top: 9.4px;
+        width: 15.19px;
+        height: 15.14px;
+    }
+
+    .heart-two {
+        left: 284px;
+        width: 20px;
+        height: 16px;
+    }
+
+    .heart-three {
+        width: 34.59px;
+        height: 29.42px;
+        top: 505.3px;
+        left: 5%;
+    }
+
+    .heart-four {
+        width: 9.53px;
+        height: 7.17px;
+        top: 426.4px;
+    }
+
+    .heart-five {
+        width: 29.19;
+        width: 9.19px;
+        height: 9.86px;
+        top: 740%;
+        right: 0px;
+    }
+
+    .round-shape-section {
+        width: 600px;
+        height: 570px;
+        left: 0.5%;
+        top: 2%
+    }
+
+    .round-shape-section {
+        width: 450px;
+        height: 600px;
+        top: 8%;
+        left: 1%;
+    }
+
+    .shape img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .shapeone,
+    .shapefour,
+    .shapetwo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .shape.shapetwo {
+        left: 55%;
+    }
+
+    .shape::after {
+        width: 82px;
+        height: 82px;
+    }
+
+    .shape.shapefive:after {
+        width: 71px;
+        height: 71px;
+    }
+
+    .round-shape-section .shape img {
+        width: 55%;
+        height: 55%;
+    }
+
+    .shapethree {
+        width: 95px;
+        height: 95px;
+        left: 29.3%;
+    }
+
+    .shape::after {
+        width: 62px;
+        height: 62px;
+    }
+
+    .shapethree::after {
+        width: 70px;
+        height: 70px;
+    }
+
+    .shape.shapesix {
+        width: 140px;
+        height: 140px;
+        top: 74%;
+        left: 48%;
+    }
+
+    .shape.shapefive {
+        width: 95px;
+        height: 95px;
+        left: 25%;
+    }
+
+    .shapesix::after {
+        width: 120px;
+        height: 120px;
+    }
+
+    .shape.shapefour {
+        left: 67%;
+    }
+
+    .shape.shapesix img {
+        width: 75%;
+        height: 75%;
+    }
+
+    .text-box {
+        top: 44%;
+        left: 1.9%;
+    }
+
+    .text-box p {
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 0px;
+    }
+
+    .text-box h1 {
+        font-size: 38px;
+    }
+
+    .login-box {
+        width: 264px;
+        top: 0;
+        left: 57.2%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .expire-box {
+        height: 60px;
+    }
+
+    .expire-box p {
+        font-size: 13px;
+        line-height: 12px;
+    }
+
+    .counter-box {
+        width: 26.5px;
+        height: 26.5px;
+        font-size: 16px;
+    }
+
+    .create-account form {
+        padding: 0px 15px;
+    }
+
+    .create-account form h2 {
+        margin: 20px 0px 16px 0px;
+        font-size: 18px;
+    }
+
+    .emailadd,
+    .user,
+    .pass {
+        width: 99%;
+        height: 48px;
+    }
+
+    .input-image {
+        width: 35px;
+    }
+
+    .input-image img {
+        width: 50%;
+        text-align: center;
+    }
+
+    .create-account form label {
+        font-size: 12px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        line-height: 17px;
+    }
+
+    .create-account form input {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .create-account {
+        height: auto;
+    }
+
+    .create-account form button {
+        height: 40px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .social-icon .icon img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .user-view img {
+        width: 20px;
+    }
+}
+
+@media (max-width:767px) {
+    header {
+        left: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo span.logo-text {
+        font-size: 26px;
+    }
+
+    .logo img {
+        width: 20%;
+    }
+
+    .login {
+        width: 100%;
+        position: relative;
+    }
+
+    .invite {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .round-shape {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+    }
+
+    .invite .toys {
+        display: none;
+    }
+
+    /* .round-shape-section {
+    top: 20%;
+    width: 80%;
+    left: 4%;
+    height: auto;
+} */
+    .round-shape-section {
+        top: 25%;
+        width: 94%;
+        left: 3%;
+        height: auto;
+        right: 3%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .shape {
+        left: 0 !important;
+        top: 0%;
+        width: 110px !important;
+        height: 110px !important;
+        position: relative !important;
+        margin: 0 5px;
+    }
+
+    .shape.shapesix {
+        display: none;
+    }
+
+    .shape img {
+        z-index: 1;
+        width: 80px;
+        height: 80px;
+    }
+
+    .shape::after {
+        width: 95px;
+        height: 95px;
+    }
+
+    .heart-section {
+        top: 1%;
+        left: 4%;
+        width: 80%;
+    }
+
+    .text-box {
+        left: 0%;
+        width: 100%;
+        top: 13%;
+        text-align: center;
+    }
+
+    .text-box p {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0px;
+    }
+
+    .text-box h1 {
+        font-size: 36px;
+        line-height: 58px;
+    }
+
+    .login-box {
+        left: 22%;
+        top: 44%;
+        right: 22%;
+        width: 56%;
+    }
+
+    .expire-box {
+        height: 60px;
+    }
+
+    .expire-box p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .counter-box {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .create-account {
+        margin: 25px 0px;
+        height: auto;
+    }
+
+    .create-account form {
+        padding: 0px 20px;
+    }
+
+    .create-account form h2 {
+        font-size: 20px;
+        margin: 15px 0px 11px 0px;
+    }
+
+    .emailadd,
+    .user,
+    .pass {
+        width: 100%;
+        height: 55px;
+    }
+
+    .user-id {
+        width: 80%;
+    }
+
+    .password-type {
+        width: 80%;
+    }
+
+    .create-account form button {
+        font-size: 16px;
+        height: 55px;
+        margin-bottom: 20px;
+    }
+
+    .social-icon .icon img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .create-account form input {
+        font-size: 14px;
+    }
+
+    .input-image {
+        width: 54px;
+    }
+
+    .input-image img {
+        width: 25px;
+    }
+}
+
+@media (max-width:575px) {
+    .round-shape::after {
+        background-image: url(../image/shape-two.png);
+        background-position: right;
+        background-size: contain;
+    }
+
+    /* .text-box {
+    left: 4%;
+    width: 94%;
+    top: 90px;
+} */
+    .logo span.logo-text {
+        font-size: 22px;
+    }
+
+    .logo img {
+        width: 18%;
+    }
+
+    .text-box {
+        /* left: 3%; */
+        max-width: 550px;
+        top: 9%;
+        margin: 0 auto;
+    }
+
+    .heart-section {
+        top: 0;
+        left: 0;
+        width: 80%;
+    }
+
+    .heart-two {
+        top: 99%;
+        left: 80%;
+    }
+
+    .heart-one {
+        left: 2%;
+    }
+
+    .text-box p {
+        font-size: 22px;
+    }
+
+    .text-box h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .heart-four {
+        top: 101px;
+    }
+
+    .heart-three {
+        top: 600px;
+        left: 0px;
+    }
+
+    .round-shape-section {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        top: 20%;
+    }
+
+    .shape.shapefive {
+        width: 70px;
+        height: 70px;
+    }
+
+    .shape.shapefive {
+        display: none;
+    }
+
+    .shape {
+        top: 0px;
+        width: 90px !important;
+        left: 60%;
+        height: 90px !important;
+    }
+
+    .login-box {
+        left: 0;
+        top: 30%;
+        right: 22%;
+        width: 90%;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .shape.shapeone {
+        left: 0%;
+        top: 0%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .shape::after {
+        width: 66px;
+        height: 66px;
+    }
+
+    .shape.shapetwo {
+        left: 20%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .shape.shapefour {
+        left: 40%;
+        top: 0%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .shape.shapesix {
+        width: 80px;
+        height: 80px;
+        top: 0%;
+        left: 80%;
+    }
+
+    .shape img {
+        z-index: 1;
+        width: 55px;
+        height: 55px;
+    }
+
+    .login-box {
+        top: 35%;
+    }
+
+    .user-id {
+        width: 80%;
+    }
+
+    .password-type {
+        width: 80%;
+    }
+}
+
+@media (max-width:500px) {
+    .login-box {
+        left: 5%;
+        top: 36%;
+        right: 5%;
+        width: 90%;
+    }
+
+    img.heart-five {
+        left: 90%;
+    }
+
+    .round-shape::after {
+        background-image: url(../image/shape-two.png);
+        background-position: right;
+        background-size: contain;
+        background-size: 90% 100%;
+    }
+}
+
+@media (max-width:480px) {
+    .text-box h1 {
+        font-size: 24px;
+        line-height: 50px;
+    }
+
+    .text-box p {
+        font-size: 18px;
+    }
+
+    .shape {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    .round-shape-section {
+        top: 18%;
+    }
+
+    .login-box {
+        top: 30%;
+    }
+
+    .heart-four {
+        top: 80px;
+        width: 20px;
+        height: auto;
+        right: -50px;
+    }
+}
+
+@media (max-width:320px) {
+    .round-shape::after {
+        background-image: url(../image/shape-two.png);
+        background-position: right;
+        background-size: 80% 100%;
+        top: 0px;
+    }
+
+    .logo span.logo-text {
+        font-size: 20px;
+    }
+
+    .logo img {
+        width: 16%;
+    }
+
+    .heart-section {
+        top: 0;
+        left: 0;
+        width: 80%;
+    }
+
+    .heart-two {
+        top: 27px;
+        left: 225px;
+    }
+
+    .heart-one {
+        left: 2%;
+    }
+
+    img.heart-five {
+        left: 30%;
+        top: 110px;
+    }
+
+    .heart-four {
+        top: 100px;
+        left: 100%;
+    }
+
+    .heart-three {
+        top: 600px;
+        left: 0px;
+    }
+
+    .round-shape-section {
+        top: 20%;
+    }
+
+    .shape.shapefive {
+        width: 65px;
+        height: 65px;
+    }
+
+    .shape.shapefive {
+        display: none;
+    }
+
+    .shape {
+        top: 0px;
+    }
+
+    .shape {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .shape.shapeone {
+        left: 0%;
+        top: 0%;
+        width: 65px;
+        height: 65px;
+    }
+
+    .shape::after {
+        width: 55px;
+        height: 55px;
+    }
+
+    .shape.shapetwo {
+        left: 25%;
+        width: 65px;
+        height: 65px;
+    }
+
+    .shape.shapefour {
+        left: 50%;
+        top: 0%;
+        width: 65px;
+        height: 65px;
+    }
+
+    .shape.shapesix {
+        display: none;
+    }
+
+    .shape img {
+        z-index: 1;
+        width: 45px;
+        height: 45px;
+    }
+
+    .login-box {
+        left: 4%;
+        top: 35%;
+        width: 380px;
+    }
+
+    .user-id {
+        width: 80%;
+    }
+
+    .password-type {
+        width: 80%;
+    }
+
+    .heart-five {
+        top: 60px;
+        left: 126.5px;
+    }
+
+    .login-box {
+        left: 4%;
+        top: 30%;
+        width: 293px;
+    }
+
+    .expire-box p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .create-account form h2 {
+        font-size: 16px;
+    }
+
+    .create-account form label {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .emailadd,
+    .user,
+    .pass {
+        height: 45px;
+    }
+
+    .input-image {
+        width: 50px;
+    }
+
+    .input-image img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .create-account form button {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .social-icon .icon img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .expire-box {
+        height: 50px;
+    }
+
+    .counter-box {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .user-view {
+        padding-right: 10px;
+    }
+
+    .user-validation {
+        margin-right: 10px;
+    }
+
+    .user-validation img {
+        width: 14px;
+    }
+
+    .user-view img {
+        width: 20px;
+    }
+
+    .expire-box {
+        padding: 0 10px;
+    }
+}
