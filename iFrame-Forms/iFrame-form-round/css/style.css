@@ -24,46 +24,12 @@ body {
         width: 100%;
         height: 100vh;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     .left-wrapper {
         width: 510px;
-    }
-    .iframe-wrapper {
-        width: 100%;
-        height: 520px;
-        border: 1px solid rgb( 224, 150, 148 );
-        margin-top: 30px;
-        background-color: white;
-        border-radius: 10px;
-        padding: 10px 0;
-    }
-    .hide-scroll {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        display: block;
-    }
-    .hide-scroll:before {
-        position: absolute;
-        content: '';
-        width: 20px;
-        height: 499px;
-        background-color: white;
-        top: 40px;
-        right: 0px;
-        z-index: 10000;
-    }
-    .hide-scroll:after {
-        position: absolute;
-        content: '';
-        width: 1px;
-        height: 499px;
-        background-color: rgb( 224, 150, 148 );
-        top: 40px;
-        right: 0px;
-        z-index: 10005;
     }
     .login-content {
         width: 100%;
@@ -118,6 +84,20 @@ body {
         margin-top: 45px;
         display: flex;
         flex-direction: column;
+    }
+    .hide-scroll {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+    }
+    .hide-scroll iframe {
+        border: none;
+        height: 360px;
+        width: calc(100% + 68px);
+        padding: 0;
+        margin: 0 0 0 -24px;
     }
     .login-form .login-input {
         position: relative;

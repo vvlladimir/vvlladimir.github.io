@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+html { 
+    background-color: #f7f6f4;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+}
+    
+    .left-side {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-wrapper {
+        width: 510px;
+    }
+    .login-content {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 53px 30px 30px 30px;
+        border-radius: 4px;
+        box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    }
+    .login-title {
+        display: flex;
+        flex-direction: column;
+    }
+    .login-title div:nth-child(1) {
+        color: #1D1B1D;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .login-title div:nth-child(2) {
+        color: #1D1B1D;
+        font-size: 50px;
+        font-weight: 900;
+    }
+    .login-title div:nth-child(3) {
+        color: #434343;
+        font-size: 26px;
+        font-weight: normal;
+        margin-top: 25px;
+    }
+    .plus18 {
+        position: absolute;
+        top: -58px;
+        right: 28px;
+        bottom: auto;
+        left: auto;
+        z-index: 1001;
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #FD263F;
+        font-size: 64px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 150px;
+        color: #fff;
+        border-radius: 50%;
+    }
+    .login-form {
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+    .login-form .login-input {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .login-form .login-input input {
+        width: 100%;
+        height: 70px;
+        border-radius: 5px;
+        border: 1px solid #E0CCCB;
+        padding: 44px 20px 14px 20px;
+        font-size: 20px;
+        color: #1D1B1D;
+    }
+    .login-form .login-input input::-webkit-input-placeholder { /* Edge */
+        color: #999999;
+      }
+      
+      .login-form .login-input input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #999999;
+      }
+      
+      .login-form .login-input input::placeholder {
+        color: #999999;
+      }
+    .login-form .login-input label {
+        font-size: 16px;
+        color: #C69993;
+        position: absolute;
+        top: 14px;
+        left: 20px;
+        z-index: 1002;
+    }
+    .login-form .login-input.username-input > .icon-check {
+        position: absolute;
+        top: 0;
+        left: auto;
+        right: 20px;
+        z-index: 1003;
+        width: 30px;
+        height: 100%;
+        background-image: url(../img/check-mark-button.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .login-form .login-input.password-input > .icon-eye {
+        position: absolute;
+        top: 0;
+        left: auto;
+        right: 20px;
+        z-index: 1003;
+        width: 30px;
+        height: 100%;
+        background-image: url(../img/view.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .btn-login-next {
+        width: 100%;
+        height: 80px;
+        color: #fff;
+        background-color: #FD3148;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        margin-top: 18px;
+        text-align: center;
+        text-decoration: none;
+        line-height: 80px;
+    }
+    
+    /*social connections*/
+    .social-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 65px;
+        padding: 0 15px;
+    }
+    .social-title {
+        font-size: 24px;
+        font-weight: normal;
+        color: #434343;
+    }
+    .social-divider {
+        width: 80px;
+        height: 2px;
+        background-color: #E0CCCB;
+        margin-left: 30px;
+        margin-right: 25px;
+    }
+    .social-icons {
+        display: flex;
+    }
+    .facebook {
+        background-image: url(../img/facebook.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 58px;
+        height: 58px;
+        margin-right: 14px;
+    }
+    .instagram {
+        background-image: url(../img/instagram.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 58px;
+        height: 58px;
+        margin-right: 14px;
+    }
+    .snapchat {
+        background-image: url(../img/snapchat.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 58px;
+        height: 58px;
+    }
+    
+@media only screen and (min-width:1025px) { 
+    .left-wrapper {
+        width: 340px;
+    }
+    .login-content {
+        padding-top: 35px;
+    }
+    .plus18 {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 40px;
+        top: -40px;
+        right: 19px;
+    }
+    .login-title div:nth-child(1) {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .login-title div:nth-child(2) {
+        font-size: 32px;
+        margin-top: 6px;
+    }
+    .login-title div:nth-child(3) {
+        font-size: 20px;
+        margin-top: 14px;
+    }
+    .login-form {
+        margin-top: 30px;
+    }
+    .login-form .login-input {
+        margin-bottom: 14px;
+    }
+    .login-form .login-input input {
+        height: 46px;
+        padding-top: 30px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .login-form .login-input label {
+        top: 5px;
+        left: 10px;
+        font-size: 13px;
+    }
+    .login-form .login-input.username-input > .icon-check,
+    .login-form .login-input.password-input > .icon-eye {
+        right: 10px;
+    }
+    .social-content {
+        padding: 0 10px;
+        margin-top: 40px;
+    }
+    .btn-login-next {
+        height: 53px;
+        margin-top: 12px;
+        line-height: 53px;
+    }
+    .facebook, .instagram, .snapchat {
+        width: 38px;
+        height: 38px;
+    }
+    .facebook, .instagram {
+        margin-right: 8px;
+    }
+    .social-title {
+        font-size: 16px;
+    }
+    .social-divider {
+        width: 55px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+ }
+ @media only screen and (max-width:1024px) {
+    .left-wrapper {
+        max-width: 90%;
+        max-height: 100%;
+        margin-top: 25%;
+    }
+    .social-content {
+        margin-bottom: 20px;
+    }
+ }
+ @media only screen and (max-width:768px) {
+    .left-wrapper {
+        max-width: 90%;
+        max-height: 100%;
+    }
+    .login-title div:nth-child(1) {
+        font-size: 24px;
+    }
+    .login-title div:nth-child(2) {
+        font-size: 36px;
+    }
+ }
+ @media only screen and (max-width:480px)  { 
+    .left-wrapper {
+        width: 375px;
+    }
+    .social-content {
+        padding: 0;
+        margin-top: 20px;
+    }
+    .login-title {
+        padding-left: 10px;
+    }
+    .login-form .login-input input {
+        height: 60px;
+    }
+    .login-form .login-input label {
+        top: 8px;
+    }
+    .btn-login-next {
+        font-size: 20px;
+        height: 60px;
+        line-height: 60px;
+        margin-top: 0;
+    }
+    .social-title {
+        font-size: 15px;
+    }
+    .login-content {
+        padding: 45px 15px 15px 15px;
+    }
+    .social-divider {
+        margin-left: 0;
+        margin-right: 0;
+        width: 50px;
+    }
+    .login-title div:nth-child(1) {
+        font-size: 21px;
+    }
+    .login-title div:nth-child(2) {
+        font-size: 32px;
+    } 
+    .login-title div:nth-child(3) {
+        font-size: 18px;
+        margin-top: 18px;
+    }
+    .plus18 {
+        top: -30px;
+        right: 15px;
+        width: 100px;
+        height: 100px;
+        font-size: 36px;
+        line-height: 100px;
+    }
+    .login-form {
+        margin-top: 21px;
+    }
+    .facebook, .instagram, .snapchat {
+        width: 45px;
+        height: 45px;
+    }
+    
+}
+
+@media only screen and (max-width:320px) {
+    .left-wrapper {
+        width: 80%;
+    }
+    .plus18 {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 27px;
+        top: -35px;
+        right: 15px;
+    }
+    .login-content {
+        padding-top: 20px;
+    }
+    .login-title div:nth-child(1) {
+        font-size: 19px;
+    }
+}

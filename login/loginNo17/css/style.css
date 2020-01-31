@@ -355,3 +355,63 @@ body {
     background-repeat: no-repeat;
     background-size: contain;   
 }
+
+/*image slider*/
+.profile-squre-pic {
+    display: none;
+}
+
+.owl-carousel .owl-dots button {
+    height: auto !important;
+}
+
+.owl-carousel .owl-dots {
+    display: grid;
+}
+
+.banner .owl-carousel {
+    width: 100% !important;
+}
+
+.content-carousel {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.owl-carousel {
+    width: calc(100% - 170px) !important;
+}
+
+.owl-carousel .div2 {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-size: cover;
+}
+
+.owl-carousel .owl-controls .owl-dot {
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.owl-carousel .owl-dots {
+    position: absolute;
+    top: 0;
+    right: -170px;
+    width: 150px;
+    height: auto;
+}
+
+.owl-carousel .owl-dot {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.owl-carousel .owl-dots button {
+    height: 190px !important;
+    margin-bottom: 20px !important;
+    border-radius: 10px;
+    background-size: cover !important;
+}

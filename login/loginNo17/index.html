@@ -14,11 +14,14 @@
 
     <link rel="stylesheet" type="text/css" href="css/flexslider.css" media="screen">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen">
-
+    <link href="js/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    
 
     <!-- SCRIPTE -->
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    
     <script type="text/javascript" src="js/script.js"></script>
 
     <!-- Modernizr -->
@@ -29,25 +32,24 @@
 <body>
     <div class="left-side">
         <div class="bg-decoration"></div>
-        <div class="img-gallery">
-            <div class="flexslider">
-                <div class="vote-nav">
-                    <div class="like"></div>
-                    <div class="dislike"></div>
+        <div class="content-carousel mobSlider">
+            <div class="owl-carousel owlh">
+                <div class="div2">
+                    <img src="img/image1.png" alt="squre">
                 </div>
-                <ul class="slides">
-                    <li data-thumb="img/image1-thumb.png">
-                        <img src="img/image1.png" />
-                    </li>
-                    <li data-thumb="img/image2-thumb.png">
-                        <img src="img/image2.png" />
-                    </li>
-                    <li data-thumb="img/image3-thumb.png">
-                        <img src="img/image3.png" />
-                    </li>
-                </ul>
+                <div class="div3"> <img src="img/image2.png" alt="squre"> </div>
+                <div class="div4"> <img src="img/image3.png" alt="squre"> </div>
             </div>
+            
+            <div class="profile-like">
+                <a href="#" class="like"><img src="img/like.svg" alt="like"></a>
+
+                <a href="#" class="dislike"><img src="img/dislike.svg" alt="dislike"></a>
+
+            </div>
+
         </div>
+
     </div>
     <div class="right-side">
         <div class="logotype">

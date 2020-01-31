@@ -47,6 +47,17 @@ html body {
     -moz-font-smoothing: grayscale;
     cursor: unset !important;
 }
+iframe{
+    overflow: hidden;
+}
+.iframe-wrapper {
+    width: auto;
+    height: auto;
+    min-width: 440px;
+    min-height: 480px;
+    border: none !important;
+}
+
 
 #login {
     position: relative;
@@ -1746,3 +1757,4 @@ header {
         padding: 0 10px;
     }
 }
+
