@@ -49,14 +49,39 @@ html body {
 }
 .iframe-wrapper {
     width: 100%;
-    height: auto;
-    min-height: 520px;
+    height: 520px;
     border: 1px solid rgb( 224, 150, 148 );
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: white;
     border-radius: 10px;
-    padding: 10px 5px;
+    padding: 10px 0;
+}
+.hide-scroll {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.hide-scroll:before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 522px;
+    background-color: white;
+    top: 40px;
+    right: 0px;
+    z-index: 10000;
+}
+.hide-scroll:after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 522px;
+    background-color: rgb( 224, 150, 148 );
+    top: 40px;
+    right: -2px;
+    z-index: 10005;
 }
 
 
