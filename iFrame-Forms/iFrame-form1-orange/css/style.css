@@ -47,15 +47,14 @@ html body {
     -moz-font-smoothing: grayscale;
     cursor: unset !important;
 }
-iframe{
-    overflow: hidden;
-}
 .iframe-wrapper {
     width: auto;
     height: auto;
     min-width: 440px;
-    min-height: 480px;
-    border: none !important;
+    min-height: 520px;
+    border: 1px solid rgb( 224, 150, 148 );
+    margin-top: 30px;
+    border-radius: 10px;
 }
 
 
