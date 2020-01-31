@@ -780,23 +780,6 @@
     display: none;
   }
 
-  .form-title h2 {
-    display: none;
-  }
-
-  .form-box p {
-    display: none;
-  }
-
-  .form-title {
-    align-items: left;
-    align-items: end;
-  }
-
-  .form-box form {
-    padding: 0px;
-    margin-top: 6px;
-  }
 
   footer {
     justify-content: center;
