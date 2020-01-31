@@ -199,6 +199,7 @@ header .menu-bar .btn {
     width: auto;
     display: flex;
     flex-flow: column wrap;
+    margin-top: 60px;
 }
 
 /* timer-section */
@@ -375,7 +376,7 @@ header .menu-bar .btn {
 
 .form-title p {
     padding: 0 37px;
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
     line-height: 22px;
     margin: 0;
