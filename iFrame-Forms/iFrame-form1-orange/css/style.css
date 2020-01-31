@@ -48,9 +48,8 @@ html body {
     cursor: unset !important;
 }
 .iframe-wrapper {
-    width: auto;
+    width: 100%;
     height: auto;
-    min-width: 440px;
     min-height: 520px;
     border: 1px solid rgb( 224, 150, 148 );
     margin-top: 30px;
