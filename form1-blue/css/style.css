@@ -367,7 +367,7 @@ header {
     display: flex;
     flex-flow: row;
     width: 99%;
-    height: 68px;
+    height: 60px;
     border: solid 1px #2FBEFE;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -423,6 +423,7 @@ header {
     font-weight: 600;
     margin-left: 3px;
     line-height: 17px;
+    display: none;
 }
 
 .create-account form input {
