@@ -374,7 +374,17 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-
+::-webkit-input-placeholder {
+    color: #565656;
+  }
+  
+  :-ms-input-placeholder {
+    color: #565656;
+  }
+  
+  ::placeholder {
+    color: #565656;
+  }
 .user {
     margin-bottom: 24px;
 }
