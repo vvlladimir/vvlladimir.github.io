@@ -1562,6 +1562,11 @@ header {
         height: auto;
         right: -50px;
     }
+    .hide-scroll iframe {
+        height: 100%;
+        min-height: 320px;
+        width: 100%;
+    }
 }
 
 @media (max-width:320px) {
