@@ -517,9 +517,6 @@ input, button {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    
-}
 @media (max-width: 1040px) {
     .owl-carousel {
         width: 100% !important;
@@ -549,13 +546,72 @@ input, button {
         min-width: 540px;
         width: 100%;
     }
+    .girl-name-wrapper {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .tags div {
+        width: auto;
+        font-size: 12px;
+        line-height: 30px;
+        padding: 0 10px;
+        height: 30px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        width: 44px !important;
+        height: 44px !important;
+        line-height: 44px !important;
+    }
+    .owl-carousel .owl-nav button.owl-next span,
+    .owl-carousel .owl-nav button.owl-prev span {
+        height: 24px;
+    }
+    .vote-nav {
+        width: 40px;
+        top: 20px;
+        left: 10px;
+    }
+    .dislike, .like {
+        width: 40px;
+        height: 40px;
+        background-position: center 12px;
+        background-size: 20px;
+        margin-right: 0;
+    }
+    .dislike {
+        background-position: center;
+        background-size: 16px;
+        margin-bottom: 0;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .right-side {
+        width: 340px;
+    }
+    .left-side {
+        width: calc(100% - 340px);
+    }
+    .login-wrapper {
+        width: 90%;
+    }
+    .login-input {
+        height: 44px;
+    }
+    .login-input input {
+        font-size: 14px;
+    }
+    .icon-username, .icon-password, .icon-email {
+        min-width: 42px;
+        height: 42px;
+        background-size: 18px;
+    }
 }
 @media (max-width: 767px) {
     body {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .left-side {
         width: 100%;
@@ -603,7 +659,7 @@ input, button {
     .owl-carousel .owl-dots button {
         height: 180px !important;
         width: 100%;
-        margin-right: 10px;
+        margin-right: 20px;
     }
     .owl-carousel .owl-dots button:last-child {
         margin-right: 0;
