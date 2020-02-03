@@ -3,6 +3,7 @@ $(document).ready(function() {
   $(".owl-carousel").owlCarousel({
     loop: true,
     items: 1,
+    nav:true,
     margin: 0,
     stagePadding: 0,
     dots: true,
