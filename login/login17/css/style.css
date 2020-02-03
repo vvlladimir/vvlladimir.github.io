@@ -383,8 +383,8 @@ input, button {
 }
 .owl-carousel .owl-item img {
     display: flex;
-    width: auto;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 @media (min-width: 1601px) and (max-width: 1900px) {
     .logotype {
@@ -402,10 +402,10 @@ input, button {
         margin-bottom: 20px;
     }
     .social-net {
-        margin-top: 15px;
+        margin-top: 20px;
     }
     .tags {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     .logotype .type {
         font-size: 36px;
@@ -465,21 +465,58 @@ input, button {
     }
 }
 @media (max-width: 1199px) {
+    .login-wrapper {
+        width: 400px;
+    }
+    .logotype {
+        margin-bottom: 20px;
+    }
+    .logotype .type {
+        font-size: 36px;
+    }
+    .logotype .logo {
+        margin-right: 16px;
+        height: 60px;
+    }
+    .girl-name-wrapper {
+        font-size: 32px;
+    }
+    .tags div {
+        width: auto;
+        font-size: 16px;
+        padding: 0 20px;
+        height: 44px;
+        border-radius: 22px;
+    }
+    .login-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .social-net {
+        margin-top: 30px;
+    }
+    .social-net .facebook, .social-net .instagram, .social-net .snapchat {
+        width: 38px;
+        height: 38px;
+    }
     .right-side {
         width: 460px;
     }
     .left-side {
         width: calc(100% - 460px);
     }
+    .tags {
+        margin-bottom: 30px;
+    }
     .bg-decoration {
-        width: 24vw;
+        width: 32vw;
     }
     .owl-carousel .owl-dots {
-        width: 110px;
-        right: -140px;
+        width: 140px;
+        right: -170px;
     }
     .owl-carousel {
-        width: calc(100% - 140px) !important;
+        width: calc(100% - 170px) !important;
     }
 }
 
