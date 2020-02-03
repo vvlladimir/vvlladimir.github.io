@@ -70,14 +70,8 @@
     font-weight: 500; 
     font-style: italic; 
 }
-
-html { 
-    background: url(../img/bg.png) fixed;
-    background-position: 0 0;
-    background-size: auto;
-    background-repeat: repeat-x;
-  }
 body {
+    position: relative;
     padding: 24px 0 0 0;
     margin: 0;
     font-family: 'Google Sans', sans-serif;
@@ -85,6 +79,20 @@ body {
     flex-direction: row;
     justify-content: center;
     font-size: 100%;
+}
+.bg-graphics {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 380px;
+    background: url(../img/bg.png) fixed;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+}
+input, button {
+    font-family: 'Google Sans', sans-serif;
 }
 .body-wrapper {
     width: 904px;
@@ -98,12 +106,13 @@ body {
     width: 100%;
 }
 .logo {
+    font-family: 'Google Sans B';
     display: flex;
     flex-direction: row;
     font-weight: bold;
     font-size: 24px;
-    width: 184px;
     height: 41px;
+    line-height: 41px;
     margin-bottom: 22px;
 }
 .logo img {
@@ -184,7 +193,7 @@ body {
     background-color: #fff;
     background-image: url(../img/like.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center 14px;
     cursor: pointer;
     border-radius: 50%;
     margin-right: 40px;
@@ -223,9 +232,10 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    padding: 91px 0 0 46px;
+    padding: 160px 0 0 46px;
 }
 .girl-name-wrapper {
+    font-family: 'Google Sans B';
     color: #494A4B;
     font-weight: bold;
     font-size: 31px;
@@ -246,7 +256,7 @@ body {
 }
 .tags {
     list-style: none;
-    margin: 0 0 21px 0; 
+    margin: 0 0 35px 0; 
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -278,6 +288,7 @@ body {
     margin-top: 34px;
 }
 .login-title {
+    font-family: 'Google Sans B';
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 21px;
@@ -331,14 +342,19 @@ body {
     border-radius: 4px 0 0 4px;
 }
 .btn-next {
+    font-family: 'Google Sans B';
     width: 100%;
     height: 48px;
     border-radius: 4px;
     background-color: #FFEB3B;
     color: #757678;
     font-size: 16px;
+    font-weight: bold;
     border: none;
     margin-bottom: 32px;
+    text-decoration: none;
+    line-height: 48px;
+    text-align: center;
 }
 
 
@@ -346,7 +362,7 @@ body {
     position: absolute;
     width: 105px;
     left: -105px;
-    top: 104px;
+    top: 180px;
 }
 .sm-list {
     display: flex;
@@ -365,6 +381,7 @@ body {
     background: url(../img/facebook@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
+    cursor: pointer;
 }
 .sm-list .instagram {
     min-width: 64px;
@@ -372,14 +389,15 @@ body {
     background: url(../img/icons8-instagram@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
-    
+    cursor: pointer;
 }
 .sm-list .snapchat {
     min-width: 64px;
     height: 64px;
     background: url(../img/snapchat@2x.png);
     background-repeat: no-repeat;
-    background-size: contain;   
+    background-size: contain;
+    cursor: pointer;
 }
 
 .footer {
