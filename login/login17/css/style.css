@@ -67,7 +67,6 @@ input, button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
     z-index: 1000;
 }
 
@@ -465,12 +464,15 @@ input, button {
         right: -170px;
     }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
     .right-side {
         width: 460px;
     }
     .left-side {
         width: calc(100% - 460px);
+    }
+    .bg-decoration {
+        width: 24vw;
     }
     .owl-carousel .owl-dots {
         width: 110px;
@@ -480,19 +482,44 @@ input, button {
         width: calc(100% - 140px) !important;
     }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+@media (max-width: 1040px) {
+    .owl-carousel {
+        width: 100% !important;
+        height: calc(100% - 230px) !important;
+    }
+    .owl-carousel .owl-dots {
+        top: auto;
+        right: 0;
+        bottom: -200px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    .owl-carousel .owl-dots button {
+        height: 180px !important;
+        width: 100%;
+        margin-right: 10px;
+    }
+    .owl-carousel .owl-dots button:last-child {
+        margin-right: 0;
+    }
+    .owl-carousel.owl-drag .owl-item {
+        height: 100%;
+    }
+    .owl-carousel .owl-item img {
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
 @media (min-width: 768px) and (max-width: 991px) {
 
 }
 @media (max-width: 767px) {
-
-}
-@media (max-width: 575px) {
-
-}
-@media (max-width: 414px) {
-
-}
-@media (max-width: 360px) {
     body {
         flex-direction: column-reverse;
     }
@@ -516,7 +543,7 @@ input, button {
         margin-bottom: 40px;
     }
     .girl-name-wrapper {
-        font-size: 20px;
+        font-size: 24px;
         margin-bottom: 20px;
     }
     .login-title {
@@ -533,14 +560,14 @@ input, button {
     .owl-carousel .owl-dots {
         top: auto;
         right: 0;
-        bottom: -160px;
+        bottom: -200px;
         left: 0;
         width: 100%;
         height: auto;
         flex-direction: row;
     }
     .owl-carousel .owl-dots button {
-        height: 140px !important;
+        height: 180px !important;
         width: 100%;
         margin-right: 10px;
     }
@@ -548,7 +575,7 @@ input, button {
         margin-right: 0;
     }
     .login-wrapper {
-        width: 100%;
+        width: 380px;
     }
     .tags {
         flex-wrap: wrap;
@@ -567,8 +594,8 @@ input, button {
         height: 100%;
     }
     .owl-carousel .owl-item img {
-        width: 100%;
-        height: 100%;
+        min-width: 100%;
+        min-height: 100%;
     }
     .login-input {
         height: 44px;
@@ -623,5 +650,21 @@ input, button {
     .owl-carousel .owl-nav button.owl-prev span {
         height: 24px;
     }
+}
+@media (max-width: 575px) {
+    
+}
+@media (max-width: 414px) {
+    .login-wrapper {
+        width: 100%;
+    }
+    .owl-carousel .owl-dots {
+        bottom: -160px;
+    }
+    .owl-carousel .owl-dots button {
+        height: 140px !important;
+    }   
+}
+@media (max-width: 360px) {
     
 }
