@@ -332,3 +332,14 @@ input, button {
     margin-right: 12px;
     line-height: 40px;
 }
+@media (min-width: 1921px) {
+    .profile-preview {
+        margin: 0 0 0 570px;
+    }
+    .profile-title {
+        margin: 50px 170px 50px 250px;
+    }
+    .social-content {
+        margin-top: 490px;
+    }
+}
