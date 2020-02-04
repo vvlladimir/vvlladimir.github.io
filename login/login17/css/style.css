@@ -708,7 +708,7 @@ input, button {
         height: 24px;
     }
 }
-@media (max-height: 768px) {
+@media (max-height: 768px) and (max-width: 1140px) {
     body {
         flex-direction: column;
     }
