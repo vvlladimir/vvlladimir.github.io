@@ -741,8 +741,22 @@ input, button {
         height: 24px;
     }
 }
-@media (max-width: 575px) {
-    
+@media (max-height: 768px) {
+    body {
+        flex-direction: column;
+    }
+    .left-side {
+        height: 100%;
+    }
+    .bg-decoration {
+        height: 100%;
+    }
+    .left-side {
+        width: 100%;
+    }
+    .right-side {
+        width: 100%;
+    }
 }
 @media (max-width: 414px) {
     .login-wrapper {
