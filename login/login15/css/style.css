@@ -1,0 +1,494 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+input, button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+}
+
+.left-side {
+    position: relative;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.left-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 165px;
+}
+.login-content {
+    width: 375px;
+}
+.icon-envelope {
+    background-image: url(../img/envelope.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+.icon-user {
+    background-image: url(../img/user.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+.icon-lock {
+    background-image: url(../img/lock.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+.icon-check {
+    background-image: url(../img/check-mark-button.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.icon-view {
+    background-image: url(../img/view.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.login-title p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FD267D;
+    margin: 0 0 27px 0;
+    padding: 0;
+}
+.login-title h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #434343;
+    font-size: 64px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.login-title h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: #434343;
+    margin: 0;
+    padding: 0;
+}
+
+.plus18 {
+    width: 150px;
+    height: 150px;
+    display: block;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 150px;
+    background-color: #760495;
+    color: #fff;
+    text-align: center;
+}
+.login-input {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    border: 1px solid #C6C6C6;
+    background-color: #fff;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 0 25px;
+}
+.login-input:nth-child(3) {
+    margin-bottom: 30px;
+}
+.input-div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 23px;
+    width: 100%;
+}
+.login-input label {
+    color: #2E3338;
+    font-size: 16px;
+}
+.login-input input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #999999;
+}
+::placeholder {
+    color: #999999;
+}
+::-moz-placeholder {
+    color: #999999;
+}
+::-webkit-input-placeholder {
+    color: #999999;
+}
+.login-input .icon-view,
+.login-input .icon-check {
+    position: absolute;
+    right: 25px;
+}
+
+.login-input .icon-check {
+    background-size: 16px;
+    background-position: center;
+}
+.login-input .icon-view {
+    background-size: 28px;
+    background-position: center;
+}
+.btn-login-next {
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    background-color: #760495;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-content {
+    width: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 48px;
+    right: 54px;
+    z-index: 1005;
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social-icons .facebook {
+    width: 58px;
+    height: 58px;
+    background: url(../img/facebook@2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 14px;
+}
+.social-icons .instagram {
+    width: 58px;
+    height: 58px;
+    background: url(../img/instagram@2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 14px;
+}
+.social-icons .snapchat {
+    width: 58px;
+    height: 58px;
+    background: url(../img/snapchat@2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;   
+}
+.social-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+.social-divider {
+    background-color: #DB8B00;
+    width: 80px;
+    height: 1px;
+}
+.right-side {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #760495;
+    margin: 0;
+    padding: 0;
+}
+.bg-wave {
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-image: url(../img/bg-wave.png);
+    background-repeat: no-repeat;
+    background-position: left -220px;
+    background-size: 100%;
+}
+.profile {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 96px;
+    display: block;
+    width: 100%;
+}
+
+.profile-preview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: flex-start;
+}
+
+.profile-preview .box {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+    padding: 0;
+}
+.profile-preview .box:nth-child(1) {
+    padding-top: 225px;
+}
+.profile-preview .box:nth-child(2) {
+    padding-top: 230px;
+}
+.profile-preview .box:nth-child(3) {
+    padding-top: 150px;
+}
+.profile-preview .profile-img {
+    height: 370px;
+    width: 350px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    position: relative;
+    border: 20px solid #fff;
+    overflow: hidden;
+}
+.profile-preview .profile-img.img1 {
+    height: 470px;
+}
+.profile-preview .profile-img img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: auto;
+    margin: 0;
+    right: 0;
+    bottom: -45px;
+}
+.profile-preview .profile-img.img1 img {
+    bottom: 0;
+    width: 115%;
+}
+
+.profile-preview .box .profile-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.profile-preview .box .profile-name h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.profile-preview .box .profile-name h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.profile-preview .box .profile-name .tags {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.profile-preview .box .profile-name .tags div {
+    height: 40px;
+    background-color: #760495;
+    color: #fff;
+    padding: 0 25px;
+    border-radius: 0 35px 35px 35px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 40px;
+}
+@media (min-width: 1921px) {
+    .left-side {
+        min-width: 1000px;
+    }
+    .profile-preview .profile-img {
+        margin-right: 120px;
+        margin-bottom: 120px;
+    }
+}
+@media (max-width: 1536px) {
+    .profile-preview .profile-img {
+        height: 278px;
+        width: 262px;
+        margin-right: 60px;
+        margin-bottom: 60px;
+        border: 15px solid #fff;
+    }
+    .profile-preview .profile-img.img1 {
+        height: 352px;
+    }
+    .login-content {
+        width: 282px;
+    }
+    .plus18 {
+        width: 113px;
+        height: 113px;
+        line-height: 113px;
+        font-size: 44px;
+    }
+    .login-title h4 {
+        font-size: 34px;
+    }
+    .login-title h3 {
+        font-size: 48px;
+    }
+    .login-title p {
+        font-size: 18px;
+    }
+    .social-icons .facebook,
+    .social-icons .instagram,
+    .social-icons .snapchat {
+        width: 43px;
+        height: 43px;
+    }
+    .social-divider {
+        width: 60px;
+    }
+    .profile-preview .box:nth-child(1) {
+        padding-top: 180px;
+    }
+    .profile-preview .box:nth-child(2) {
+        padding-top: 173px;
+    }
+    .profile-preview .box:nth-child(3) {
+        padding-top: 113px;
+    }
+    .login-input label {
+        font-size: 12px;
+    }
+    .login-input input {
+        font-size: 14px;
+    }
+    .icon-envelope,
+    .icon-user,
+    .icon-lock {
+        width: 22px;
+        height: 22px;
+    }
+    .login-input .icon-check {
+        background-size: 14px;
+        width: 14px;
+    }
+    .login-input .icon-view {
+        background-size: 20px;
+        width: 20px;
+    }
+    .login-input {
+        height: 50px;
+        padding: 0 18px;
+        margin-bottom: 15px;
+    }
+    .login-input:nth-child(3) {
+        margin-bottom: 23px;
+    }
+    .btn-login-next {
+        font-size: 21px;
+        height: 60px;
+    }
+    .social-content {
+        width: 360px;
+        top: 36px;
+        right: 36px;
+    }
+    .social-title {
+        font-size: 18px;
+    }
+    .profile-preview .box .profile-name h1 {
+        font-size: 27px;
+        margin: 0 0 5px 0;
+    }
+    .profile-preview .box .profile-name h2 {
+        font-size: 15px;
+    }
+    .profile-preview .box .profile-name .tags {
+        font-size: 12px;
+        margin-top: 25px;
+    }
+    .profile-preview .box .profile-name .tags div {
+        height: 30px;
+        padding: 0 18px;
+        font-size: 12px;
+        margin-right: 7px;
+        line-height: 30px;
+    }
+    .profile-preview .box .profile-name {
+        margin-bottom: 45px;
+    }
+    .left-wrapper {
+        margin-top: 130px;
+    }
+    .left-side {
+        min-width: 480px;
+    }
+    .profile-preview .profile-img img {
+        bottom: -35px;
+    }
+    .bg-wave {
+        background-position: left -90px;
+        background-size: 105%;
+    }
+}
