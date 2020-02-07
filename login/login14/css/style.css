@@ -336,14 +336,238 @@ input, button {
     width: 100%;
 }
 
-@media (max-width: 1536px) {
-    
+@media (max-width: 1540px) {
+    .col2 {
+        width: 260px;
+    }
+    .plus18 {
+        width: 260px;
+        height: 260px;
+        font-size: 60px;
+        line-height: 140px;
+    }
+    .plus18::before {
+        line-height: 140px;
+        width: 140px;
+        height: 140px;
+    }
+    .box-img-wrapper {
+        height: calc(100vh - 260px);
+    }
+    .profile-info {
+        bottom: 35px;
+        left: 35px;
+    }
     
 }
-
+@media (max-width: 1024px) {
+    .left-side {
+        flex-direction: column;
+    }
+    .profile-wrapper {
+        height: calc(100vh - (100px + 20vh));
+    }
+    .right-side {
+        padding: 0;
+    }
+    .right-wrapper {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        padding: 30px 20px;
+    }
+    .social-content {
+        width: 100%;
+        justify-content: center;
+    }
+    .social-icons .snapchat,
+    .social-icons .instagram,
+    .social-icons .facebook {
+        width: 45px;
+        height: 45px;
+    }
+    .profile-info {
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .profile-info h1 {
+        font-size: 32px;
+    }
+    .profile-info p {
+        font-size: 16px;
+    }
+    .tags {
+        margin-top: 16px;
+        margin-bottom: 24px;
+        justify-content: center;
+    }
+    .tags div {
+        font-size: 12px;
+        height: 34px;
+        line-height: 29px;
+        padding: 0 22px;
+    }
+    
+    .profile-wrapper:before {
+        background-image: linear-gradient(transparent 65%, rgba(0, 0, 0, 0.65));
+    }
+    .profile-big-img {
+        width: auto;
+        height: 100vh;
+    }
+    .plus18 {
+        width: 100%;
+        height: 100px;
+        font-size: 32px;
+    }
+    .plus18::before {
+        line-height: 80px;
+        width: 80px;
+        height: 80px;
+    }
+    .box-img-wrapper {
+        display: flex;
+        flex-direction: row;
+        height: 20vh;
+    }
+    .box-img {
+        width: 100%;
+        overflow: hidden;
+    }
+    .col2 {
+        width: 100%;
+    }
+    
+}
 @media (max-width: 768px) {
+    .left-side {
+        width: calc(100% - 300px);
+        flex-direction: column;
+    }
+    .profile-wrapper {
+        height: calc(100vh - (100px + 20vh));
+    }
+    .right-side {
+        width: 300px;
+        padding: 0;
+    }
+    .right-wrapper {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        padding: 30px 20px;
+    }
+    .social-content {
+        width: 100%;
+        justify-content: center;
+    }
+    .social-icons .snapchat,
+    .social-icons .instagram,
+    .social-icons .facebook {
+        width: 45px;
+        height: 45px;
+    }
+    .profile-info {
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .profile-info h1 {
+        font-size: 32px;
+    }
+    .profile-info p {
+        font-size: 16px;
+    }
+    .tags {
+        margin-top: 16px;
+        margin-bottom: 24px;
+        justify-content: center;
+    }
+    .tags div {
+        font-size: 12px;
+        height: 34px;
+        line-height: 29px;
+        padding: 0 22px;
+    }
     
-    
+    .profile-wrapper:before {
+        background-image: linear-gradient(transparent 65%, rgba(0, 0, 0, 0.65));
+    }
+    .profile-big-img {
+        width: auto;
+        height: 100vh;
+    }
+    .plus18 {
+        width: 100%;
+        height: 100px;
+        font-size: 32px;
+    }
+    .plus18::before {
+        line-height: 80px;
+        width: 80px;
+        height: 80px;
+    }
+    .box-img-wrapper {
+        display: flex;
+        flex-direction: row;
+        height: 20vh;
+    }
+    .box-img {
+        width: 100%;
+        overflow: hidden;
+    }
+    .col2 {
+        width: 100%;
+    }
+
+
+
+
+
+    .login-content {
+        margin-bottom: 97px;
+        width: 100%;
+    }
+    .login-title h3 {
+        font-size: 38px;
+        margin-bottom: 18px;
+    }
+    .login-title h4 {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .login-title p {
+        font-size: 20px;
+    }
+    .login-form {
+        width: 100%;
+        padding: 0;
+    }
+    .login-input {
+        height: 60px;
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+    .icon-lock,
+    .icon-user,
+    .icon-envelope {
+        width: 30px;
+        height: 30px;
+    }
+    .login-input label {
+        font-size: 12px;
+    }
+    .login-input input {
+        font-size: 16px;
+    }
+    .btn-login-next {
+        font-size: 20px;
+        height: 70px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -353,17 +577,18 @@ input, button {
     .left-side {
         width: 100%;
         height: 100%;
-        flex-direction: column;
-        
+        flex-direction: column;   
     }
+
     .right-side {
         width: 100%;
         align-items: flex-start;
         padding: 30px 20px;
         height: 100%;
     }
-    .profile-wrapper {
-        height: calc(100vh - 100px);
+    .right-wrapper {
+        width: auto;
+        padding: 0;
     }
     .login-content {
         width: 100%;
@@ -406,6 +631,7 @@ input, button {
         font-size: 20px;
         height: 70px;
     }
+
     .col2 {
         width: 100%;
     }
@@ -468,5 +694,59 @@ input, button {
         width: 100%;
         height: 50vw;
         overflow: hidden;
+    }
+}
+
+@media (max-height: 768px) {
+    .right-side {
+        width: 100%;
+        align-items: flex-start;
+        padding: 30px 20px;
+        height: 100%;
+    }
+    .right-wrapper {
+        width: 100%;
+        padding: 0;
+    }
+    .login-content {
+        width: 100%;
+        margin-bottom: 97px;
+    }
+    .login-title h3 {
+        font-size: 38px;
+        margin-bottom: 18px;
+    }
+    .login-title h4 {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .login-title p {
+        font-size: 20px;
+    }
+    .login-form {
+        width: 100%;
+        padding: 0;
+    }
+    .login-input {
+        height: 60px;
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+    .icon-lock,
+    .icon-user,
+    .icon-envelope {
+        width: 30px;
+        height: 30px;
+    }
+    .login-input label {
+        font-size: 12px;
+    }
+    .login-input input {
+        font-size: 16px;
+    }
+    .btn-login-next {
+        font-size: 20px;
+        height: 70px;
     }
 }
