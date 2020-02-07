@@ -414,8 +414,10 @@ input, button {
         background-image: linear-gradient(transparent 65%, rgba(0, 0, 0, 0.65));
     }
     .profile-big-img {
-        width: auto;
-        height: 100vh;
+        width: 100%;
+        height: auto;
+        left: 0;
+        position: relative;
     }
     .plus18 {
         width: 100%;
@@ -441,13 +443,13 @@ input, button {
     }
     
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .left-side {
         width: calc(100% - 300px);
         flex-direction: column;
     }
     .profile-wrapper {
-        height: calc(100vh - (100px + 20vh));
+        height: calc(100vh - (100px + 27vh));
     }
     .right-side {
         width: 300px;
@@ -499,6 +501,8 @@ input, button {
     .profile-big-img {
         width: auto;
         height: 100vh;
+        left: 0;
+        position: relative;
     }
     .plus18 {
         width: 100%;
@@ -672,8 +676,10 @@ input, button {
         background-image: linear-gradient(transparent 65%, rgba(0, 0, 0, 0.65));
     }
     .profile-big-img {
-        width: auto;
-        height: 100%;
+        width: 100vw;
+        height: auto;
+        position: relative;
+        left: 0;
     }
     .plus18 {
         width: 100%;
@@ -698,7 +704,7 @@ input, button {
 }
 
 /* Landscape */
-@media (max-width: 740px) and (max-height: 360px) {
+@media (max-width: 823px) and (max-height: 414px) {
     .left-side {
         flex-direction: row;
     }
@@ -713,6 +719,8 @@ input, button {
         width: 100%;
         height: auto;
         min-height: 100%;
+        position: relative;
+        left: 0;
     }
     .profile-info {
         text-align: left;
