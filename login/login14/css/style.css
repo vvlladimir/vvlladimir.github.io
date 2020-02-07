@@ -699,11 +699,55 @@ input, button {
 
 /* Landscape */
 @media (max-width: 740px) and (max-height: 360px) {
+    .left-side {
+        flex-direction: row;
+    }
+    .profile-wrapper {
+        height: 100vh;
+        width: calc(100% - 160px);
+    }
+    .profile-wrapper:before {
+        background-image: linear-gradient(transparent 40%, rgba(0, 0, 0, 0.65));
+    }
+    .profile-big-img {
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+    }
+    .profile-info {
+        text-align: left;
+        bottom: 5px;
+    }
+    .profile-info h1 {
+        font-size: 28px;
+        padding: 0 5px;
+    }
+    .profile-info p {
+        font-size: 13px;
+        padding: 0 5px;
+    }
+    .col2 {
+        width: 160px;
+    }
+    .box-img-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: calc(100% - 100px);
+    }
+    .tags {
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .tags div {
+        height: 30px;
+        line-height: 24px;
+        padding: 0 15px;
+    }
     .right-side {
         width: 300px;
         align-items: flex-start;
-        padding: 30px 20px;
-        height: 100%;
+        padding: 5px;
+        height: 100vh;
     }
     .right-wrapper {
         width: 100%;
@@ -711,43 +755,53 @@ input, button {
     }
     .login-content {
         width: 100%;
-        margin-bottom: 97px;
-    }
-    .login-title h3 {
-        font-size: 38px;
-        margin-bottom: 18px;
-    }
-    .login-title h4 {
-        font-size: 22px;
         margin-bottom: 8px;
     }
-    .login-title p {
+    .login-title h3 {
+        font-size: 34px;
+        margin-bottom: 5px;
+    }
+    .login-title h4 {
         font-size: 20px;
+        margin-bottom: 0;
+    }
+    .login-title p {
+        font-size: 18px;
+        margin-bottom: 14px;
     }
     .login-form {
         width: 100%;
         padding: 0;
     }
     .login-input {
-        height: 40px;
+        height: 44px;
         width: 100%;
-        padding: 0 15px;
-        margin-bottom: 15px;
+        padding: 0 5px;
+        margin-bottom: 5px;
     }
     .icon-lock,
     .icon-user,
     .icon-envelope {
-        width: 30px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
     }
     .login-input label {
         font-size: 12px;
     }
     .login-input input {
-        font-size: 16px;
+        font-size: 14px;
     }
     .btn-login-next {
         font-size: 20px;
         height: 50px;
+    }
+    .input-div {
+        margin: 0 0 0 5px;
+    }
+    .login-input .icon-view {
+        background-size: 20px;
+    }
+    .login-input .icon-check {
+        background-size: 12px;
     }
 }
