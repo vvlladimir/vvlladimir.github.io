@@ -698,11 +698,7 @@ input, button {
 }
 
 /* Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 740px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: landscape) {
+@media (max-width: 740px) and (max-height: 360px) {
     .right-side {
         width: 300px;
         align-items: flex-start;
