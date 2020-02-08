@@ -301,11 +301,90 @@ input, button {
     
   
 }
+
 @media (max-width: 640px) and (max-height: 360px) {
-   
-}
-@media (max-width: 568px) and (max-height: 320px) {
-   
+    body {
+        background-position: center 315px;
+    }
+    .left-side {
+        padding: 0 20px;
+        align-items: center;
+        overflow: visible;
+    }
+    .left-side:before,
+    .left-side:after {
+        display: none;
+    }
+    .plus18 {
+        width: 120px;
+        min-height: 136px;
+        font-size: 50px;
+        margin-bottom: 14px;
+        padding-bottom: 20px;
+    }
+    .login-title {
+        text-align: center;
+        margin-right: 0;
+        width: 100%;
+    }
+    .login-title h4 {
+        font-size: 24px;
+    }
+    .login-title h3 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+    .login-title p {
+        font-size: 18px;
+    }
+    .login-form {
+        width: 100%;
+        padding: 20px;
+        margin-top: 245px;
+        border-radius: 4px;
+        background-color: #fff;
+        box-shadow: 0 0 6px 1px rgba(0,0,0,0.1);
+    }
+    .login-input {
+        height: 60px;
+    }
+    .login-input label {
+        font-size: 12px;
+    }
+    .login-input input {
+        font-size: 16px;
+    }
+    .btn-login-next {
+        height: 60px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .login-input .icon-view, 
+    .login-input .icon-check {
+        right: 15px;
+    }
+    .social-content {
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .social-title {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .social-icons .facebook,
+    .social-icons .instagram,
+    .social-icons .snapchat {
+        width: 45px;
+        height: 45px;
+    }
+    .social-divider {
+        display: none;
+    }
 }
 @media (max-width: 425px) and (max-height: 1024px) {
     body {
@@ -391,6 +470,4 @@ input, button {
         display: none;
     }
 }
-@media (max-width: 375px) and (max-height: 812px) {
-   
-}
+
