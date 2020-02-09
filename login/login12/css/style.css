@@ -454,34 +454,7 @@ input, button {
         height: 45px;
     }
 }
-@media (min-width: 1025px) {
-    /* body {
-        background-position: 653px center;
-    }
-    .login-form {
-        width: 390px;
-    }
-    .left-side:before {
-        right: -600px;
-        top: -70px;
-    }
-    .left-side:after {
-        left: -867px;
-        top: -480px;
-    }
-    .social-title {
-        font-size: 16px;
-    }
-    .social-content {
-        width: 365px;
-    }
-    .plus18 {
-        width: 130px;
-        height: 246px;
-        font-size: 50px;
-        margin-bottom: 50px;
-    } */
-}
+
 @media (max-width: 823px) and (max-height: 414px) {
     body {
         background-position: center 315px;
