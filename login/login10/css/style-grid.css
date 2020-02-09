@@ -462,7 +462,69 @@ input, button {
     
 }
 @media (max-width: 768px) {
-   
+    .login-content {
+        padding: 10px;
+    }
+    .login-form {
+        width: 100%;
+    }
+    .title-page {
+        padding-left: 10px;
+    }
+    .title-page h4 {
+        font-size: 28px;
+    }
+    .title-page h3 {
+        font-size: 28px;
+    }
+    .plus18 {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 32px;
+        bottom: auto;
+        right: -40px;
+        top: 30px;   
+    }
+    .login-title p {
+        font-size: 18px;
+        margin: 0 0 16px 0;
+        text-align: center;
+    } 
+    .login-input {
+        padding: 0 8px;
+    }
+    .login-input label {
+        font-size: 12px;
+    }
+    .login-input input {
+        font-size: 16px;
+    }
+    .input-div {
+        margin-left: 10px;
+    }
+    .login-input .icon-view, .login-input .icon-check {
+        position: absolute;
+        right: 4px;
+    }
+    .icon-lock,
+    .icon-user,
+    .icon-envelope {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .btn-login-next {
+        margin-bottom: 44px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .social-content {
+        width: 100%;
+        margin-top: 17px;
+        margin-bottom: 27px;
+    }
+    
     
 }
 @media (max-width: 568px) and (max-height: 320px) {
@@ -565,9 +627,6 @@ input, button {
     }
     .social-icons {
         width: 100%;
-    }
-    .social-title {
-        font-size: 14px;
     }
     
     .social-icons .facebook,
