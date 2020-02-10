@@ -1,27 +1,505 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Portfolio Vladimir Todorovic</title>
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts-myriad/fonts.css" type="text/css">
+        <!-- End Fonts -->
+        <!-- Fav Icon -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <!-- End Fav Icon -->
+        <!-- Google Analitics Code -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Test</title>
+          ga('create', 'UA-39525220-1', 'auto');
+          ga('send', 'pageview');
 
-    
-</head>
-<body>
-<a href="tests/test-snapchat/index.html">test-snapchat</a>
-<br>
-<hr/>
-<br>
-<a href="tests/Spicy Snaps Mobile/index.html">Spicy Snaps Mobile</a>
-<br>
-<hr/>
-<br>
-<a href="tests/Spicy Snaps/index.html">Spicy Snaps</a>
-<br>
-<hr/>	
-<br>
-<a href="login/loginNo13/index.html">Login No.13</a>
-</body>
+        </script>
+        <!-- End Google Analitics Code -->
+        <!-- Style -->
+        <style>
+            body{
+                font-family:'Myriad Set Pro Thin', sans-serif;
+                -webkit-font-smoothing: antialiased;
+                color: #404040;
+                margin: 0 auto;
+                padding: 40px;
+                width: auto;
+                max-width: 960px;
+                background: #f2f2f2;
+            }
+            header {
+                margin: 0 0 40px 0;
+                padding: 0;
+            }
+            section {
+                margin: 40px 0;
+                padding: 0;
+            }
+            span {
+                font-family:'Myriad Set Pro Text';
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-size: 21px;
+                margin: 0;
+                padding: 0;
+            }
+            h1 {
+                font-family:'Myriad Set Pro Thin';
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-weight: normal;
+                font-size: 37px;
+                margin: 20px 0 10px 0;
+                padding: 0;
+            }
+            h3 {
+                font-family:'Myriad Set Pro Bold';
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-weight: normal;
+                font-size: 21px;
+                margin: 20px 0;
+                padding: 0 0 20px 0;
+                border-bottom: 1px solid #bbb;
+            }
+            h4 {
+                font-family:'Myriad Set Pro Text';
+                font-size: 1.2em;
+                font-weight: normal;
+                margin: 0;
+                padding: 0;
+            }
+            p {
+                font-family:'Myriad Set Pro Text';
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-weight: normal;
+                font-size: 1.2em;
+                line-height: 28px;
+                margin: 20px 0;
+                padding: 0;
+                width: 100%;
+            }
+            
+            .clear-fix {
+                clear: both;
+                height: 0px;
+                width: 100%;
+                display: block;
+            }
+            
+            .img-portret {
+                border: none;
+                border-radius: 10px;
+                margin: 0;
+                padding: 0;
+                width: 100px;
+                height: 100px;
+                background: url(images/autoportret.jpg) no-repeat;
+                background-size: contain;
+                background-position: top left;
+				background-size: 100px;
+            }
+            
+            /* Download Btn */
+            .download {
+                font-family:'Myriad Set Pro Bold';
+                font-size: 21px;
+                font-weight: normal;
+                border: none;
+                margin: 20px 0;
+                padding: 40px;
+                color: #fff;
+                background: #2baae1;
+                outline: none;
+                border-radius: 4px;
+                box-shadow: 0 1px 1px #ccc;
+                float: left;
+                width: 30%;
+            }
+            .download:hover {
+                color: #fff;
+                background: #3bb5ea;
+                outline: none;
+                cursor: pointer;
+                box-shadow: 1px 2px 5px 1px #ccc;
+            }
+            
+            /* Contact */
+            .contact {
+                font-family:'Myriad Set Pro Text';
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-weight: normal;
+                font-size: 1.2em;
+                margin: 0 0 30px 0;
+                padding: 0 0 0 50px;
+                height: auto;
+            }
+            .mail {
+                background: url(images/mail_32.png) no-repeat center center;
+                background-size: 18px;
+                background-position: center left;
+            }
+            .twitter {
+                background: url(images/twitter.png) no-repeat center center;
+                background-size: 18px;
+                background-position: center left;
+            }
+            .linkedin {
+                background: url(images/linkedin.png) no-repeat center center;
+                background-size: 16px;
+                background-position: center left;
+            }
+			.instagram {
+                background: url(images/instagram.png) no-repeat center center;
+                background-size: 16px;
+                background-position: center left;
+            }
+            .skype {
+                background: url(images/skype.png) no-repeat center center;
+                background-size: 16px;
+                background-position: center left;
+            }
+            .phone {
+                background: url(images/phone_24.png) no-repeat center center;
+                background-size: 18px;
+                background-position: center left;
+            }
+            .upwork {
+                background: url(images/upwork.png) no-repeat center center;
+                background-size: 30px;
+                background-position: 0;
+                height: 30px;
+                width: 30px;
+                line-height: 30px;
+            }
+            .upwork a,
+            .phone a,
+            .mail a,
+            .twitter a,
+            .linkedin a,
+			.instagram a {
+                text-decoration: none;
+                color: #303030;
+            }
+            
+            /* Works */
+            a.link {
+                text-decoration: none;
+                color: #303030;
+                box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -ms-box-sizing: border-box;
+                -o-box-sizing: border-box;
+            }
+            a.link:hover {
+                text-decoration: underline;
+                
+            }
+            .project-name {
+                font-weight: normal;
+                position: relative;
+                width: 30%;
+                min-height: 200px;
+                margin: 20px 0 20px 0;
+                padding: 90px 40px 40px 40px;
+                box-shadow: 0 1px 1px #ccc;
+                text-align: center;
+                vertical-align: bottom;
+                line-height: 32px;
+                float: left;
+                box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -ms-box-sizing: border-box;
+                -o-box-sizing: border-box;
+            }
+            .project-name:hover {
+                box-shadow: 1px 2px 5px 1px #ccc;
+                outline: 1px solid #2baae1;
+            }
+            .project-name:active {
+                box-shadow: 0 1px 1px #ccc;
+            }
+            .project-name.margin5 {
+                margin-left: 0;
+                margin-right: 5%;
+            }
+            .project-name.margin0 {
+                margin-left: 0;
+                margin-right: 0;
+            }
+            
+            .centili {
+                background: url(images/centili-logo.png) no-repeat;
+                background-position: center 40px;
+                background-size: 115px;
+                background-color: #fff;
+                border-radius: 4px;
+            }
+            .centili-badoo {
+                background: url(images/badoo.png) no-repeat;
+                background-position: center 40px;
+                background-size: 110px;
+                background-color: #fff;
+                border-radius: 4px;
+            }
+            .centili-wargaming {
+                background: url(images/wg.png) no-repeat;
+                background-position: center 40px;
+                background-size: 42px;
+                background-color: #fff;
+                border-radius: 4px;
+            }
+			.centili-setpp {
+                background: url(images/setpp-blue-logo.png) no-repeat;
+                background-position: center 40px;
+                background-size: 42px;
+                background-color: #fff;
+                border-radius: 4px;
+            }
+            .ycoins {
+                background: url(images/ycoins.png) no-repeat;
+                background-position: center 40px;
+                background-size: 100px;
+                background-color: #fff;
+                border-radius: 4px;
+            }
+            .ofy {
+                background: url(images/labnet.png) no-repeat;
+                background-position: center 40px;
+                background-size: 100px;
+                background-color: #fff;
+                border-radius: 4px;
+            }
+            .freelance {
+                background: url(images/logo-vt-gray.png) no-repeat;
+                background-position: center 40px;
+                background-size: 40px;
+                background-color: #fff;
+                border-radius: 4px;
+            }
+            .crowdspring {
+                background: url(images/cs-logo-white-cyan.png) no-repeat;
+                background-position: center 40px;
+                background-size: 120px;
+                background-color: #fff;
+                border-radius: 4px;
+            }
+			.karpos {
+                background: url(images/karpos-logo.png) no-repeat;
+                background-position: center 40px;
+                background-size: 40px;
+                background-color: #fff;
+                border-radius: 4px;
+            }
+            .politehnika {
+                background: url(images/logo-politehnika.jpg) no-repeat;
+                background-position: center 40px;
+                background-size: 40px;
+                background-color: #fff;
+                border-radius: 4px;
+            }
+            .margin-top-30 {
+                margin-top: 30px;
+            }
+            
+            @media all and (max-width: 960px) {
+                body {
+                    padding: 40px 40px 40px 40px;
+                }
+                .download,
+                .download:hover {
+                    width: 50%;
+                }
+                .project-name {
+                    min-height: 230px;
+                }
+            }
+            
+            @media all and (max-width: 768px) {
+                body {
+                    padding: 40px 40px 40px 40px;
+                }
+                .project-name {
+                    width: 100%;
+                    height: auto;
+                    min-height: 100%;
+                }
+                .project-name:nth-child(odd) {
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+                .download,
+                .download:hover {
+                    width: 100%;
+                }
+            }
+            
+            @media all and (max-width: 480px) {
+                body {
+                    padding: 20px 20px 40px 20px;
+                }
+            }
+        </style>
+        <!-- End Style -->
+    </head>
+    <body>
+        
+        <header>
+            <div class="img-portret"></div>
+            <h1>Vladimir Todorović</h1>
+            <span>UI developer/designer</span>
+            <div class="clear-fix"></div>
+            <div class="contact upwork margin-top-30"> <a href="https://www.upwork.com/o/profiles/users/~0105fab96d0924a21b/">UPWORK</a> </div>
+            <div class="contact mail"><a href="mailto:vvlladimir@gmail.com?Subject=Job%20Offer">vvlladimir@gmail.com</a></div>
+            <div class="contact linkedin"><a target="_blank" href="https://www.linkedin.com/in/todorovicvladimir">Linked in</a></div>
+            
+            <div class="contact skype">live:vvlladimir_1</div>
+            <div class="contact phone"><a href="tel:+381600880855">+381600880855</a></div>
+        <!-- About Me -->    
+            <section>
+            <h3>Dedicated to resolve the issue</h3>
+            <p>Hi, my name is Vladimir Todorović, a graduated graphic designer. Previously I worked logos, corporate materials, and prepress for digital printing, until I got into web design and coding.</p>
+<p>Now I am deeply involved in building frontend's of web applications. I am dedicated to resolve the issue of user applications, and to created better one.</p>
+                <div class="clear-fix"></div>
+            </section>
+        <!-- End About Me -->    
+        </header>
+        
+        <!-- Download Btn -->    
+                <button type="button" class="download" onclick="window.location.href='images/vtodorovic-cv.zip'" value="Download CV">Download CV</button>
+        <div class="clear-fix"></div>
+        <!-- End Download Btn -->    
+        <section>
+        <!-- Works -->    
+            <h3>Latest Project - Quick Pick</h3>
+            <a target="_blank" href="images/black-sima-dashboard.png" class="link">
+                <h4 class="project-name freelance margin5">Desktop Dashboard</h4>
+            </a>
+			<a target="_blank" href="images/black-sima-dashboard-mail-v2.png" class="link">
+                <h4 class="project-name freelance margin0">Mail Inbox</h4>
+            </a>
+			<div class="clear-fix"></div>
+			
+			<a target="_blank" href="images/locations-mockup-2.jpg" class="link">
+                <h4 class="project-name freelance margin5">Store (shoping app)</h4>
+            </a>
+			<a target="_blank" href="images/a-location-1.jpg" class="link">
+                <h4 class="project-name freelance margin5">Store locations (shoping app)</h4>
+            </a>
+            <a target="_blank" href="images/a-results-1.png" class="link">
+                <h4 class="project-name freelance margin0">Results (shoping app)</h4>
+            </a>
+            <div class="clear-fix"></div>
+            <h3>Works</h3>
+            <a target="_blank" href="https://www.centili.com/manual/centili-payment-widget-integration.pdf" class="link">
+                <h4 class="project-name centili margin5">Centili Mobile Payments Widget</h4>
+            </a>
+            <a target="_blank" href="https://www.centili.com/widget/WidgetModule?api=4bba64c133406de84394538b7b77d579" class="link">
+                <h4 class="project-name centili-badoo margin5">Badoo Mobile Payments Widget</h4>
+            </a>
+            <a target="_blank" href="https://www.centili.com/partners/" class="link">
+                <h4 class="project-name centili margin0">Centili Partners Application</h4>
+            </a>
+			
+            <div class="clear-fix"></div>
+            <a target="_blank" href="http://www.windowsphone.com/en-us/store/app/centili-payment-demo/e6adf0a0-bf19-4118-bc5b-c64f80c7bd11" class="link">
+                <h4 class="project-name centili margin5">Widget for Windows Phone</h4>
+            </a>
+            <a target="_blank" href="https://www.centili.com/finance/" class="link">
+                <h4 class="project-name centili margin5">Centili Finance Application</h4>
+            </a>
+            <a target="_blank" href="http://setpp.rs/" class="link">
+                <h4 class="project-name centili-setpp margin0">SETPP</h4>
+            </a>
+            <div class="clear-fix"></div>
+            <a target="_blank" href="http://ycoins.jp" class="link">
+                <h4 class="project-name ycoins margin5">&#165; Coins Home Page</h4>
+            </a>
+            <a target="_blank" href="http://www.ofy.rs" class="link">
+                <h4 class="project-name ofy margin5">OFY</h4>
+            </a>
+            <a target="_blank" href="http://www.vladimirdesign.cu.cc/blackwood-family-lawyers" class="link">
+                <h4 class="project-name crowdspring margin0">Blackwood Family Lawyers</h4>
+            </a>
+            <div class="clear-fix"></div>
+            <a target="_blank" href="images/S3F-Home-Page.jpg" class="link">
+                <h4 class="project-name crowdspring margin5">S3F</h4>
+            </a>
+            <a target="_blank" href="images/knot-poslovni%20papiri.jpg" class="link">
+                <h4 class="project-name politehnika margin5">KNOT</h4>
+            </a>
+            <a target="_blank" href="http://www.vladimirdesign.cu.cc/zope" class="link">
+                <h4 class="project-name freelance margin0">ZOPE</h4>
+            </a>
+            <div class="clear-fix"></div>
+            <a target="_blank" href="http://www.vladimirdesign.cu.cc/invoice" class="link">
+                <h4 class="project-name freelance margin5">Invoice Dashboard</h4>
+            </a>
+            <a target="_blank" href="http://www.vladimirdesign.cu.cc/quoto" class="link">
+                <h4 class="project-name freelance margin5">QUOTO</h4>
+            </a>
+            <a target="_blank" href="http://www.vladimirdesign.cu.cc/template1" class="link">
+                <h4 class="project-name freelance margin0">Basic Template</h4>
+            </a>
+            <div class="clear-fix"></div>
+            <a target="_blank" href="http://karposbooks.rs" class="link">
+                <h4 class="project-name karpos margin5">KARPOS BOOKS</h4>
+            </a>
+            <a target="_blank" href="http://www.orfeuspiano.se" class="link">
+                <h4 class="project-name freelance margin5">Orfeus Piano</h4>
+            </a>
+            <a target="_blank" href="images/results-mockup.jpg" class="link">
+                <h4 class="project-name freelance margin0">Results page (mob shoping)</h4>
+            </a>
+            <div class="clear-fix"></div>
+            <a target="_blank" href="images/refine-gender-mockup.jpg" class="link">
+                <h4 class="project-name freelance margin5">Refine gender page (mob shoping)</h4>
+            </a>
+            <a target="_blank" href="images/refine-price-mockup.jpg" class="link">
+                <h4 class="project-name freelance margin5">Refine price page (mob shoping)</h4>
+            </a>
+			<a target="_blank" href="images/price-range.jpg" class="link">
+                <h4 class="project-name freelance margin0">Price range (mob shoping)</h4>
+            </a>
+            <div class="clear-fix"></div>
+			<a target="_blank" href="images/locations.jpg" class="link">
+                <h4 class="project-name freelance margin5">Location (mob shoping)</h4>
+            </a>
+            <a target="_blank" href="images/widget-research.png" class="link">
+                <h4 class="project-name freelance margin5">Centili Widget Research</h4>
+            </a>
+            <div class="clear-fix"></div>
+        </section>
+        <!-- End Works -->
+        <!-- Download Btn -->    
+                <button type="button" class="download" onclick="window.location.href='images/vtodorovic-cv.zip'" value="Download CV">Download CV</button>
+        <div class="clear-fix"></div>
+        <!-- End Download Btn -->
+        <!-- Contact -->
+        <section>
+            <h3>Contact</h3>
+            <div class="contact mail"><a href="mailto:vvlladimir@gmail.com?Subject=Job%20Offer">vvlladimir@gmail.com</a></div>
+            <div class="contact linkedin"><a target="_blank" href="https://www.linkedin.com/in/todorovicvladimir">Linked in</a></div>
+			
+            <div class="contact skype">live:vvlladimir_1</div>
+            <div class="contact phone"><a href="tel:+381600880855">+381600880855</a></div>
+            <div class="clear-fix"></div>
+        </section>
+        <!-- End Contact -->
+        <!-- Download Btn -->
+            <button type="button" class="download" onclick="window.location.href='images/vtodorovic-cv.zip'" value="Download CV">Download CV</button>
+        <div class="clear-fix"></div>
+        <!-- End Download Btn -->
+    </body>
 </html>
