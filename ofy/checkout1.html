@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>OFY - Step 1</title>
+<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+	</script><![endif]-->
+<link rel="stylesheet" type="text/css" href="css/registracija.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+<link rel="stylesheet" type="text/css" href="css/checkout1.css">
+<link rel="stylesheet" type="text/css" href="css/akcija.css">
+<!-- google fonts -->
+<!-- Open sans -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+<!-- SCRIPTE -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+    <header>
+    	<a class="logo" href="index.html">OFY</a>
+        <nav>
+        	<ul class="social">
+        		<li><a class="facebook hide" href="#">Facebook</a></li>
+        		<li><a class="youtube hide" href="#">Youtube</a></li>
+        		<li><a class="twitter hide" href="#">Twitter</a></li>
+        	</ul>
+            <a class="newsletter" href="#">
+            	<img src="images/mail.png" alt="Prijavite se na newsletter">
+                    <p>
+                        <strong>Najbolje ponude u Vašem inboxu.</strong>
+                        Prijavite se odmah za naš Newsletter.
+                    </p>  
+            </a>
+        	<ul class="quickNav">
+        		<li><a href="#">O nama</a></li>
+        		<li><a href="#">Aktuelnosti</a></li>
+        		<li><a href="#">Prodavnice</a></li>
+        		<li><a href="#">Kontakt</a></li>
+        		<li><a href="#">Predstavljamo</a></li>
+        		<li><a href="#"><img class="babyLand" src="images/baby-land.png" alt="Baby Land"></a></li>
+            </ul>
+            <ul class="boxlog">
+            	<li class="logIn">
+                <p>Dobrodošli.<br> Prijavite se.</p> 
+                <div class="btnLogin"></div>
+                <div class="userLog">
+               
+                	<form action="">
+                        <label for="logEmail">Vaš E-mail:</label>
+                        <input id="logEmail" type="email" name="">
+                        <label class="span" for="logPass">Vaša lozinka:</label>
+                        <input id="logPass" type="password" name="">
+                        <a class="span" href="#">Zaboravili ste lozinku?</a>
+                        <input type="submit" value="Prijavi se">
+					</form>
+                    
+                    <a class="newUser" href="#">Kreirajte svoj nalog za ToyLand</a>
+                </div>
+                
+                </li>
+                <div class="clear-fix"></div>
+                <li class="korpa">
+                <p>Korpa</p>
+                <div class="ukupnoPro">15</div>
+                <div class="btnKorpa"></div>
+                <div class="korpaDropdown">
+                	<div class="bigLista">
+                    <ul class="lista">
+                    	<li>
+                            <ul class="proizvod">
+                            	<li class="imgPro">
+                                	<img src="images/SL7085.png" alt="Slingers strater set">
+                                </li>
+                                <li class="namePro">Slingers strater set<br><span class="kolicina">2 komada</span></li>
+                                <li class="pricePro">2.000,00 din</li>
+                                
+                            </ul>
+                        </li>
+                        <div class="clear-fix"></div>
+                        
+                        <li>
+                            <ul  class="proizvod">
+                            	<li class="imgPro">
+                                	<img src="images/MB652.png" alt="Kamion sa dva vozila">
+                                </li>
+                                <li class="namePro">Kamion sa dva vozila
+                                <br><span class="kolicina">1 komada</span>
+                                </li>
+                                <li class="pricePro">3.690,00 din</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="clear-fix"></div>
+                    
+                    <div class="zbir">Ukupno: <span class="ukupanZbir">5.600,00 din</span></div>
+                    </div>
+                    <div class="pregledPro">
+                    	<button class="pogledajPro">Pogledaj korpu</button>
+                    	<button class="potvrdiPro">Potvrdi narudzbinu</button>
+                    </div>
+                </div>
+                </li>
+            </ul>
+               
+            <div class="clear-fix"></div>
+<!-- MAIN NAV -->            
+			<ul class="mainNav">
+            	<li id="kategorije"><a class="span" href="#">Kategorije</a>
+                	<div class="borderBtm"></div>
+                
+<!-- POCETAK PADAJUCEG MENIJA KATEGORIJA -->
+                	<div class="bigBoxKat">
+                    	<nav class="listaKat">
+                            <ul>
+                                <li><a href="#">Akcione igračke</a></li>
+                                <li><a href="#">Automobili, avioni, vozovi</a></li>
+                                <li><a href="#">Bicikli, tricikli, vozila na pogon</a></li>
+                                <li><a href="#">Čestitke</a></li>
+                                <li><a href="#">Edukativne igračke <span class="hit">HIT</span></a></li>
+                                <li><a href="#">Igračke u obliku životinja</a></li>
+                                <li><a id="igrackezaNajmladje" href="#">Igračke za najmlađe</a></li>
+                                <li><a href="#">Igračke za sport i plažu</a></li>
+                                <li><a href="#">Konstrukcioni setovi i slagalice</a></li>
+                                <li><a href="#">Kućice, tobogani</a></li>
+                                <li><a href="#">Lutke</a></li>
+                                <li><a href="#">Moda</a></li>
+                                <li><a href="#">Muzički instrumenti</a></li>
+                                <li><a href="#">Oprema za bebe</a></li>
+                                <li><a href="#">Party program <span class="hit">HIT</span></a></li>
+                                <li><a href="#">Plišane igračke</a></li>
+                                <li><a href="#">Pokloni i poklon setovi</a></li>
+                                <li><a href="#">Puzzle</a></li>
+                                <li><a href="#">Setovi za devojčice</a></li>
+                                <li><a href="#">Setovi za igru</a></li>
+                                <li><a href="#">Škola</a></li>
+                            </ul>
+                        </nav>
+                        <div class="subMenu">
+                        	<ul class="igrackezaNajmladje">
+                                    	<h4>Igračke za najmlađe</h4>
+                                    	<li><a href="#">Muzičke igračke za bebe <span class="hit">HIT</span></a></li>
+                                    	<li><a href="#">Oprema za bebe</a></li>
+                                    	<li><a href="#">Plišane igračke za bebe</a></li>
+                                    	<li><a href="#">Pogodi oblik</a></li>
+                                    	<li><a href="#">Razne igračke za bebe</a></li>
+                                    	<li><a href="#">Razne muzičke igračke</a></li>
+                                    	<li><a href="#">Šetalice <span class="hit">HIT</span></a></li>
+                                    	<li><a href="#">Zvečke</a></li>
+                                        
+                                    </ul>
+                        </div>
+                        <div class="nePropustite">
+                        <div class="borderVerKat"></div>
+                        	<h4>Ne propustite</h4>
+	                        	<div class="product_holder">
+                                    <div class="stiker">-20%</div>
+                                    <img src="images/CS2545.png" alt="slika4">
+                                    <h5>Kolica za babe sklopiva -You & Mee</h5>
+                                    <p>Cena: <span class="cena">23.200,00 din</span></p>
+                                    <p class="staraCena">Stara cena:  29.000,00 din</p>
+                                </div>        
+                        </div>
+                        
+                        <div class="menuBaner span1">
+                        	<img src="images/menuBaner1.png" alt="baner1">
+                            <img src="images/menuBaner2.png" alt="baner1">
+                            <img src="images/menuBaner3.png" alt="baner1">
+                        </div>
+                        
+                    </div>
+                </li>
+<!-- KRAJ PADAJUCEG MENIJA KATEGORIJE -->
+            	<li id="uzrast"><a class="span" href="#">po Uzrastu</a>
+                <div class="borderBtmUzr"></div>
+<!-- POCETAK PADAJUCEG MENIJA PO UZRASTU -->                
+                	<div class="bigBoxUzr">
+                    	
+                        	<ul class="listaUzrast">
+                                    	<li id="meseci12"><a class="hide meseci12" href="#">0 - 12 meseci</a></li>
+                                    	<li id="godina2_3"><a class="hide godina2-3" href="#">2 - 3 godine</a></li>
+                                    	<li id="godina4_7"><a class="hide godina4-7" href="#">4 - 7 godina</a></li>
+                                    	<li id="godina8_10"><a class="hide godina8-10" href="#">8 - 10 godina</a></li>
+                                    	<li id="godina11_12"><a class="hide godina11-12" href="#">11 - 12 godina</a></li>
+                                    	<li id="godina12plus"><a class="hide godina12plus" href="#">12+ godina</a></li>	
+                             </ul>
+                            <div class="subMenuUzr">
+                                <div class="uzr12meseci">
+                                    <h4>0 do 12 meseci</h4>
+                                        <ul>
+                                          <li><a href="#">Čestitke, pisma</a></li>
+                                          <li><a href="#">Dubak <span class="hit">HIT</span></a></li>
+                                          <li><a href="#">Džemperi</a></li>
+                                          <li><a href="#">Haljine i suknje</a></li>
+                                          <li><a href="#">Jakne</a></li>
+                                          <li><a href="#">Kape, šalovi, rukavice</a></li>
+                                          <li><a href="#">Čarape</a></li>
+                                          <li><a href="#">Kolica</a></li>
+                                          <li><a href="#">Kompletići <span class="hit">HIT</span></a></li>
+                                          <li><a href="#">Kreveci</a></li>
+                                          <li><a href="#">Kupaći kostimi</a></li>
+                                          <li><a href="#">Ljuljaške za bebe</a></li>
+                                        </ul>
+                                        <ul>
+                                          <li><a href="#">Majice</a></li>
+                                          <li><a href="#">Muzičke igračke za bebe</a></li>
+                                          <li><a href="#">Obuća</a></li>
+                                          <li><a href="#">Oprema za bebe</a></li>
+                                          <li><a href="#">Pantalone <span class="hit">HIT</span></a></li>
+                                          <li><a href="#">Pidžame i veš</a></li>
+                                          <li><a href="#">Plišane igračke za bebe</a></li>
+                                          <li><a href="#">Poklon setovi</a></li>
+                                          <li><a href="#">Portikle</a></li>
+                                          <li><a href="#">Razne igračke za bebe</a></li>
+                                          <li><a href="#">Sedišta za kola</a></li>
+                                          <li><a href="#">Skafanderi</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Stolice za hranjenje beba</a></li>
+                                            <li><a href="#">Šetalice</a></li>
+                                            <li><a href="#">Štramplice</a></li>
+                                            <li><a href="#">Tricikli, trotineti</a></li>
+                                            <li><a href="#">Zvečke</a></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                    	<div class="nePropustite">
+                        	<div class="borderVerUzr"></div>
+                                <h4>Ne propustite</h4>
+                                    <div class="product_holder">
+                                        <div class="stiker">-20%</div>
+                                        <img src="images/CS2545.png" alt="slika4">
+                                        <h5>Kolica za babe sklopiva -You & Mee</h5>
+                                        <p>Cena: <span class="cena">23.200,00 din</span></p>
+                                        <p class="staraCena">Stara cena:  29.000,00 din</p>
+                                    </div>        
+                        </div>
+                        
+                        <div class="menuBaner span2">
+                        	<img src="images/menuBaner4.png" alt="baner1">
+                            <img src="images/menuBaner5.png" alt="baner1">
+                            <img src="images/menuBaner3.png" alt="baner1">
+                        </div>
+                    </div>
+<!-- KRAJ PADAJUCEG MENIJA PO UZRASTU -->                    
+                </li>
+            	<li id="zaDecake"><a class="span" href="#">za Dečake</a>
+                <div class="borderBtmDec"></div>
+<!-- POCETAK PADAJUCEG MENIJA ZA DECAKE -->
+				<div class="bigBoxDec">
+                    	<nav class="listaDec">
+                            <ul>
+                                <li><a href="#">Akcione igračke</a></li>
+                                <li><a href="#">Automobili, avioni, vozovi</a></li>
+                                <li><a href="#">Bicikli, tricikli, vozila na pogon</a></li>
+                                <li><a href="#">Čestitke</a></li>
+                                <li><a href="#">Edukativne igračke <span class="hit">HIT</span></a></li>
+                                <li><a href="#">Igračke u obliku životinja</a></li>
+                                <li><a id="igrackezaNajmladje" href="#">Igračke za najmlađe</a></li>
+                                <li><a id="igrackezaSportPlazu" href="#">Igračke za sport i plažu</a></li>
+                                <li><a href="#">Konstrukcioni setovi i slagalice</a></li>
+                                <li><a href="#">Kućice, tobogani</a></li>
+                                <li><a href="#">Moda</a></li>
+                                <li><a href="#">Muzički instrumenti</a></li>
+                                <li><a href="#">Oprema za bebe</a></li>
+                                <li><a href="#">Party program</a></li>
+                                <li><a href="#">Plišane igračke <span class="hit">HIT</span></a></li>
+                                <li><a href="#">Pokloni i poklon setovi</a></li>
+                                <li><a href="#">Puzzle</a></li>
+                                <li><a href="#">Setovi za igru</a></li>
+                                <li><a href="#">Škola</a></li>
+                            </ul>
+                        </nav>
+                        <div class="subMenu">
+                        	<ul class="igrackezaSportPlazu">
+                                    	<h4>Igračke za sport i plažu</h4>
+                                    	<li><a href="#">Igračke i oprema za plažu <span class="hit">HIT</span></a></li>
+                                    	<li><a href="#">Razne sportske igračke</a></li>
+                                    	<li><a href="#">Tricikli, Trotineti <span class="hit">HIT</span></a></li>
+                                    </ul>
+                        </div>
+                        <div class="nePropustite">
+                        	<div class="borderVerDec"></div>
+                        	<h4>Ne propustite</h4>
+	                        	<div class="product_holder">
+                                    <div class="stiker">-50%</div>
+                                    <img src="images/CPC78770.png" alt="slika5">
+                                    <h5>X-men figura na motoru 4+</h5>
+                                    <p>Cena: 	<span class="cena">1.245,00 din</span></p>
+                                    <p class="staraCena">Stara cena:  2.490,00 din</p>
+                                </div>        
+                        </div>
+                        
+                        <div class="menuBaner span3">
+                        	<img src="images/menuBaner4.png" alt="baner1">
+                            <img src="images/menuBaner5.png" alt="baner1">
+                            <img src="images/menuBaner3.png" alt="baner1">
+                        </div>
+                        
+                    </div>
+
+
+
+<!-- KRAJ PADAJUCEG MENIJA ZA DECAKE -->                
+                </li>
+            	<li id="zaDevojcice"><a class="span" href="#">za Devojčice</a>
+                <div class="borderBtmDev"></div>
+<!-- POCETAK PADAJUCEG MENIJA ZA DEVOJCICE -->
+				<div class="bigBoxDev">
+                    	<nav class="listaDev">
+                            <ul>
+                                
+                                <li><a href="#">Bicikli, tricikli, vozila na pogon</a></li>
+                                <li><a href="#">Čestitke</a></li>
+                                <li><a id="edukativneIgracke" href="#">Edukativne igračke</a></li>
+                                <li><a href="#">Igračke u obliku životinja</a></li>
+                                <li><a href="#">Igračke za najmlađe <span class="hit">HIT</span></a></li>
+                                <li><a href="#">Igračke za sport i plažu</a></li>
+                                <li><a href="#">Konstrukcioni setovi i slagalice</a></li>
+                                <li><a href="#">Kućice, tobogani</a></li>
+                                <li><a href="#">Lutke</a></li>
+                                <li><a href="#">Moda</a></li>
+                                <li><a href="#">Muzički instrumenti</a></li>
+                                <li><a href="#">Oprema za bebe</a></li>
+                                <li><a href="#">Party program</a></li>
+                                <li><a href="#">Plišane igračke</a></li>
+                                <li><a href="#">Pokloni i poklon setovi <span class="hit">HIT</span></a></li>
+                                <li><a href="#">Puzzle</a></li>
+                                <li><a href="#">Setovi za devojčice</a></li>
+                                <li><a href="#">Setovi za igru</a></li>
+                                <li><a href="#">Škola</a></li>
+                            </ul>
+                        </nav>
+                        <div class="subMenu">
+                        	<ul class="edukativneIgracke">
+                                    	<h4>Edukativne igračke</h4>
+                                    	<li><a href="#">Igracke za crtanje i bojenje</a></li>
+                                    	<li><a href="#">Nauka i istraživanje <span class="hit">HIT</span></a></li>
+                                    	<li><a href="#">Puzle</a></li>
+                                        <li><a href="#">Razne edukativne igračke <span class="hit">HIT</span></a></li>
+                                    </ul>
+                        </div>
+                        <div class="nePropustite">
+                        	<div class="borderVerDev"></div>
+                        	<h4>Ne propustite</h4>
+	                        	<div class="product_holder">
+                                    <div class="stiker">-20%</div>
+                                    <img src="images/CS2670_3.png" alt="slika3">
+                                    <h5>Krevetac baby putni cvetni - Oh so pretty</h5>
+                                    <p>Cena: 	<span class="cena">18.400,00 din</span></p>
+                                    <p class="staraCena">Stara cena:  23.000,00 din</p>
+                                </div>        
+                        </div>
+                        
+                        <div class="menuBaner span4">
+                        	<img src="images/menuBaner4.png" alt="baner1">
+                            <img src="images/menuBaner5.png" alt="baner1">
+                            <img src="images/menuBaner3.png" alt="baner1">
+                        </div>
+                        
+                    </div>
+
+<!-- KRAJ PADAJUCEG MENIJA ZA DEVOJCICE -->                
+                </li>
+            	<li id="likTeme"><a class="span" href="#">Likovi i teme</a>
+                <div class="borderBtmLikTeme"></div>
+<!-- POCETAK PADAJUCEG MENIJA LIKOVI I TEME -->
+				<div class="bigBoxLikTeme">
+                    	<nav class="listaLikTeme">
+                            <ul>
+                                <li><a href="#">Abc Simba</a></li>
+                                <li><a id="angryBirds" href="#">Angry Birds</a></li>
+                                <li><a href="#">Bakugan</a></li>
+                                <li><a href="#">Barbie</a></li>
+                                <li><a href="#">Barriguitas</a></li>
+                                <li><a href="#">Battle Strikers</a></li>
+                                <li><a href="#">Bauer Pliš</a></li>
+                                <li><a href="#">Bay Blade</a></li>
+                                <li><a href="#">Ben 10</a></li>
+                                <li><a href="#">Bendaroos</a></li>
+                                <li><a href="#">Blok Squad</a></li>
+                                <li><a href="#">Blok Town</a></li>
+                                <li><a href="#">Carrera</a></li>
+                                <li><a href="#">Chicco</a></li>
+                                <li><a href="#">City</a></li>
+                                <li><a href="#">Cosatto</a></li>
+                                <li><a href="#">Creativity</a></li>
+                                <li><a href="#">Dino Froz</a></li>
+                                <li><a href="#">Disney</a></li>
+                                <li><a href="#">Dragon Ball Z</a></li>
+                            </ul>
+                            <ul>
+                            	<li><a href="#">Dragons</a></li>
+                                <li><a href="#">Duplo</a></li>
+                                <li><a href="#">Evi</a></li>
+                                <li><a href="#">Feber</a></li>
+                                <li><a href="#">Ferari</a></li>
+                                <li><a href="#">Filly</a></li>
+                                <li><a href="#">Hello Kitty</a></li>
+                                <li><a href="#">Iron Man</a></li>
+                                <li><a href="#">Jaggets</a></li>
+                                <li><a href="#">Jagodica Bobica</a></li>
+                                <li><a href="#">Jo Jo</a></li>
+                                <li><a href="#">Koochi</a></li>
+                                <li><a href="#">Leto</a></li>
+                                <li><a href="#">Little Pet Shop</a></li>
+                                <li><a href="#">Madeleine</a></li>
+                                <li><a href="#">Magnetix</a></li>
+                                <li><a href="#">Mistic Babies</a></li>
+                                <li><a href="#">Moćni Rendžeri</a></li>
+                                <li><a href="#">Moji Džepni Ljubimci</a></li>
+                                <li><a href="#">Monsuno</a></li>
+                           	</ul>
+                            <ul>
+                            	<li><a href="#">Moxie</a></li>
+                                <li><a href="#">My Little Pony</a></li>
+                                <li><a href="#">My Music World</a></li>
+                                <li><a href="#">My Sweet Pony</a></li>
+                                <li><a href="#">Nakit Od Srca</a></li>
+                                <li><a href="#">Nancy</a></li>
+                                <li><a href="#">Need For Speed</a></li>
+                                <li><a href="#">Nenunco</a></li>
+                                <li><a href="#">New Born</a></li>
+                                <li><a href="#">Night Garden</a></li>
+                                <li><a href="#">Ninjago</a></li>
+                                <li><a href="#">Paciocchini</a></li>
+                                <li><a href="#">Pia Pia Pliš</a></li>
+                                <li><a href="#">Pinypon</a></li>
+                                <li><a href="#">Playskool</a></li>
+                                <li><a href="#">Poppixie</a></li>
+                                <li><a href="#">Puppy In My Pocket</a></li>
+                                <li><a href="#">Razno</a></li>
+                                <li><a href="#">Schrodel</a></li>
+                                <li><a href="#">Sparkle</a></li>
+                           	</ul>
+                            <ul>
+                            	<li><a href="#">Spiderman</a></li>
+                                <li><a href="#">Star Wars</a></li>
+                                <li><a href="#">Steffi</a></li>
+                                <li><a href="#">Štrumpfovi</a></li>
+                                <li><a href="#">Tech Deck</a></li>
+                                <li><a href="#">Technic</a></li>
+                                <li><a href="#">Thomas</a></li>
+                                <li><a href="#">Tonka</a></li>
+                                <li><a href="#">Transformers</a></li>
+                                <li><a href="#">War Titans</a></li>
+                                <li><a href="#">Winx</a></li>
+                                <li><a href="#">Zoobles</a></li>
+                           	</ul>
+                                
+                        </nav>
+                        
+                        <div class="brand_logo span1">
+                        	
+                        	       <div class="angryBirds"></div>
+                        </div>
+                        
+                        <div class="menuBaner span5">
+                        	<img src="images/menuBaner4.png" alt="baner1">
+                            <img src="images/menuBaner5.png" alt="baner1">
+                            <img src="images/menuBaner3.png" alt="baner1">
+                        </div>
+                        
+                    </div>
+
+
+<!-- KRAJ PADAJUCEG MENIJA LIKOVI I TEME -->                
+                </li>
+            	<li id="brendovi"><a class="span" href="#">Brendovi</a>
+                <div class="borderBtmBrend"></div>
+<!-- POCETAK PADAJUCEG MENIJA BRENDOVI -->
+				<div class="bigBoxBrend">
+                    	<nav class="listaBrend">
+                            <ul>
+                                <li><a id="angryBirds" href="#">Angry Birds</a></li>
+                                <li><a href="#">Baby Rosa</a></li>
+                                <li><a href="#">Bandai</a></li>
+                                <li><a href="#">Bauer</a></li>
+                                <li><a href="#">Be Fancy</a></li>
+                                <li><a href="#">Bontempi</a></li>
+                                <li><a href="#">Carrera</a></li>
+                                <li><a href="#">Carton Network</a></li> 
+                                <li><a href="#">Chicco</a></li>
+                                <li><a href="#">Christakopoulos</a></li>
+                                <li><a href="#">Cosatto</a></li>
+                                <li><a href="#">Dickey</a></li>
+                                <li><a href="#">Dickie</a></li>
+                                <li><a href="#">Dino</a></li>
+                                <li><a href="#">Dirkje</a></li>
+                                <li><a id="disney" href="#">Disney</a></li>
+                                <li><a href="#">Eacholight</a></li>
+                                <li><a href="#">Edco</a></li>
+                                <li><a href="#">Famosa</a></li>
+                                <li><a href="#">Giordani</a></li> 
+                            </ul>
+                            <ul>
+                                <li><a href="#">Hasbro</a></li>
+                                <li><a href="#">Intex</a></li>
+                                <li><a href="#">Jakks</a></li>
+                                <li><a href="#">Jolly Baby</a></li>
+                                <li><a href="#">Kiddieland</a></li>
+                                <li><a href="#">Lego</a></li>
+                                <li><a href="#">Let's Play</a></li>
+                                <li><a href="#">Maisto</a></li>
+                                <li><a href="#">Mattel</a></li> 
+                                <li><a href="#">Mega Bloks</a></li>
+                                <li><a href="#">Mga</a></li>
+                                <li><a href="#">Mona Rosa</a></li>
+                                <li><a href="#">Nordplast</a></li>
+                                <li><a href="#">Pia Pia</a></li>
+                                <li><a href="#">Playmates</a></li>
+                                <li><a href="#">Preziosi</a></li>
+                                <li><a href="#">Schleich</a></li>
+                                <li><a href="#">Schrodel</a></li>
+                                <li><a href="#">Sheldon</a></li>
+                                <li><a href="#">Silverlit</a></li>
+                            </ul> 
+                            <ul>
+                            	<li><a href="#">Simba</a></li>
+                                <li><a href="#">Slingers</a></li>
+                                <li><a href="#">Sparkle</a></li>
+                                <li><a href="#">Spin Master</a></li>
+                                <li><a href="#">Totum</a></li>
+                                <li><a href="#">Victor</a></li>
+                                <li><a href="#">Winx</a></li>
+                                <li><a href="#">Zapf</a></li>
+                           	</ul>
+                                
+                        </nav>
+                        
+                        <div class="brand_logo span2">
+                        	       <div class="disney"></div>
+                        </div>
+                        
+                        <div class="menuBaner span6">
+                        	<img src="images/menuBaner4.png" alt="baner1">
+                            <img src="images/menuBaner5.png" alt="baner1">
+                            <img src="images/menuBaner3.png" alt="baner1">
+                        </div>
+                        
+                    </div>
+
+<!-- KRAJ PADAJUCEG MENIJA BRENDOVI -->                
+                </li>
+            	<li><a class="focus akcije" href="#">Akcije</a></li>
+            	<li><input class="btnSearch" type="submit"><input class="search" type="search" placeholder="Pretražite"></li>
+            </ul>
+        </nav>
+<!-- KRAJ MAIN NAV -->
+<!-- POCETAK SAVETNIK, GIFT, DOSTAVA -->        
+        <div class="clear-fix"></div>
+        <ul class="special_plus">
+        	<li class="savetnik_plus"><a href="#"><h3>Pozovite 062 8065 998</h3><p>Vaš lični savetnik za kupovinu</p></a></li>
+        	<li class="gift_plus"><a href="#"><h3>Kupite poklon</h3><p>i pošaljite na adresu</p></hgroup></a></li>
+        	<li class="dostava_plus"><a href="#"><h3>Besplatna dostava</h3><p>za porudzbine preko 1000 din</p></a></li>
+        </ul>
+        <div class="clear-fix"></div>
+    </header>
+	<section>
+    <!-- NAVIGACIJA 4 KORAKA -->
+    <nav>
+        <ul class="steps">
+            <li class="aktivni"><h1><span class="broj">1.</span> Podaci o kupcu</h1></li>
+            <li><span class="broj">2.</span> Način plaćanja</li>
+            <li><span class="broj">3.</span> Način isporuke</li>
+            <li><span class="broj">4.</span> Detalji i potvrda</li>
+        </ul>
+    </nav>
+    <div class="clear-fix"></div>
+    <article class="nazivStepa">
+    	
+        	<h3>Molimo da unesete lične podatke.</h3>
+        
+    </article>
+    <div class="clear-fix"></div>
+    <!-- PODACI O KUPCU -->
+    <div class="wraperPodaci bojaStep1">
+    	<form action="">
+        	<div class="izborKorisnika">
+            	<h3>Kupujem kao:</h3>
+            	
+                	<input type="radio" id="radio1" name="radio" value="Fizičko lice" checked>
+                    <label for="radio1">Fizičko lice</label>
+                
+                    <input type="radio" id="radio2" name="radio"value="Pravno lice (u ime firme)">
+                    <label for="radio2">Pravno lice (u ime firme)</label>
+                
+            </div>
+            <div class="leftSide">
+            <div class="obavezno">
+            	<input class="ime" type="text" placeholder="Ime">
+                
+                <!--  CHECK MARK WRONG, GOOD -->
+              	<div class="checkmark_icon good"></div>
+              	<div class="checkmark_icon wrong"></div>
+              	<p class="wrong_text">neispravno ste uneli ovaj podatak</p>
+            </div>
+            <div class="obavezno">
+            	<input class="prezime" type="text" placeholder="Prezime">
+                
+                <!--  CHECK MARK WRONG, GOOD -->
+              	<div class="checkmark_icon good"></div>
+              	<div class="checkmark_icon wrong"></div>
+              	<p class="wrong_text">neispravno ste uneli ovaj podatak</p>
+            </div>
+             <div class="obavezno">
+                 <div class="mozHack resetMargin-left"> 
+                 <select class="pol" class="pol" name="">
+                     <option value="">Pol</option> 		
+                     <option value="muški">Muški</option>
+                     <option value="ženski">Ženski</option>     							
+                  </select></div>
+                  
+                  <!--  CHECK MARK WRONG, GOOD -->
+              	<div class="checkmark_icon good"></div>
+              	<div class="checkmark_icon wrong"></div>
+              	<p class="wrong_text">neispravno ste uneli ovaj podatak</p>
+              </div>
+              
+            <div class="obavezno">
+            	<input class="datum_rodj" type="date" placeholder="Datum rođenja (dd.mm.gggg)">
+                
+                <!--  CHECK MARK WRONG, GOOD -->
+              	<div class="checkmark_icon good"></div>
+              	<div class="checkmark_icon wrong"></div>
+              	<p class="wrong_text">neispravno ste uneli ovaj podatak</p>
+            </div>
+            <div class="obavezno">
+            	<input class="email" type="email" placeholder="E-m@il">
+                
+                <!--  CHECK MARK WRONG, GOOD -->
+              	<div class="checkmark_icon good"></div>
+              	<div class="checkmark_icon wrong"></div>
+              	<p class="wrong_text">neispravno ste uneli ovaj podatak</p>
+            </div>
+            </div>
+          <!-- Desni block forma -->  
+            <div class="rightSide">
+                <input class="telefon" type="tel" placeholder="Telefon">
+                <input class="kompanija" type="text" placeholder="Kompanija">
+                <input class="adresa" type="text" placeholder="Adresa">
+                <input class="mesto" type="text" placeholder="Mesto">
+                <div class="mozHack"><select class="drzava" class="drzava">
+                        <option value="">Država</option>
+                        <option value="Srbija">Srbija</option>
+                        <option value="Crna Gora">Crna Gora</option>
+                        <option value="Bosna i Hercegovina">Bosna i Hercegovina</option>
+                        <option value="Makedonija">Makedonija</option>
+                  </select></div>
+                <p class="span">obavezna polja</p>
+            </div>
+            <div class="ukupnaVrednost"><p>Ukupna vrednost porudžbine:	<span>48.980,00 din</span></p></div>
+            <div class="potvrda">
+            	<a class="nazad" href="#">Način plaćanja</a>
+                <span></span>
+               	<input type="submit" value="Detalji i potvrda">
+                
+            </div>
+        </form>
+    
+    </div>
+    <!-- KRAJ NAVIGACIJA 4 KORAKA --> 
+    <!-- POCETAK PODACI O KUPCU -->
+    
+    
+    <!-- KRAJ PODACI O KUPCU -->
+    </section>
+    
+    <div class="clear-fix"></div>
+<!-- FOOTER POCETAK, NAVIGACIA -->     
+    <footer class="margin-top-null">
+   
+    	<nav class="footerNav">
+    				<ul>
+                        <li><strong>Kupovina</strong></li>
+                        <li><a href="#">Prema uzrastu</a></li>
+                        <li><a href="#">Prema polu</a></li>
+                        <li><a href="#">Prema liku / temi</a></li>
+                        <li><a href="#">Prema brendu</a></li>
+					</ul>	
+                	<ul>
+                    	<li><strong>Usluge kupovine</strong></li>
+                		<li><a href="#">Uslovi korišćenja</a></li>
+                		<li><a href="#">Uslovi kupovine</a></li>
+                		<li><a href="#">Način Plaćanja</a></li>
+                		<li><a href="#">Načini isporuke</a></li>
+                		<li><a href="#">Reklamiranje</a></li>
+                	</ul>
+                	<ul>
+                    	<li><strong>Moj ToyLand</strong></li>
+                		<li><a href="#">Korpa</a></li>
+                		<li><a href="#">Moj nalog</a></li>
+                		<li><a href="#">Moje porudzbine</a></li>
+                		<li><a href="#">Moja lista želja</a></li>
+                	</ul>
+                	<ul>
+                    	<li><strong>ToyLand</strong></li>
+                		<li><a href="#">O nama</a></li>
+                		<li><a href="#">Kontakt</a></li>
+                		<li><a href="#">Novosti</a></li>
+                		<li><a href="#">Mapa sajta</a></li>
+                	</ul>
+                	<ul>
+                    	<li><strong>Kontakt</strong></li>
+                		<li><a href="#">OFY ToyLand</a></li>
+                		<li>Adresa: Bul. Arsenija</li>
+                		<li>Čarnojevića 95-97,</li>
+                		<li>11070 Novi Beograd, Srbija</li>
+                        <li>Tel:(+381) 011 311 67 85</li>
+                        <li>Fax:(+381) 011 311 2 313</li>
+                        <li><a href="mailto:marketing@ofy.rs">E-mail:marketing@ofy.rs</a></li>
+                	</ul>	
+    	</nav>
+        <div class="clear-fix"></div>
+<!-- FOOTER INFO -->        
+        <article class="footerInfo">
+            <div class="banke"></div>
+            
+            <div class="callCentar">
+                <h4>Imate pitanje ili komentar, pozovite nas na:</h4>
+                <a href="tel:062 8065 998">062 8065 998</a>
+            </div>
+       	</article>
+        <h5 class="copyright">Copyright 2013 © OFY TOY LAND. All rights reserved. Developed by <a class="link" href="http://www.labnet.rs">LABNET.RS</a></h5>
+    </footer>
+    </div>
+<!-- KRAJ FOOTER -->    
+
+</body>
+</html>

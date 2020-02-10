@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.naziv{
+	width:120px;
+	margin:0px 0px 0px 20px;
+	padding:0px 0px 0px 20px;
+	color: black;
+}
+.polje{
+	width:160px;
+	margin:0px 0px 0px 0px;
+	padding:0;
+	text-align:center;
+
+}
+.forma{
+	width:500px;
+	height:500px;
+	margin:20px 0px 20px 20px;
+	padding:0;
+	border:1px solid rgba(204,204,204,1);
+    
+}
+.poruka{
+	width:140px;
+	height:200px;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+tr:nth-child(odd){
+	background-color:#00CCCC;
+}

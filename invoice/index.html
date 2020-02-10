@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Include jQuery UI -->
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+		
+		<!-- Include custom script -->
+		<script src="js/script.js"></script>
+		
+		<!-- Include open sans -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+	</head>
+	<body>
+		
+		<!-- Wrapper Start -->
+		<div class="wrapper">
+			<!-- Add Customers Dialog Start -->
+			<div id="addCustomerDialog" class="dialog-wrapper">
+				<div class="dialog-box">
+					<div class="dialog-box-header">
+						<div class="dialog-name">ADD CUSTOMERS DIALOG</div>
+						<button onclick="addCustomerClose();" id="close" class="close-btn"></button>
+					</div>
+					<div class="dialog-box-content">
+						<form action="">
+						<input  placeholder="Customer Name" id="customerName" name="customerName" type="text" />
+						<input placeholder="Address" id="address" name="address" type="text" />
+						<input placeholder="PIB" id="pib" name="pib" type="number" />
+						<input class="dialog-btn" onclick="createCustomers()" type="button" value="ADD" />
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Add Items Dialog Start -->
+			<div id="addItemDialog" class="dialog-wrapper">
+				<div class="dialog-box">
+					<div class="dialog-box-header">
+						<div class="dialog-name">ADD ITEMS DIALOG</div>
+						<button onclick="addItemClose();" id="close" class="close-btn"></button>
+					</div>
+					<div class="dialog-box-content">
+						<form action="">
+						<input  placeholder="Name" id="productName" name="productName" type="text" />
+						<input placeholder="Price" id="price" name="price" type="text" />
+						<input placeholder="Description" id="description" name="description" type="text" />
+						<input class="dialog-btn" onclick="createItems()" type="button" value="ADD" />
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Add Invoices Dialog Start -->
+			<div id="addInvoiceDialog" class="dialog-wrapper">
+				<div class="dialog-box">
+					<div class="dialog-box-header">
+						<div class="dialog-name">ADD INVOICES DIALOG</div>
+						<button onclick="addInvoiceClose();" id="close" class="close-btn"></button>
+					</div>
+					<div class="dialog-box-content">
+						<form action="">
+						<input placeholder="Select Date" id="datepicker" type="date" />
+						<input placeholder="Customer Name" id="customerName" name="customerName" type="text" />
+						<input placeholder="Amount" id="amount" name="amount" type="text" />
+						<input placeholder="Item" id="item" name="item" type="text" />
+						<input placeholder="Qty" id="qty" name="qty" type="text" />
+						<input placeholder="Price" id="price" name="price" type="text" />
+						<input placeholder="Extd.Amount" id="extdAmount" name="extdamount" type="text" />
+						<input class="dialog-btn" onclick="createInvoices()" type="button" value="ADD" />
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Edit Customers Dialog Start -->
+			<div id="editCustomerDialog" class="dialog-wrapper">
+				<div class="dialog-box">
+					<div class="dialog-box-header">
+						<div class="dialog-name">EDIT CUSTOMERS DIALOG</div>
+						<button onclick="editCustomerClose();" id="close" class="close-btn"></button>
+					</div>
+					<div class="dialog-box-content">
+						<form action="">
+						<input  placeholder="Customer Name" id="customerName" name="customerName" type="text" />
+						<input placeholder="Address" id="address" name="address" type="text" />
+						<input placeholder="PIB" id="pib" name="pib" type="number" />
+						<input class="dialog-btn" type="submit" value="EDIT" />
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Edit Items Dialog Start -->
+			<div id="editItemDialog" class="dialog-wrapper">
+				<div class="dialog-box">
+					<div class="dialog-box-header">
+						<div class="dialog-name">EDIT ITEMS DIALOG</div>
+						<button onclick="editItemClose();" id="close" class="close-btn"></button>
+					</div>
+					<div class="dialog-box-content">
+						<form action="">
+						<input  placeholder="Name" id="productName" name="productName" type="text" />
+						<input placeholder="Price" id="price" name="price" type="text" />
+						<input placeholder="Description" id="description" name="description" type="text" />
+						<input class="dialog-btn" type="submit" value="EDIT" />
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Edit Invoice Dialog Start -->
+			<div id="editInvoiceDialog" class="dialog-wrapper">
+				<div class="dialog-box">
+					<div class="dialog-box-header">
+						<div class="dialog-name">EDIT INVOICES DIALOG</div>
+						<button onclick="editInvoiceClose();" id="close" class="close-btn"></button>
+					</div>
+					<div class="dialog-box-content">
+						<form action="">
+						<input placeholder="Select Date" id="datepicker" type="date" />
+						<input  placeholder="Customer Name" id="customerName" name="customerName" type="text" />
+						<input placeholder="Amount" id="amount" name="amount" type="text" />
+						<input placeholder="Item" id="item" name="item" type="text" />
+						<input placeholder="Qty" id="qty" name="qty" type="text" />
+						<input placeholder="Price" id="price" name="price" type="text" />
+						<input placeholder="Extd.Amount" id="extdAmount" name="extdamount" type="text" />
+						<input class="dialog-btn" type="submit" value="EDIT" />
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Header Start -->
+			<header class="invoicingHeader">
+				<div class="logo">INVOICING</div>
+				<div id="user" class="invoicingUser">Vladimir</div>
+			</header>
+			<!-- / Header End -->
+			<!-- Side Navigation Start -->	
+			<nav class="invoicingNav">
+				<ul>
+					<li id="customersBtn" onclick="toggleTableCustomers();" class="customers">Customers</li>
+					<li id="itemsBtn" onclick="toggleTableItems();" class="items">Items</li>
+					<li id="invoicesBtn" onclick="toggleTableInvoices();" class="invoices">Invoices</li>
+				</ul>
+				<ul>
+					<li class="help">Help</li>
+					<li class="userLog">Log Out</li>
+				</ul>
+			</nav>
+			<!-- / Side Navigation End -->
+			<!-- Content Start -->
+			<content>
+				<!-- Content Customers Start -->
+				<div id="customersTable" class="contentCustomers">
+					<table id="customersTableElement">
+					<caption>Customers </caption>
+					<button onclick="addCustomerDialog();" title="Add this customer" class="add">ADD CUSTOMER</button>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Address</th>
+								<th>PIB</th>
+								<th class="btn">Edit</th>
+								<th class="btn">Delete</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td id="resultCustomerName">Dave Grohl</td>
+								<td>27 W 35th St.</td>
+								<td>123-123789</td>
+								<td class="btn">
+									<button onclick="editCustomerDialog();" title="Edit this customer" class="edit-icon"></button>
+								</td>
+								<td class="btn">
+									<button onclick="deleteCustomersRow(this);" title="Delete this customer" class="delete-icon"></button>
+								</td>
+							</tr>
+							<tr>
+								<td id="resultCustomerName">Taylor Hawkins</td>
+								<td>100 W 335th St.</td>
+								<td>123-123789</td>
+								<td class="btn">
+									<button onclick="editCustomerDialog();" title="Edit this customer" class="edit-icon"></button>
+								</td>
+								<td class="btn">
+									<button onclick="deleteCustomersRow(this);" title="Delete this customer" class="delete-icon"></button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- / Content Customers End -->
+				<!-- Content Items Start -->
+				<div id="itemsTable" class="contentItems">
+					<table id="itemsTableElement">
+					<caption>Items</caption>
+					<button onclick="addItemDialog();" title="Add new item" class="add">ADD ITEMS</button>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Price</th>
+								<th>Description</th>
+								<th class="btn">Edit</th>
+								<th class="btn">Delete</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Guitar</td>
+								<td>350</td>
+								<td>Fender Guitar</td>
+								<td class="btn">
+									<button onclick="editItemDialog();" title="Edit this item" class="edit-icon"></button>
+								</td>
+								<td class="btn">
+									<button onclick="deleteItemsRow(this);" title="Delete this item" class="delete-icon"></button>
+								</td>
+							</tr>
+							<tr>
+								<td>Piano</td>
+								<td>2500</td>
+								<td>Old Classic Piano</td>
+								<td class="btn">
+									<button onclick="editItemDialog();" title="Edit this item" class="edit-icon"></button>
+								</td>
+								<td class="btn">
+									<button onclick="deleteItemsRow(this);" title="Delete this item" class="delete-icon"></button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- / Content Items End -->
+				<!-- Content Invoices Start -->
+				<div id="invoicesTable" class="contentInvoices">
+					<table id="invoicesTableElement">
+					<caption>Invoices</caption>
+					<button onclick="addInvoiceDialog();" title="Add new invoice" class="add">ADD INVOICES</button>
+						<thead>
+							<tr>
+								<th>Date</th>
+								<th>Name</th>
+								<th>Amount</th>
+								<th>Items</th>
+								<th>Qty</th>
+								<th>Price</th>
+								<th>Extd.Amount</th>
+								<th class="btn">Edit</th>
+								<th class="btn">Delete</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>20.08.2014</td>
+								<td>Dave Grohl</td>
+								<td>350</td>
+								<td>Guitar</td>
+								<td>1</td>
+								<td>350</td>
+								<td>350</td>
+								<td class="btn">
+									<button onclick="editInvoiceDialog();" title="Edit this invoice" class="edit-icon"></button>
+								</td>
+								<td class="btn">
+									<button onclick="deleteInvoicesRow(this);"  title="Delete this invoice" class="delete-icon"></button>
+								</td>
+							</tr>
+							<tr>
+								<td>20.08.2014</td>
+								<td>Taylor Hawkins</td>
+								<td>2500</td>
+								<td>Piano</td>
+								<td>1</td>
+								<td>2500</td>
+								<td>2500</td>
+								<td class="btn">
+									<button onclick="editInvoiceDialog();" title="Edit this invoice" class="edit-icon"></button>
+								</td>
+								<td class="btn">
+									<button onclick="deleteInvoicesRow(this);"  title="Delete this invoice" class="delete-icon"></button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</content>
+			<!-- / Content Start End -->
+		</div>
+		<!-- / Wrapper End --> 
+	</body>
+</html>

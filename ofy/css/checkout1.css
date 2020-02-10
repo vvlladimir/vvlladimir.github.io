@@ -1,0 +1,664 @@
+@charset "utf-8";
+/* Checkout 1 */
+
+.steps{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	float:left;
+}
+.steps li{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	float:left;
+	width:238px;
+	height:44px;
+	border:1px solid #FFF;
+	background-color:#cccccc;
+	font-size:20px;
+	font-weight:400;
+	color:#e5e5e5;
+}
+.steps li.aktivni{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	float:left;
+	width:238px;
+	height:44px;
+	border:1px solid #FFF;
+	background-color:#cccccc;
+	font-size:20px;
+	font-weight:400;
+	color:#e5e5e5;
+}
+.steps li.prosao{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	float:left;
+	width:238px;
+	height:44px;
+	border:1px solid #FFF;
+	background-color:#b282d9;
+	background-image:url(../images/done.png);
+	background-position:197px center;
+	background-repeat:no-repeat;
+	font-size:20px;
+	font-weight:400;
+	color:#bfbfbf;
+}
+.steps li:last-child{
+	border-right:0px;
+	width:239px;
+}
+.steps li:first-child, .steps li.aktivni h1:first-child, .steps li.prosao:first-child{
+	border-left:0px;
+	width:239px;
+}
+.steps li.aktivni h1{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	float:left;
+	width:238px;
+	height:44px;
+	background-color:#7c50a1;
+	color:#FFF;
+	font-size:20px;
+	font-weight:400;
+	
+}
+.steps li.aktivni h1 .broj{
+	font-size: 24px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-left: 18px;
+    margin-right: 5px;
+}
+.steps li .broj{
+	font-size: 24px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-left: 18px;
+    margin-right: 5px;
+}
+
+.nazivStepa{
+	margin:0;
+	padding:0;
+	float:left;
+	display:block;
+	background-color:#7c50a1;
+	width:960px;
+	height:45px;
+	border-bottom:1px solid #FFF;
+}
+.nazivStepa h3{
+	margin:0 0 0 50px;
+	padding:0;
+	float:left;
+	display:block;
+	color:#FFFFFF;
+	line-height:46px;
+	font-weight:600;
+	font-size:18px;
+}
+.general{
+	margin:0 0 36px 0;
+	padding:0;
+	float:left;
+	display:block;
+	background-color:#13a14c;
+	width:960px;
+	height:42px;
+	border-bottom:1px solid #FFF;
+}
+.general h1{
+	margin:0 0 0 50px;
+	padding:0;
+	float:left;
+	display:block;
+	color:#FFFFFF;
+	line-height:42px;
+	font-weight:600;
+	font-size:24px;
+}
+.pageFooter{
+	margin:0 0 0 0px;
+	padding:0;
+	float:left;
+	display:block;
+	width:960px;
+	height:42px;
+	background-color:#13a14c;
+	color:#FFFFFF;
+	line-height:42px;
+	border-bottom:1px solid #fff;
+}
+.pageFooter span{
+	margin: 15px 24px 0 0;
+	padding:0;
+	display:block;
+	float:right;
+	line-height:normal;
+}
+
+ .print{
+	margin:0 0 0 30px;
+	padding:0 0 0 24px;
+	float:left;
+	display:inline;
+	background:url(../images/print-white.png) no-repeat center left;
+	line-height:normal;
+	color:#FFFFFF;
+	font-size:8px;
+}
+.send{
+	margin:0 0 0 30px;
+	padding:0 0 0 24px;
+	float:left;
+	display:inline;
+	background:url(../images/pismo.png) no-repeat center left;
+	line-height:normal;
+	color:#FFFFFF;
+	font-size:8px;
+}
+
+.tekst p{
+	margin:0 46px 38px 50px;
+	padding:0;
+	float:left;
+	display:block;
+	color:#404040;
+	line-height:normal;
+	font-weight:400;
+	font-size:18px;
+}
+#dostava{
+	display:none;
+}
+.wraperPodaci{ 
+	margin:0;
+	padding:0;
+	float:left;
+	display:block;
+	width:960px;
+}
+.bojaStep1{ 
+	background-color:#fecc39;
+}
+.bojaStep{ 
+	background-color:#fff;
+}
+.izborKorisnika{
+	margin:0 0 0 50px;
+	padding:0;
+	float:left;
+	display:block;
+	width:870px;
+}
+.nacinIsporuke{
+	margin:42px 0 20px 50px;
+	padding:0;
+	float:left;
+	display:block;
+	width:870px;
+}
+.nacinPlacanja{
+	margin:42px 0 66px 50px;
+	padding:0;
+	float:left;
+	display:block;
+	width:870px;
+}
+.nacinIsporuke h3{
+	margin:0 0 30px 0;
+	padding:0;
+	font-size:16px;
+	font-weight:600;
+	color:#404040;
+}
+.nacinPlacanja h3{
+	margin:0 0 30px 0;
+	padding:0;
+	font-size:16px;
+	font-weight:600;
+	color:#404040;
+}
+.izborKorisnika h3{
+	margin:19px 0 30px 0;
+	padding:0;
+	font-size:16px;
+	font-weight:600;
+	color:#404040;
+}
+/* RADIO ZA STEPOVE */
+
+.nacinIsporuke input[type="radio"] , .izborKorisnika input[type="radio"] , .nacinPlacanja input[type="radio"] {
+    display:none;
+}
+.nacinIsporuke label{width:500px !important;}
+.nacinIsporuke label, .izborKorisnika label, .nacinPlacanja label {
+    margin:0px 0 18px 40px;
+	padding:0 0 0 40px; 
+	height:22px;
+	width:200px;  
+	display:block;
+	clear:both; 
+	line-height:22px;
+	background-image:url(../images/check-step.png); 
+    background-repeat:no-repeat;
+	background-position: 0 -22px;
+	font-size:16px;
+	color:#404040;
+	font-weight:600; 
+	vertical-align:middle; 
+	cursor:pointer; 
+}
+
+.nacinIsporuke input[type="radio"]:checked + label , .izborKorisnika input[type="radio"]:checked + label ,  .nacinPlacanja input[type="radio"]:checked + label {
+	background-image:url(../images/check-step.png); 
+    background-repeat:no-repeat;
+	background-position: 0 0px;
+}
+/* kraj radio*/
+
+/* CHECK BOX */
+input[type=checkbox].adresaDostave-check { display:none; } 
+ 
+input[type=checkbox].adresaDostave-check + label.adresaDostave-label { 
+margin: 23px 0 21px 92px;
+padding:0 0 0 33px; 
+height:16px;  
+display:block;
+float:left; 
+line-height:16px; 
+background-repeat:no-repeat; 
+background-position: 0 0; 
+font-size:14px;
+color:#404040;
+font-weight:400; 
+vertical-align:middle; 
+cursor:pointer; 
+}  
+input[type=checkbox].adresaDostave-check:checked + label.adresaDostave-label { 
+background-position: 0 -16px; 
+}  
+.adresaDostave-label{ 
+background-image:url(../images/adresa-check.png);
+}
+
+/* Dodatne opcije checkbox */
+input[type=checkbox].opcije-check { display:none; } 
+ 
+input[type=checkbox].opcije-check + label.opcije-label { 
+margin: 33px 0 21px 50px;
+padding:0 0 0 40px; 
+height:22px;
+width:500px;  
+display:block;
+clear:left;
+float:left; 
+line-height:22px; 
+background-repeat:no-repeat; 
+background-position: 0 0; 
+font-size:14px;
+color:#404040;
+font-weight:400; 
+vertical-align:middle; 
+cursor:pointer; 
+}
+
+  
+input[type=checkbox].opcije-check:checked + label.opcije-label { 
+background-position: 0 -22px; 
+}  
+.opcije-label{ 
+background-image:url(../images/check-step.png);
+}
+
+/* POTVRDA checkbox */
+input[type=checkbox].potvrdjujem-check { display:none; } 
+ 
+input[type=checkbox].potvrdjujem-check + label.potvrdjujem-label { 
+margin: 0 0 0 24px;
+padding:0 0 0 35px; 
+height:16px;
+ 
+display:inline-block; 
+line-height:normal; 
+background-repeat:no-repeat; 
+background-position: 0 0; 
+font-size:12px;
+color:#fff;
+font-weight:400; 
+vertical-align:middle; 
+cursor:pointer; 
+}  
+input[type=checkbox].potvrdjujem-check:checked + label.potvrdjujem-label { 
+background-position: 0 -16px; 
+}  
+.potvrdjujem-label{ 
+background-image:url(../images/adresa-check.png);
+}
+
+
+a.uslovi{
+	display:inline;
+	font-size:12px;
+	font-weight:600;
+	text-decoration:underline;
+	color:#fff;
+}
+/* kraj check boxa*/
+.vazno{
+	margin:0 28px 24px 20px;
+	padding:0;
+	display:block;
+	float:left;
+	width:912px;
+	font-size:12px;
+	font-weight:400;
+	color:#404040;
+}
+.vazno strong{
+	font-weight:600;
+}
+.vaucer{
+	margin:0 0 10px 50px;
+	padding:0;
+	display:block;
+	float:left;
+	clear:left;
+}
+.kartasaTextom{
+	margin:0 0 0 50px;
+	padding:10px 0 0 10px;
+	display:block;
+	float:left;
+	min-width:466px;
+	max-width:910px;
+	height:96px;
+	border:2px solid #7c50a1;
+	outline:none;
+}
+.leftSide{
+	margin:0;
+	padding:0;
+	width:470px;
+	display:inline-block;
+	float:left;
+}
+.rightSide{
+	margin:0 0 0 20px;
+	padding:0;
+	width:470px;
+	display:inline-block;
+	float:left;
+}
+.ukupnaVrednost{
+	margin:0;
+	padding:0;
+	float:left;
+	display:block;
+	width:960px;
+	height:46px;
+	line-height:46px;
+	background-color:#7c50a1;
+	border-top:1px solid #fff;
+}
+.ukupnaVrednost p{
+	margin:0 22px 0 0;
+	padding:0;
+	float:right;
+	display:block;
+	color:#FFFFFF;
+	font-weight:400;
+	font-size:16px;
+	
+}
+.ukupnaVrednost p span{
+	margin:0 0 0 34px;
+	padding:0;
+	font-size:20px;
+}
+.potvrda{
+	position:relative;
+	margin:0;
+	padding:0;
+	float:left;
+	display:block;
+	width:960px;
+	height:42px;
+	line-height:42px;
+	background-color:#7c50a1;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+
+.potvrda a.nazad{
+	margin:0;
+	padding:0 0 0 66px;
+	float:left;
+	display:block;
+	width:194px;
+	height:42px;
+	line-height:42px;
+	background-color:#7c50a1;
+	background-image:url(../images/arrow-left.png);
+	background-repeat:no-repeat;
+	background-position:34px center;
+	border-right:1px solid #fff;
+	font-size:18px;
+	font-weight:400;
+	color:#fff;
+	
+}
+
+.potvrda input[type="submit"]{
+	margin:0;
+	padding:0;
+	float:right;
+	display:block;
+	width:260px;
+	height:42px;
+	line-height:normal;
+	background-color:#7c50a1;
+	background-image:url(../images/arrow-right-hover.png);
+	background-repeat:no-repeat;
+	background-position:224px center;
+	border:1px solid #000;
+	background-color:#fecc39;
+	font-size:18px;
+	font-weight:400;
+	color:#000000;
+}
+
+.potvrda span{
+	position:absolute;
+	right:260px;
+	top:0px;
+	z-index:100;
+	float:right;
+	width:1px;
+	height:42px;
+	background-color:#fff;
+}
+.porudzbina_broj, .dodatne_opcije{
+	margin:0;
+	padding:30px 0 8px 0;
+	display:block;
+	width:960px;
+	float:left;
+	font-size:18px;
+	font-weight:600;
+	color:#404040;
+	border-bottom:2px solid #7c50a1;
+}
+.podaci_kupca{
+	margin:15px 0 0 50px;
+	padding:0;
+	display:inline-block;
+	float:left;
+	width:420px;
+}
+.podaci_kupca li{
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
+	width:420px;
+	font-size:18px;
+	font-weight:600;
+	color:#404040;
+}
+.podaci_kupca li h3{
+	margin:0 0 23px 0;
+	padding:0;
+	color:#7c50a1;
+	font-size:16px;
+	font-weight:600;
+}
+
+.adresa_isporuke{
+	margin:15px 0 0 50px;
+	padding:0;
+	display:inline-block;
+	float:right;
+	width:420px;
+}
+.adresa_isporuke li{
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
+	width:420px;
+	font-size:18px;
+	font-weight:600;
+	color:#404040;
+}
+.adresa_isporuke li h3{
+	margin:0 0 23px 0;
+	padding:0;
+	color:#7c50a1;
+	font-size:16px;
+	font-weight:600;
+}
+
+.placanje_isporuka{
+	margin:34px 0 28px 50px;
+	padding:0;
+	display:block;
+	float:left;
+	width:910px;
+}
+.placanje_isporuka li{
+	margin:0;
+	padding:0;
+	display:block;
+	font-size:14px;
+	font-weight:600;
+	color:#404040;
+}
+.placanje_isporuka li:first-child{
+	margin:0 0 18px 0;
+}
+.placanje_isporuka li span{
+	margin:0 0 0 55px;
+	padding:0;
+	font-size:18px;
+	font-weight:600;
+	color:#404040;
+}
+
+/* TABELA*/
+ th {
+	 margin:0;
+	 padding:0;
+	 border-bottom: 2px solid #7c50a1;
+	 font-size:14px;
+	 font-weight:400;
+	 color:#404040;
+	 height:30px;
+}
+table{
+	margin:0 40px 0 50px;
+	padding:0;
+	width:870px;
+	float:left;
+
+}
+td{
+	height:30px;
+}
+td:nth-child(2){
+	 color:#7c50a1; 
+	 font-weight:400; 
+	 font-size:14px;
+}
+td:nth-child(5){
+	 color:#404040; 
+	 font-weight:600; 
+	 font-size:16px;
+}
+td:nth-child(1){
+	width:106px;
+	font-size:11px;
+	font-weight:400;
+	color:#404040;
+}
+td:nth-child(3), td:nth-child(4){
+	font-size:14px;
+	font-weight:400;
+	color:#404040;
+}
+tr{
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #7c50a1;
+}
+
+
+
+tr:nth-child(5) {
+	color:#7c50a1; 
+	font-weight:600; 
+	font-size:18px;
+	border-bottom:none;
+}
+tr:nth-child(4){
+	border-bottom:2px solid #7c50a1;
+}
+/* NAPOMENA*/
+
+.napomena{
+	margin:15px 0 0 50px;
+	padding:0;
+	float:left;
+	display:block;
+	width:910px;
+}
+
+.napomena p{
+	margin:0 0 12px 10px;
+	padding:0;
+	float:left;
+	display:block;
+	width:950px;
+	font-size:14px;
+	font-weight:600;
+}
+
+.napomena textarea{
+	margin:0 0 0 0;
+	padding:10px 0 0 10px;
+	float:left;
+	display:block;
+	min-width:466px;
+	max-width:890px;
+	height:76px;
+	border:2px solid #7c50a1;
+	outline:none;
+}

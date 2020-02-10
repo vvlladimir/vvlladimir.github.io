@@ -1,0 +1,2150 @@
+﻿@charset "utf-8";
+/* main css */
+body,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+	font-weight:normal;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+}
+
+.hide{
+	text-indent:-9999px;
+}
+
+.clear-fix{
+	clear:both;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size:100%;
+	font-weight:400;
+	background-color:#fff;
+}
+.wrapper{
+	position:relative;
+	margin:0 auto;
+	padding:0;
+	width:960px;
+}
+.logo{
+	margin:0;
+	padding:0;
+	width:224px;
+	height:82px;
+	display:block;
+	float:left;
+	text-indent:-9999px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+}
+header{
+	padding:10px 0 0 0;
+}
+
+.border-line{
+	width:100%;
+	border-top:1px solid #0b78b9;
+}
+.margin-left-null{
+	margin-left:0 !important;
+}
+.margin-top-null{
+	margin-top:0 !important;
+}
+.margin-top-60{
+	margin-top:60px !important;
+}
+.margin-top-10{
+	margin-top:10px !important;
+}
+/********** SOCIAL **********/
+ul.social{
+	display:block;
+	margin:0;
+	padding:0;
+}
+ul.social li a{
+	display:block;
+	margin:0 6px;
+}
+.facebook{
+	width:22px;
+	height:22px;
+	float:left;
+	background-image:url(../images/social.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+.facebook:hover{
+	background-position:0px -22px;
+}
+.youtube{
+	width:22px;
+	height:22px;
+	float:left;
+	background-image:url(../images/social.png);
+	background-repeat:no-repeat;
+	background-position:-22px 0px;
+}
+.youtube:hover{
+	background-position:-22px -22px;
+}
+.twitter{
+	width:22px;
+	height:22px;
+	float:left;
+	background-image:url(../images/social.png);
+	background-repeat:no-repeat;
+	background-position:-44px 0px;
+}
+.twitter:hover{
+	background-position:-44px -22px;
+}
+/********** NEWSLETTER **********/
+
+a.newsletter{
+	display:block;
+	width:320px;
+	margin:0 0 0 65px;
+	padding:0;
+	float:left;
+	color:#f05137;
+}
+a.newsletter img{
+	margin:0 10px 0 0;
+	padding:0;
+	float:left;
+}
+a.newsletter p{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-weight:400;
+}
+a.newsletter p strong{
+	font-size:16px;
+	font-weight:700;
+}
+/********** quick links **********/
+
+.quickNav{
+	position:relative;
+	margin:28px 0 0 70px;
+	padding:0;
+	float:left;
+	display:block;
+	line-height:22px;
+}
+
+.quickNav li{
+	margin:0 8px;
+	padding:0;
+	display:inline-block;
+	float:left;
+}
+.quickNav li:last-child{
+	margin-right:0px;
+}
+.quickNav li a{
+	display:block;
+	float:left;
+	color:#0973ba;
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-weight:400;
+}
+.babyLand{
+	float:left;
+	margin:-3px 10px 0 12px;
+	padding:0 0 0 0;
+	border:none;
+}
+/********** LOG IN  **********/
+ul.boxlog{
+	position:absolute;
+	top:0px;
+	right:0px;
+	z-index:100;
+	margin:0;
+	padding:0;
+	float:right;
+	width:180px;
+	height:94px;
+	display:block;
+	background-color:#0973ba;
+}
+
+.logIn{
+	position:relative;
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	width:180px;
+	height:46px;
+}
+.logIn p{
+	display:block;
+	float:left;
+	margin:10px 0 0 10px;
+	padding:0;
+	font-size:14px;
+	line-height:14px;
+	color:#FFFFFF;
+}
+.btnLogin{
+	position:absolute;
+	top:0px;
+	right:0px;
+	z-index:102;
+	width:27px;
+	height:46px;
+	background-color:transparent;
+	background-image:url(../images/arrow-down.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	border:none;
+	cursor:pointer;
+}
+
+
+.korpa{
+	position:relative;
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	width:180px;
+	height:54px;
+	background-image:url(../images/bg-korpa.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.korpa p{
+	display:inline-block;
+	float:left;
+	margin:0 0 0 10px;
+	padding:0 0 0 35px;
+	font-size:18px;
+	line-height:54px;
+	color:#FFFFFF;
+	font-weight:600;
+	background-image:url(../images/korpa.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+
+.btnKorpa{
+	display:inline-block;
+	float:right;
+	margin:6px 0 0 0;
+	padding:0;
+	width:27px;
+	height:42px;
+	background-color:transparent;
+	background-image:url(../images/arrow-down.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	border:none;
+	cursor:pointer;
+}
+.ukupnoPro{
+	display:inline-block;
+	float:left;
+	color:#f05137;
+	font-size:20px;
+	line-height:54px;
+	margin:0 0 0 22px;
+	padding:0; 
+}
+
+/********** USER KORPA DROP DOWN **********/
+.korpaDropdown{
+	position:absolute;
+	top:48px;
+	right:2px;
+	z-index:-1;
+	margin:0;
+	padding:0;
+	width:280px;
+	height:200px;
+	background-color:#FFFFFF;
+	display:none;
+}
+
+.bigLista{
+	margin:0;
+	padding:0;
+	width:280px;
+	height:157px;
+	display:block;
+	border:1px solid #0973ba;
+	background-color:#FFF;
+}
+ul.lista{
+	position:relative;
+	margin:0;
+	padding:0;
+	float:left;
+	width:280px;
+}
+ul.lista li{
+	margin:0;
+	padding:0;
+	float:left;
+	display:inline-block;
+}
+ul.proizvod{
+	margin:5px 10px;
+	padding:0;
+	float:left;
+	display:inline-block;
+	width:260px;
+	height:52px;
+	border-bottom:1px solid #e6e6e6;
+}
+ul.proizvod li{
+	display:inline-block;
+	margin:0;
+	padding:0;
+	float:left;
+}
+ul.proizvod li.imgPro img{
+	float:left;
+	margin:0;
+	padding:0;
+	width:50px;
+	height:50px;
+}
+ul.proizvod li.namePro{
+	margin:0;
+	padding:0;
+	color:#404040;
+	font-size:12px;
+	float:left;
+}
+ul.proizvod li.pricePro{
+	margin:0;
+	padding:0;
+	float:right;
+	font-size:12px;
+	color:#404040;
+	vertical-align:top;
+}
+
+.zbir{
+	margin:0 10px;
+	padding:0;
+	display:block;
+	width:260px;
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	float:left;
+	font-size:12px;
+	color:#404040;
+}
+.ukupanZbir{
+	color:#0973ba;
+	margin:0;
+	padding:0 0 0 22px;
+}
+.pregledPro{
+	margin:0;
+	padding:0;
+	display:block;
+	width:280px;
+	height:40px;
+	border:1px solid #0973ba;
+	border-top:none;
+	background-color:#FFF;
+	text-align:center;
+}
+.pogledajPro{
+	margin:9px 0 0 15px;
+	padding:0;
+	width:110px;
+	height:22px;
+	display:inline-block;
+	float:left;
+	border:none;
+	background-color:#fecc39;
+	font-size:11px;
+	color:#000;
+}
+.pogledajPro:hover{
+	border:1px solid #000;
+}
+.potvrdiPro{
+	display:inline-block;
+	float:left;
+	margin:9px 0 0 1px;
+	padding:0;
+	width:140px;
+	height:22px;
+	color:#FFF;
+	font-size:11px;
+	background-color:#0973ba;
+	background-image:url(../images/arrow-right.png);
+	background-repeat:no-repeat;
+	background-position:125px center;
+	border:none;
+}
+.potvrdiPro:hover{
+	background-color:#7c50a1;
+}
+/********** USER LOG IN DROP DOWN **********/
+
+.userLog{
+	position:absolute;
+	top:46px;
+	right:0px;	
+	z-index:100;
+	margin:0;
+	padding:16px 0 0 0px;
+	display:none;
+	width:282px;
+	height:134px;
+	background-color:#0973ba;
+	border:1px solid #FFFFFF;
+	border-right:none;
+}
+.userLog:after{
+	content:'';
+	position:absolute;
+	top:-47px;
+	right:0px;
+	z-index:101;
+	width:27px;
+	height:45px;
+	border:1px solid #FFF;
+	border-bottom:1px solid #0973ba;
+	border-right:none;
+}
+
+
+.userLog label{
+	margin:0 0 0 25px;
+	padding:0;
+	line-height:22px;
+	display:inline-block;
+	float:left;
+	color:#FFF;
+	font-size:11px;
+}
+.userLog label.span{
+	margin-top:8px;
+}
+.userLog input[type="email"], 
+.userLog input[type="password"]{
+	
+	margin:0px 20px 8px 0px;
+	padding:0 0 0 10px;
+	display:inline-block;
+	float:right;
+	width:150px;
+	height:22px;
+	background-color:#FFF;
+	border:none;
+	outline:none;
+	font-size:12px;
+	font-weight:400;
+}
+
+.userLog input[type="email"]:focus, 
+.userLog input[type="password"]:focus,
+.userLog input[type="email"]:hover, 
+.userLog input[type="password"]:hover{
+	border:2px solid #f89f4e;
+	width:146px;
+	height:18px;
+}
+
+.userLog input[type="submit"]{
+	margin:0 20px 8px 0;
+	padding:0;
+	display:inline-block;
+	float:right;
+	width:80px;
+	height:22px;
+	line-height:11px;
+	background-color:#fecc39;
+	color:#000000;
+	font-size:11px;
+	border:none;
+}
+.userLog input[type="submit"]:hover{
+	border:2px solid #000000;
+}
+.userLog a.span{
+	margin:9px 0 0 25px;
+	padding:0;
+	color:#fecc39;
+	font-size:11px;
+	line-height:normal;
+	float:left;
+	text-decoration:underline;
+}
+a.newUser{
+	margin:0;
+	padding:0 0 0 25px;
+	display:block;
+	border-top:1px solid #FFF;
+	width:257px;
+	height:43px;
+	float:left;
+	font-size:14px;
+	line-height:43px;
+	color:#FFFFFF;
+	background-color:#0973ba;
+	background-image:url(../images/arrow-right.png);
+	background-repeat:no-repeat;
+	background-position:235px center;
+}
+a.newUser:hover{
+	background-image:url(../images/arrow-right-hover.png);
+	background-color:#fecc39;
+	color:#404040;
+}
+/********** MAIN NAVIGATION **********/
+
+.mainNav{
+	position:relative;
+	width:100%;
+	margin:11px 0 0 0px;
+	padding:0;
+	display:block;
+	float:left;
+}
+.mainNav li{
+	position:relative;
+	display:inline-block;
+	float:left;
+	margin:0 1px 0 0;
+	
+}
+.mainNav li:last-child{
+	margin-right:0px;
+}
+
+
+.mainNav li a{
+	display:block;
+	float:left;
+	height:42px;
+	line-height:42px;
+	background-color:#0973ba;
+	color:#FFF;
+	text-align:center;
+	font-weight:600;
+	font-size:16px;
+}
+.mainNav li a.focus{
+	background-color:#f05137;
+}
+.akcije{
+	width:101px;
+}
+.mainNav li a.span{
+	width:112px;
+}
+
+/*kategorija*/
+#kategorije:hover > a{
+	background-color:#FFFFFF;
+	border:1px solid #13ab50;
+	color:#13ab50;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+
+
+
+.borderBtm{
+	position:absolute;
+	left:0px;
+	bottom:-2px;
+	z-index:105;
+	width:110px;
+	height:43px;
+	line-height:42px;
+	text-align:center;
+	font-weight:600;
+	font-size:16px;
+	color:#13ab50;
+	display:none;
+	background-color:#FFFFFF;
+	border:1px solid #13ab50;
+	border-bottom:none;
+}
+
+/*uzrast*/
+#uzrast:hover > a{
+	background-color:#FFFFFF;
+	border:1px solid #fecc39;
+	color:#fecc39;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+
+
+.borderBtmUzr{
+	position:absolute;
+	left:0px;
+	bottom:-2px;
+	z-index:105;
+	width:110px;
+	height:43px;
+	line-height:42px;
+	text-align:center;
+	font-weight:600;
+	font-size:16px;
+	color:#fecc39;
+	display:none;
+	background-color:#FFFFFF;
+	border:1px solid #fecc39;
+	border-bottom:none;
+}
+
+
+/* za Decake*/
+#zaDecake:hover > a{
+	background-color:#FFFFFF;
+	border:1px solid #0fa3cd;
+	color:#0fa3cd;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+
+
+.borderBtmDec{
+	position:absolute;
+	left:0px;
+	bottom:-2px;
+	z-index:105;
+	width:110px;
+	height:43px;
+	line-height:42px;
+	text-align:center;
+	font-weight:600;
+	font-size:16px;
+	color:#0fa3cd;
+	display:none;
+	background-color:#FFFFFF;
+	border:1px solid #0fa3cd;
+	border-bottom:none;
+}
+/* za Devojcice*/
+#zaDevojcice:hover > a{
+	background-color:#FFFFFF;
+	border:1px solid #e6543d;
+	color:#e6543d;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+
+
+.borderBtmDev{
+	position:absolute;
+	left:0px;
+	bottom:-2px;
+	z-index:105;
+	width:110px;
+	height:43px;
+	line-height:42px;
+	text-align:center;
+	font-weight:600;
+	font-size:16px;
+	color:#e6543d;
+	display:none;
+	background-color:#FFFFFF;
+	border:1px solid #e6543d;
+	border-bottom:none;
+}
+
+/* za Likovi i Teme */
+#likTeme:hover > a{
+	background-color:#FFFFFF;
+	border:1px solid #13a14c;
+	color:#13a14c;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+
+
+.borderBtmLikTeme{
+	position:absolute;
+	left:0px;
+	bottom:-2px;
+	z-index:105;
+	width:110px;
+	height:43px;
+	line-height:42px;
+	text-align:center;
+	font-weight:600;
+	font-size:16px;
+	color:#13a14c;
+	display:none;
+	background-color:#FFFFFF;
+	border:1px solid #13a14c;
+	border-bottom:none;
+}
+
+/*  Brendovi*/
+#brendovi:hover > a{
+	background-color:#FFFFFF;
+	border:1px solid #7a539a;
+	color:#7a539a;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+
+.borderBtmBrend{
+	position:absolute;
+	left:0px;
+	bottom:-2px;
+	z-index:105;
+	width:110px;
+	height:43px;
+	line-height:42px;
+	text-align:center;
+	font-weight:600;
+	font-size:16px;
+	color:#7a539a;
+	display:none;
+	background-color:#FFFFFF;
+	border:1px solid #7a539a;
+	border-bottom:none;
+}
+
+/* Search */
+.btnSearch{
+	margin:0;
+	padding:0;
+	text-indent:-9999px;
+	width:42px;
+	height:42px;
+	background-color:#0973ba;
+	background-image:url(../images/search.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	border:2px solid #0973ba;
+	border-right:none;
+}
+.btnSearch:hover{
+	background-color:#fecc39;
+}
+.search{
+	margin:0;
+	padding:0 0 0 10px;
+	border:2px solid #0973ba;
+	border-left:none;
+	width:126px;
+	height:38px;
+	background-color:#FFF;
+	outline:none;
+}
+
+
+/********** KATEGORIJE DROP DOWN MENU **********/
+
+
+/* kategorije*/
+
+.bigBoxKat{
+	width:958px;
+	height:452px;
+	position:absolute;
+	top:43px;
+	left:0px;
+	z-index:102;
+	margin:0;
+	padding:0;
+	display:none;
+	border:1px solid #13ab50;
+	border-bottom:10px solid #13ab50;
+	background-color:#fff;
+}
+.bigBoxKat:after{
+	content:'';
+	position:absolute;
+	bottom:-12px;
+	left:-1px;
+	z-index:106;
+	width:960px;
+	height:2px;
+	display:block;
+	background-color:#FFF;
+	}
+.subMenu{
+	position:relative;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	float:left;
+	width:552px;
+	height:350px;
+}
+
+
+
+.nePropustite{
+	position:relative;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	float:right;
+	width:180px;
+	height:350px;
+}
+
+.borderVerKat{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:1px;
+	height:350px;
+	z-index:106;
+	background-color:#13ab50;
+	}
+.borderVerUzr{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1px;
+	height:350px;
+	z-index:106;
+	background-color:#fecc39;
+	}
+.borderVerDec{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1px;
+	height:350px;
+	z-index:106;
+	background-color:#0fa3cd;
+	}
+.borderVerDev{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1px;
+	height:350px;
+	z-index:106;
+	background-color:#e6543d;
+	}
+/*.borderVerLikTeme{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1px;
+	height:350px;
+	z-index:106;
+	background-color:#13ab50;
+	}*/
+img{
+	margin:0;
+	padding:0;
+}
+.menuBaner{
+	position:relative;
+	display:block;
+	margin:0;
+	padding:0;
+	float:left;
+	width:959px;
+	height:110px;
+	text-align:center;
+}
+.menuBaner.span1{
+	border-top:1px solid #13ab50;
+}
+.menuBaner.span2{
+	border-top:1px solid #fecc39;
+}
+.menuBaner.span3{
+	border-top:1px solid #0fa3cd;
+}
+.menuBaner.span4{
+	border-top:1px solid #e6543d;
+}
+.menuBaner.span5{
+	border-top:1px solid #13ab50;
+}
+.menuBaner.span6{
+	border-top:1px solid #7a539a;
+}
+.menuBaner img{
+	margin:10px 20px 0 0;
+	padding:0;
+}
+.menuBaner img:last-child{
+	margin-right:0;
+}
+
+/* BOX PO UZRASTU PADAJUCI MENI */
+.bigBoxUzr{
+	width:958px;
+	height:452px;
+	position:absolute;
+	top:43px;
+	left:-113px;
+	z-index:102;
+	margin:0;
+	padding:0;
+	display:none;
+	border:1px solid #fecc39;
+	border-bottom:10px solid #fecc39;
+	background-color:#fff;
+}
+.bigBoxUzr:after{
+	content:'';
+	position:absolute;
+	bottom:-12px;
+	left:-1px;
+	z-index:106;
+	width:960px;
+	height:2px;
+	display:block;
+	background-color:#FFF;
+	}
+	
+.subMenuUzr{
+	position:relative;
+	margin:0;
+	padding:0;
+	float:left;
+	display:inline-block;
+	width:666px;
+	height:350px;		
+}
+
+.listaUzrast{
+	display: block;
+    float: left;
+    height: 325px;
+    margin: 0;
+    padding: 13px 0 12px 17px;
+    position: relative;
+    width: 95px;
+}
+.listaUzrast li{
+	display: block;
+    float: left;
+    margin: 0 0 14px 0;
+    padding: 0;
+}
+.listaUzrast li a{
+	margin:0 0 14px 0;
+	padding:0;
+	display:block;
+	float:left;
+	width:81px;
+	height:42px;
+	background-color:#fff;
+}
+.listaUzrast li a:last-child{
+	margin-bottom:0px;
+}
+/* podmeni uzrast 12 meseci */ 
+.uzr12meseci{
+	margin:0;
+	padding:0;
+	display:none;
+	float:left;
+	background-image:url(../images/bg-uzrast-12-meseci.png);
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+}
+.uzr12meseci h4{
+	clear: both;
+    color: #0973BA;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px 0 30px 17px;
+    padding: 0;
+}
+.uzr12meseci ul{
+	display: inline-block;
+    float: left;
+    margin: 0 0 0 17px;
+    padding: 0;	
+}
+.uzr12meseci ul:nth-child(3){
+    margin: 0 0 0 75px;
+}
+.uzr12meseci ul:nth-child(4){
+    margin: 0 0 0 45px;
+}
+
+.uzr12meseci ul li{
+	clear: both;
+    display: block;
+    height: 23px;
+    margin: 0;
+    padding: 0;
+}
+.uzr12meseci ul li a{
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
+	height:16px;
+	line-height:16px;
+	font-size:14px;
+	color:#404040;
+	background-color:#FFFFFF;
+	font-weight:400;
+	text-align:left;
+	
+}
+.meseci12{
+	background-color:none;
+	background-image:url(../images/uzrast-lista.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+.godina2-3{
+	background-color:none;
+	background-image:url(../images/uzrast-lista.png);
+	background-repeat:no-repeat;
+	background-position:0px -42px;
+}
+.godina4-7{
+	background-color:none;
+	background-image:url(../images/uzrast-lista.png);
+	background-repeat:no-repeat;
+	background-position:0px -84px;
+}
+.godina8-10{
+	background-color:none;
+	background-image:url(../images/uzrast-lista.png);
+	background-repeat:no-repeat;
+	background-position:0px -126px;
+}
+.godina11-12{
+	background-color:none;
+	background-image:url(../images/uzrast-lista.png);
+	background-repeat:no-repeat;
+	background-position:0px -168px;
+}
+.godina12plus{
+	background-color:none;
+	background-image:url(../images/uzrast-lista.png);
+	background-repeat:no-repeat;
+	background-position:0px -210px;
+}
+
+
+/* sub menu kategorije , sub menu za decake, sub menu za devojcice, Likovi i Teme, Brendovi*/
+
+
+.listaDev {border-right:1px solid #e6543d;}
+.listaDec {border-right:1px solid #0fa3cd;}
+.listaKat {border-right:1px solid #13AB50;}
+.listaKat, .listaDec, .listaDev{
+    display: inline-block;
+    float: left;
+    height: 340px;
+    margin: 0;
+    padding: 10px 0 0;
+    width: 225px;
+}
+.listaLikTeme, .listaBrend{
+	display: inline-block;
+    float: left;
+    height: 340px;
+    margin: 0;
+    padding: 10px 0 0 20px;
+    width: 758px;
+}
+.listaKat ul, .listaDec ul,
+ .listaDev ul, .listaBrend ul{
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+.listaLikTeme ul:first-child, .listaBrend ul:first-child{
+	display: inline-block;
+	float:left;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+}
+.listaLikTeme ul:nth-child(2), .listaBrend ul:nth-child(2){
+	display: inline-block;
+	float:left;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+}
+.listaLikTeme ul:nth-child(3), .listaBrend ul:nth-child(3){
+	display: inline-block;
+	float:left;
+    margin: 0 0 0 10px;
+    padding: 0;
+    width: 180px;
+}
+.listaLikTeme ul:nth-child(4), .listaBrend ul:nth-child(4){
+	display: inline-block;
+	float:left;
+    margin: 0 0 0 18px;
+    padding: 0;
+    width: 180px;
+}
+.listaKat ul li, .listaDec ul li, .listaDev ul li{
+    clear: both;
+    display: block;
+    height: 16px;
+    margin: 0;
+    padding: 0 0 0 20px;
+    width: 204px;
+	
+}
+.listaLikTeme ul li, .listaBrend ul li{
+	clear: both;
+    display: block;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+}
+.listaKat ul li a, .listaDec ul li a, .listaDev ul li a,
+ .listaLikTeme ul li a, .listaBrend ul li a {
+	background-color: #FFFFFF;
+    clear: both;
+    color: #404040;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    height: 16px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+}
+.listaKat ul li:hover a,
+.listaKat ul li:focus a,
+.listaDec ul li:hover a,
+.listaDec ul li:focus a,
+.listaDev ul li:hover a,
+.listaDev ul li:focus a,
+.listaLikTeme ul li:hover a,
+.listaLikTeme ul li:focus a,
+.listaBrend ul li:hover a,
+.listaBrend ul li:focus a{
+	font-weight:700;
+}
+.hit{
+	vertical-align:text-top;
+	color:#f05137;
+	font-size:9px;
+	font-weight:400;
+}
+
+/* IGRACKE ZA NAJMLADJE, IGRACKE ZA SPORT I PLAZU, Edukativne igračke */
+.igrackezaNajmladje, .igrackezaSportPlazu, .edukativneIgracke{
+	position:absolute;
+	top:0px;
+	right:0px;
+	z-index:101;
+	width:100%;
+	height:100%;
+	display:none;
+}
+.igrackezaNajmladje{
+	background-image:url(../images/reklama.png);
+	background-position:290px 150px;
+	background-repeat:no-repeat;
+}
+.igrackezaSportPlazu{
+	background-image:url(../images/bg-decaci-sport-plaza.png);
+	background-position:right bottom;
+	background-repeat:no-repeat;
+}
+.edukativneIgracke{
+	background-image:url(../images/bg-devojcice-edukativne-igr.png);
+	background-position:right bottom;
+	background-repeat:no-repeat;
+}
+.igrackezaNajmladje h4, .igrackezaSportPlazu h4, .edukativneIgracke h4{
+	margin:15px 0 30px 30px;
+	padding:0;
+	display:block;
+	font-size:16px;
+	color:#0973ba;
+	font-weight:400;
+}
+.igrackezaNajmladje li, .igrackezaSportPlazu li, .edukativneIgracke li{
+	clear: both;
+    display: block;
+    height: 23px;
+    margin: 0 0 0 30px;
+    padding: 0;
+}
+.igrackezaNajmladje li a, .igrackezaSportPlazu li a, .edukativneIgracke li a{
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
+	height:16px;
+	line-height:16px;
+	font-size:14px;
+	color:#404040;
+	background-color:#FFFFFF;
+	font-weight:400;
+	text-align:left;
+}
+/* bigbox DROP DOWN MENU ZA DECAKE, ZA DEVOJCICE, Likovi i Teme, Brendovi*/
+
+.bigBoxDec, .bigBoxDev, .bigBoxLikTeme, .bigBoxBrend{
+	width:958px;
+	height:452px;
+	position:absolute;
+	top:43px;
+	z-index:102;
+	margin:0;
+	padding:0;
+	display:none;
+	background-color:#fff;
+}
+.bigBoxBrend{left:-565px;}
+.bigBoxLikTeme{left:-452px;}
+.bigBoxDec{left:-226px;}
+.bigBoxDev{left:-339px;}
+.bigBoxDec{
+	border:1px solid #0fa3cd;
+	border-bottom:10px solid #0fa3cd;
+}
+.bigBoxDev{
+	border:1px solid #e6543d;
+	border-bottom:10px solid #e6543d;
+}
+.bigBoxLikTeme{
+	border:1px solid #13a14c;
+	border-bottom:10px solid #13a14c;
+}
+.bigBoxBrend{
+	border:1px solid #7a539a;
+	border-bottom:10px solid #7a539a;
+}
+.bigBoxDec:after, .bigBoxDev:after, .bigBoxLikTeme:after, .bigBoxBrend:after{
+	content:'';
+	position:absolute;
+	bottom:-12px;
+	left:-1px;
+	z-index:106;
+	width:960px;
+	height:2px;
+	display:block;
+	background-color:#FFF;
+	}
+
+
+/********** SPECIAL **********/
+/* samo se prokazuje na prvoj stranici */
+ul.special{
+	margin:20px 0 30px 0px;
+	padding:0;
+	display:inline-block;
+	float:left;
+	line-height:normal;
+	width:960px;
+}
+ul.special li{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	float:left;
+	width:auto;
+	height:52px;
+	
+}
+ul.special li:last-child{
+	float:right;
+}
+
+ul.special li a{
+	height:52px;
+	margin:0 0 0 0px;
+	padding:0;
+	display:inline-block;
+	float:left;
+}
+ul.special li.savetnik a{
+	display:inline-block;
+	float:left;
+	margin:0 74px 0 30px;
+	padding:0 0 0 62px;
+	background-image:url(../images/savetnik.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+ul.special li.savetnik a:hover{
+	background-image:url(../images/savetnik_active.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+ul.special li.gift a{
+	display:inline-block;
+	float:left;
+	margin:0 0px 0 0;
+	padding:0 0 0 62px;
+	background-image:url(../images/gift.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+ul.special li.gift a:hover{
+	background-image:url(../images/gift_active.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+
+ul.special li.dostava a{
+	display:inline-block;
+	float:left;
+	margin:0 25px 0 0;
+	padding:0 0 0 62px;
+	background-image:url(../images/dostava.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+ul.special li.dostava a:hover{
+	background-image:url(../images/dostava_active.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+.savetnik a h3{
+	margin:0;
+	padding:0;
+	font-size:20px;
+	font-weight:700;
+	line-height:normal;
+	color:#13a14c;
+}
+.savetnik a p{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-weight:300;
+	color:#13a14c;
+	line-height:normal;
+}
+.gift a h3{
+	margin:0;
+	padding:0;
+	font-size:20px;
+	font-weight:700;
+	color:#0973ba;
+}
+.gift a p{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-weight:300;
+	color:#0973ba;
+}
+.dostava a h3{
+	margin:0;
+	padding:0;
+	font-size:20px;
+	font-weight:700;
+	color:#7c50a1;
+}
+.dostava a p{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-weight:300;
+	color:#7c50a1;
+}
+/* prikazuje se na ostalim stranicama */
+
+ul.special_plus{
+	margin:10px 0 20px 0px;
+	padding:0;
+	display:inline-block;
+	float:left;
+	line-height:normal;
+	width:960px;
+}
+ul.special_plus li{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	float:left;
+	width:auto;
+	height:32px;
+	
+}
+ul.special_plus li:last-child{
+	float:right;
+}
+
+ul.special_plus li a{
+	height:32px;
+	margin:0 0 0 0px;
+	padding:0;
+	display:inline-block;
+	float:left;
+}
+ul.special_plus li.savetnik_plus a{
+	display:inline-block;
+	float:left;
+	margin:0 140px 0 30px;
+	padding:0 0 0 42px;
+	background-image:url(../images/savetnik.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}
+ul.special_plus li.savetnik_plus a:hover{
+	background-image:url(../images/savetnik_active.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}
+ul.special_plus li.gift_plus a{
+	display:inline-block;
+	float:left;
+	margin:0 0px 0 0;
+	padding:0 0 0 42px;
+	background-image:url(../images/gift.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}
+ul.special_plus li.gift_plus a:hover{
+	background-image:url(../images/gift_active.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}
+
+ul.special_plus li.dostava_plus a{
+	display:inline-block;
+	float:left;
+	margin:0 25px 0 0;
+	padding:0 0 0 42px;
+	background-image:url(../images/dostava.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}
+ul.special_plus li.dostava_plus a:hover{
+	background-image:url(../images/dostava_active.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}
+.savetnik_plus a h3{
+	margin:0;
+	padding:0;
+	font-size:16px;
+	font-weight:700;
+	line-height:16px;
+	color:#13a14c;
+}
+.savetnik_plus a p{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-weight:300;
+	color:#13a14c;
+	line-height:16px;
+}
+.gift_plus a h3{
+	margin:0;
+	padding:0;
+	font-size:16px;
+	line-height:16px;
+	font-weight:700;
+	color:#0973ba;
+}
+.gift_plus a p{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	line-height:16px;
+	font-weight:300;
+	color:#0973ba;
+}
+.dostava_plus a h3{
+	margin:0;
+	padding:0;
+	font-size:16px;
+	line-height:16px;
+	font-weight:700;
+	color:#7c50a1;
+}
+.dostava_plus a p{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	line-height:16px;
+	font-weight:300;
+	color:#7c50a1;
+}
+
+
+
+/********** ASIDE NAVIGATION MENU **********/
+section{
+	float:left;
+	width:960px;
+}
+.asideNav{
+	position:relative;
+	margin:0 2px 0 0px;
+	padding:0;
+	width:194px;
+	height:500px;
+	display:inline-block;
+	float:left;
+	border:1px solid #0fa3cd;
+	font-size:12px;
+}
+
+.asideNav h3{
+	margin:0 0 8px 0;
+	padding:0 0 0 8px;
+	height:40px;
+	width:186px;
+	line-height:40px;
+	float:left;
+	text-align:left;
+	color:#0fa3cd;
+	font-size:16px;
+	border-bottom:1px solid #0fa3cd;
+	font-weight:300;
+}
+.asideNav ul{
+	margin:20px 0px 0px 0px;
+	padding:0;
+	display:block;
+	line-height:21px;
+	height:100%;
+}
+.asideNav ul li{
+	position:relative;
+	margin:0;
+	padding:0 0 0 0px;
+	display:block;
+}
+.asideNav ul li a{
+	margin:0;
+	padding:0 0 0 10px;
+	display:block;
+	color:#404040;
+}
+.asideNav ul li:hover a{
+	background-color:#0fa3cd;
+	color:#FFFFFF;
+}
+.asideNav ul li:first-child{
+	display:block;
+	clear:both;
+}
+
+/********** ASIDE DROP DOWN MENU **********/
+
+ul.automobili{
+	position:absolute;
+	top:-30px;
+	right:-212px;
+	z-index:101;
+	margin:0;
+	padding:0;
+	display:none;
+	width:210px;
+	height:459px;
+	border:1px solid #0fa3cd;
+	background-color:#FFF;
+}
+ul.automobili li{
+	margin:0;
+	padding:0;
+	display:block;
+}
+ul.automobili h4{
+	margin:8px 0 5px 16px;
+	padding:0;
+	display:block;
+	font-weight:300;
+	font-size:14px;
+	color:#0973ba;
+}
+ul.automobili li a{
+	margin:0 0 0 30px;
+	padding:0 0 0 0px;
+	display:block;
+	color:#404040;
+	font-size:12px;
+	line-height:21px;
+}
+
+/********** SLIDER **********/
+.sliderBig{
+	position:relative;
+	margin:0;
+	padding:0;
+	width:580px;
+	height:362px;
+	float:left;
+	display:inline-block;
+}
+.sliderBig .flexslider .slides li{
+	position:relative;
+}
+.sliderBig .flexslider .slides li .stedite{
+	position:absolute;
+	top:0px;
+	left:240px;
+	z-index:100;
+	width:174px;
+	height:54px;
+	text-align:center;
+	background-image:url(../images/bg-stedite.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.sliderBig .flexslider .slides li .stedite p{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-weight:400;
+	color:#0fa3cd;
+	line-height:18px;
+}
+.sliderBig .flexslider .slides li .stedite strong{
+	display:block;
+	font-size:18px;
+	font-weight:600;
+}
+/********** Uzrast linkovi **********/
+
+/* pocetak uzrast link*/
+
+.uzrastLink{
+margin:0px;
+padding:0px;
+float:left;
+border:1px solid #0973ba;
+width:378px;
+height:136px;
+display:inline-block;
+text-align:center;
+}
+.uzrastLink h3{
+margin:8px 0 0 0;
+padding:0;
+float:left;
+display:block;
+font-size:16px;
+color:#0973ba;
+text-align:center;
+width:100%;
+}
+.uzrastLink ul{
+margin:0 0px 0 9px;
+padding:0;
+float:left;
+display:block;
+}
+.uzrastLink ul li{
+margin:26px 9px 0 0;
+padding:0;
+float:left;
+display:inline-block;
+}
+.uzrastLink ul li a{
+margin:0 0px 0 0px;
+padding:0;
+float:left;
+width:52px;
+height:68px;
+display:block;
+
+}
+.uzrastLink ul li:first-child{
+margin-left:0px;
+}
+.uzrastLink ul li:last-child{
+}
+.uzrastLink ul li a.meseci12{
+background-image: url(../images/kruzici.png);
+background-repeat:no-repeat;
+background-position:0px 0px;
+}
+.uzrastLink ul li a.godina2{
+background-image: url(../images/kruzici.png);
+background-repeat:no-repeat;
+background-position:-52px 0px;
+}
+.uzrastLink ul li a.godina4{
+background-image: url(../images/kruzici.png);
+background-repeat:no-repeat;
+background-position:-104px 0px;
+}
+.uzrastLink ul li a.godina8{
+background-image: url(../images/kruzici.png);
+background-repeat:no-repeat;
+background-position:-156px 0px;
+}
+.uzrastLink ul li a.godina11{
+background-image: url(../images/kruzici.png);
+background-repeat:no-repeat;
+background-position:-208px 0px;
+}
+.uzrastLink ul li a.godina12{
+background-image: url(../images/kruzici.png);
+background-repeat:no-repeat;
+background-position:-260px 0px;
+}
+/********** BANERI **********/
+
+.baner180{
+	width:180px;
+	height:180px;
+	display:inline-block;
+	float:left;
+	margin:0 0 2px 2px;
+	padding:0;
+}
+
+/* DOCUMENT */
+a.document{
+	margin:0px 0 2px 2px;
+	padding:12px 0 0 20px;
+	display:inline-block;
+	float:left;
+	width:360px;
+	height:56px;
+	background-color:#0973ba;
+	background-image:url(../images/document.png);
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+a.document:hover{
+	background-image:url(../images/document-hover.png);
+	background-repeat:no-repeat;
+	background-color:#7c50a1;
+}
+a.document h4{
+	margin:0 0 0 42px;
+	padding:0;
+	display:block;
+	float:left;
+	font-size:18px;
+	color:#FFFFFF;
+}
+a.document p{
+	margin:0 0 0 42px;
+	padding:0;
+	display:block;
+	float:left;
+	font-size:12px;
+	color:#FFFFFF;
+}
+
+/* LOCATION */
+a.location{
+	margin:0px 0 0px 2px;
+	padding:12px 0 0 20px;
+	display:inline-block;
+	float:left;
+	width:360px;
+	height:56px;
+	background-color:#0973ba;
+	background-image:url(../images/location.png);
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+a.location:hover{
+	background-image:url(../images/location-hover.png);
+	background-repeat:no-repeat;
+	background-color:#7c50a1;
+}
+a.location h4{
+	margin:0 0 0 42px;
+	padding:0;
+	display:block;
+	float:left;
+	font-size:18px;
+	color:#FFFFFF;
+}
+a.location p{
+	margin:0 0 0 42px;
+	padding:0;
+	display:block;
+	float:left;
+	font-size:12px;
+	color:#FFFFFF;
+}
+
+
+
+/********** PREPORUKA AKCIJE **********/
+.preporuka h4{
+	margin:30px 0 0 0;
+	padding:0;
+	font-size:18px;
+	color:#0973ba;
+}
+.sliderAkcia{
+	margin:20px 0 0 24px;
+	padding:0;
+	float:left;
+	width:912px;
+	height:255px;
+}
+
+.sliderAkcia .slides li{
+	position:relative;
+	border-right:1px solid #e6e6e6;
+}
+.zakrpaRborder{
+	position:absolute;
+	top:0px;
+	right:0px;
+	z-index:106;
+	margin:0;
+	padding:0;
+	width:2px;
+	height:250px;
+	background-color:#FFF;
+	}
+.nePropustite h4{
+	margin:15px 0 35px 15px;
+	padding:0;
+	display:block;
+	font-size:18px;
+	color:#13a14c;
+	font-weight:400;
+}
+
+.brand_logo{
+	position:relative;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	float:right;
+	width:179px;
+	height:350px;
+	
+}
+.brand_logo.span1{border-left:1px solid #13a14c;}
+.brand_logo.span2{border-left:1px solid #7a539a;}
+
+.angryBirds{
+	display:none;
+	width:179px;
+	height:350px;
+	background-image:url(../images/andry-birds.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.disney{
+	display:none;
+	width:179px;
+	height:350px;
+	background-image:url(../images/disney.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.product_holder{
+	position:relative;
+	margin:0;
+	padding:0;
+	display:inline-block;
+	float:left;
+	width:180px;
+	height:250px;
+	
+	}
+
+.product_holder .stiker{
+	position:absolute;
+	top:0px;
+	left:5px;
+	z-index:100;
+	display:block;
+	margin:0;
+	padding:0;
+	width:58px;
+	height:58px;
+	background-image:url(../images/stiker.png);
+	background-repeat:no-repeat;
+	line-height:58px;
+	text-align:center;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:20px;
+}
+.product_holder h5{
+	display:block;
+	float:left;
+	margin:0 0 5px 0;
+	padding:0;
+	font-size:14px;
+	line-height:15px;
+	color:#0973ba;
+	width:auto;
+	height:30px;
+	font-weight:300;
+	text-align:left;
+}
+.product_holder p{
+	font-weight:400;
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	font-size:12px;
+	color:#404040;
+	width:auto;
+	text-align:left;
+}
+.product_holder p span.cena{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-weight:400;
+	color:#404040;
+}
+.product_holder p.staraCena{
+	margin:0;
+	padding:0;
+	font-weight:400;
+	font-size:10px;
+	line-height:10px;
+	color:#404040;
+}
+.product_holder p.staraCena, .product_holder p, .product_holder h5{
+	margin-left:15px;
+}
+.stiker{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:100;
+	display:block;
+	margin:0;
+	padding:0;
+	width:58px;
+	height:58px;
+	background-image:url(../images/stiker.png);
+	background-repeat:no-repeat;
+	line-height:58px;
+	text-align:center;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:20px;
+}
+/********** FOOTER **********/
+footer{
+	margin:40px 0 0 0;
+	padding:0;
+	background-color:#0973ba;
+	color:#FFF;
+	float:left;
+	width:100%;
+	height:310px;
+}
+footer a{
+	color:#FFFFFF;
+}
+.footerNav{
+	margin:0;
+	padding:0;
+	float:left;
+	width:960px;
+}
+.footerNav ul{
+	margin:0;
+	padding:23px 0 0 0; 
+	float:left;
+	border:1px solid #FFF;
+	border-left:none;
+	border-top:none;
+	height:160px;
+	width:163px;
+	color:#e5e5e5;
+	font-size:12px;
+	font-weight:400;
+	line-height:22px;
+}
+.footerNav ul:nth-child(1){
+	width:156px;
+	line-height:16px;
+	padding-left:24px;
+}
+.footerNav ul:nth-child(2){
+	width:152px;
+	line-height:16px;
+	padding-left:28px;
+}
+.footerNav ul:nth-child(3){
+	width:176px;
+	line-height:16px;
+	padding-left:34px;
+}
+.footerNav ul:nth-child(4){
+	width:174px;
+	line-height:16px;
+	padding-left:32px;
+}
+.footerNav ul:nth-child(5){
+	border-right:none;
+	width:156px;
+	line-height:16px;
+	padding-left:24px;
+}
+.footerNav ul li strong{
+	font-size:16px;
+	font-weight:600;
+	color:#FFF;
+	margin:0 0 14px 0;
+	padding:0;
+	display:block;
+	float:left;
+	line-height:normal;
+}
+
+.footerNav ul li{
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
+	clear:both;
+}
+.footerNav ul li a{
+	margin:0;
+	padding:0;
+	display:block;
+}
+
+
+.footerInfo{
+	margin:0;
+	padding:0;
+	float:left;
+	display:block;
+	width:100%;
+	height:60px;
+	border-bottom:1px solid #FFF;
+}
+.banke{
+	width:520px;
+	height:60px;
+	margin:0 0 0 53px;
+	padding:0;
+	display:block;
+	float:left;
+	background-color:#FFFFFF;
+	background-image:url(../images/bank-cards.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+
+}
+.callCentar{
+	margin:0;
+	padding:0;
+	float:left;
+	display:block;
+	width:380px;
+	height:60px;
+	text-align:center;
+}
+.callCentar h4{
+	margin:8px 0 0 0;
+	padding:0;
+	color:#fecc39;
+	font-size:14px;
+	font-weight:600;
+	display:block;
+}
+.callCentar a{
+	margin:0;
+	padding:0;
+	font-size:20px;
+	color:#FFFFFF;
+	font-weight:700;
+	display:inline-block;
+}
+
+.copyright{
+	margin:0;
+	padding:52px 0 0 0;
+	width:960px;
+	display:block;
+	float:left;
+	text-align:center;
+	font-size:11px;
+	font-weight:400;
+	line-height:11px;
+	color:#FFFFFF;
+}
+.copyright a.link{
+	margin:0;
+	padding:0;
+	display:inline;
+	font-size:11px;
+	font-weight:400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

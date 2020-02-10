@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+
+.product-main{
+	width:960px;
+}
+
+.margin-top{
+	margin-top:40px;
+}
+
+.product-left-slider{
+	width:330px;
+	float:left;
+}
+
+.product-main-right{
+	width:630px;
+	height:300px;
+	float:left;
+}
+
+.main-right-about{
+	width:312px;
+	height:300px;
+	float:left;
+	padding-left:15px;
+}
+
+.main-right-about h1{
+	font-size:24px;
+	font-family:"Open Sans Semibold";
+	color:#0b78b9;
+	font-weight:100;
+	padding:0;
+	font-weight:bold;
+}
+
+.main-right-about p{
+	font-size:11px;
+	color:#595959;
+	margin-bottom:50px;
+}
+
+.main-right-about ul.right-ul{
+	padding:0;
+	margin:0;
+	float:left;
+	color:#0b78b9;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.main-right-about ul.left-ul{
+	padding:0 40px 0 0;
+	margin:0;
+	color:#404040;
+	float:left;
+	font-size:14px;
+}
+
+.main-right-about ul.left-ul li{
+	padding-top:14px;
+}
+
+.main-right-about ul.right-ul li{
+	padding-top:10px;
+}
+
+.main-right-years{
+	background-repeat:no-repeat;
+	width:30px;
+	height:38px;
+	float:left;
+	margin-right:5px;
+}
+.main-right-years-1{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:0px 0px;
+}
+.main-right-years-2{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:-30px 0px;
+}
+.main-right-years-3{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:-60px 0px;
+	opacity:0.5;
+
+}
+.main-right-years-4{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:-90px 0px;
+	opacity:0.5;
+
+}
+.main-right-years-5{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:-121px 0px;
+	opacity:0.5;
+}
+.main-right-years-6{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:-152px 0px;
+	opacity:0.5;
+}
+
+.main-print-send{
+	width:301px;
+	float:left;
+}
+
+.main-print-send ul{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	float:right;
+}
+
+.main-print-send li{
+	display:inline;
+	margin-left:20px;
+}
+
+.main-print-send img{
+	position:relative;
+	top:3px;
+	left:-3px;
+}
+
+.main-print-send a{
+	font-size:10px;
+	color:#aaaaaa;
+	display:inline;
+}
+
+.main-print-send a:hover{
+	color:#8f8f8f;
+}
+
+.main-right-order{
+	width:301px;
+	float:left;
+	border:1px solid #0b78b9;
+}
+
+.main-right-order ul{
+	padding:0;
+	margin:7px 0 10px 10px;
+}
+
+.main-right-order ul li{
+	color:#595959;
+}
+
+.main-right-order input{
+	width:16px;
+	height:20px;
+	border:1px solid #0873b9;
+	margin-left:10px;
+	color:#f05137;
+	font-weight:bold;
+	padding-left:6px;
+	outline:none;
+}
+
+.sale-div{
+	background-image:url(../images/stiker-veliki.png);
+	width:78px;
+	height:78px;
+	z-index:100;
+	position:absolute;
+	margin:5px 0 0 212px;
+}
+.sale-div span{
+	font-size:24px;
+	color:#FFF;
+	font-weight:bold;
+	position:absolute;
+	padding:20px 0 0 10px;
+
+}
+
+.span-small{
+	font-size:12px;
+	color:#5b5b5b;
+}
+
+.span-big{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.span-orange{
+	color:#f05137;
+	font-weight:bold;
+}
+
+.span-line-through{
+	text-decoration:line-through;
+}
+
+.span-available{
+	font-size:14px;
+	padding-left:10px;
+}
+
+.border-line{
+	width:100%;
+	border-top:1px solid #0b78b9;
+}
+
+.order{
+	margin-bottom:46px !important;
+}
+
+.order li{
+	padding-top:10px;
+}
+
+.add{
+	border:1px solid #fecc39;
+	width:117px;
+	height:30px;
+	background-color:#fecc39;
+	float:left;
+	margin-right:2px;
+	font-size:12px;
+	line-height:32px;
+	text-align:center;
+}
+
+.add:hover{
+	border:1px solid #000;
+
+}
+
+.add a{
+    color:#000;
+}
+
+.add-1{
+	width:180px;
+	height:32px;
+	background-color:#0873b9;
+	float:left;
+}
+
+.add-1:hover{
+	background-color:#7c50a1;
+
+}
+
+.add-1 a{
+    color:#FFF;
+	margin:4px 0 0 30px;
+	font-weight:bold;
+	display:block;
+}
+
+.social{
+	width:301px;
+	height:30px;
+	float:left;
+}
+
+.about-text{
+	width:615px;
+	height:300px;
+	padding-left:15px;
+	float:left;
+}
+
+.about-text h2{
+	font-size:18px;
+	color:#0873b9;
+	font-family:"Open Sans Semibold";
+}
+
+.about-text p{
+	font-size:14px;
+	margin-top:-7px;
+	color:#404040;
+	font-weight:400;
+	font-family:"Open Sans Semibold";
+}

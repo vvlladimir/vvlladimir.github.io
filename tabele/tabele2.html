@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Proba</title>
+		<link rel="stylesheet" href="" />
+	<style type="text/css">
+	.r {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr:nth-of-type(odd) { background: #eee; }
+	thead tr:nth-of-type(1) { background: #ff7000; }
+	
+	@media only screen and (max-width: 800px) {
+	
+	/* Force table to not be like tables anymore */
+	 table, 
+	 thead, 
+	 tbody, 
+	 th, 
+	 td, 
+	 tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	 thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	 tr { border: 1px solid #555; margin-bottom: 10px; }
+ 
+	 td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #aaa; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+		line-height: 26px;
+	}
+ 
+	 .r { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 2px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+}
+	</style>
+	
+	</head>
+	<body>
+		<table>
+	<thead>
+		<tr>
+			<th>Code</th>
+			<th>Company</th>
+			<th class="numeric">Price</th>
+			<th class="numeric">Change</th>
+			<th class="numeric">Change %</th>
+			<th class="numeric">Open</th>
+			<th class="numeric">High</th>
+			<th class="numeric">Low</th>
+			<th class="numeric">Volume</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><div class="r">Code</div>AAC</td>
+			<td><div class="r">Company</div>AUSTRALIAN AGRICULTURAL COMPANY LIMITED.</td>
+			<td class="numeric"><div class="r">Price</div>$1.38</td>
+			<td class="numeric"><div class="r">Change</div>-0.01</td>
+			<td class="numeric"><div class="r">Change %</div>-0.36%</td>
+			<td class="numeric"><div class="r">Open</div>$1.39</td>
+			<td class="numeric"><div class="r">High</div>$1.39</td>
+			<td class="numeric"><div class="r">Low</div>$1.38</td>
+			<td class="numeric"><div class="r">Volume</div>9,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+		<tr>
+			<td><div class="r">Code</div>AFJANHK</td>
+			<td><div class="r">Company</div>Serbian company</td>
+			<td class="numeric"><div class="r">Price</div>RSD1.38</td>
+			<td class="numeric"><div class="r">Change</div>-1.01</td>
+			<td class="numeric"><div class="r">Change %</div>-1.36%</td>
+			<td class="numeric"><div class="r">Open</div>$5.39</td>
+			<td class="numeric"><div class="r">High</div>$100.39</td>
+			<td class="numeric"><div class="r">Low</div>$101.38</td>
+			<td class="numeric"><div class="r">Volume</div>2,395</td>
+		</tr>
+	</tbody>
+</table>
+	</body>
+</html>

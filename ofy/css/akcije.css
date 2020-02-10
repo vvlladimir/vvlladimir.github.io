@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+.middle-left-part-red{
+	border:1px solid #f05137 !important;
+}
+
+.border-line-red{
+	border-top:1px solid #f05137 !important;
+}
+
+.middle-left-part h2.red-action{
+	background-color:#f05137 !important;
+}
+
+.middle-right-part h1.red-action{
+	color:#f05137 !important;
+}
+
+.pagination-content-red{
+	height:30px;
+	float:right;
+}
+
+.pagination-content-red a{
+	float:left;
+	font-size:14px;
+	color:#f05137;
+	font-weight:600;
+}
+
+.pagination-content-red a:hover{
+	color:#FFF;
+}
+
+.pagination-touch-red{
+	width:14px;
+	height:20px;
+	float:left;
+	border:2px solid #f05137;
+	margin-left:1px;
+	background-color:#FFF;
+	padding-left:6px;
+}
+
+.pagination-content-red a:hover .pagination-touch-red{
+	background-color:#f05137;
+}
+
+.pagination-content-second{
+	padding:15px 0 15px 0 !important;
+}
+
+.left-touch-red{
+	background-image:url(../images/paginacija_akcije_sprite.png);
+	background-position:-2px -2px;
+}
+
+.left-touch-red:hover{
+	background-image:url(../images/paginacija_akcije_sprite.png);
+	background-position: -2px -27px;
+}
+	
+.left-touch-1-red{
+	background-image:url(../images/paginacija_akcije_sprite.png);
+	background-position:-27px -2px;
+}
+
+.left-touch-1-red:hover{
+	background-image:url(../images/paginacija_akcije_sprite.png);
+	background-position:-27px 22px;
+}
+
+.right-touch-red{
+	background-image:url(../images/paginacija_akcije_sprite.png);
+	background-position:-52px -2px;
+}
+
+.right-touch-red:hover{
+	background-image:url(../images/paginacija_akcije_sprite.png);
+	background-position:-52px -27px;
+}
+	
+.right-touch-1-red{
+	background-image:url(../images/paginacija_akcije_sprite.png);
+	background-position:-77px -2px;
+}
+
+.right-touch-1-red:hover{
+	background-image:url(../images/paginacija_akcije_sprite.png);
+	background-position:-77px -27px;
+}
+
+.styled-select-red select {
+   background: transparent;
+   border-radius: 0;
+   height: 20px;
+   -webkit-appearance: none;
+   border:0;
+   outline:none;
+   font-size:14px;
+   line-height:1;
+   color:#808080 !important;
+   cursor:pointer;
+   width: 120%;
+   overflow:hidden;
+   padding-left:5px;
+}
+
+.styled-select-red {
+   width: 136px;
+   font-size:14px;
+   height: 20px;
+   overflow: hidden;
+   background: url(../images/select-drop-red.png) no-repeat right #FFF;
+   border: 2px solid #f05137;
+   float:left;
+   margin:0 0 15px 10px;
+   cursor:pointer;
+}
+
+
+ul.sub{
+	padding:0;
+	margin:0;
+}
+
+ul.sub-1{
+	padding:0;
+	margin:0;
+}

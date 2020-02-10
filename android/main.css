@@ -1,0 +1,56 @@
+﻿/*css for android */
+.icon {				
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #000;
+	/*background: url("icons-black-mobile.png"), #666;*/
+	
+	background: #ffffff url('icons-black-mobile.png') no-repeat center -590px;
+	background: url('icons-black-mobile.png') no-repeat center -590px, -moz-linear-gradient(top,  #ffffff 0%, #e6e6e6 100%); 
+	background: url('icons-black-mobile.png') no-repeat center -590px, #ffffff; 
+	background: url('icons-black-mobile.png') no-repeat center -590px, -webkit-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); 
+	background: url('icons-black-mobile.png') no-repeat center -590px, -o-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); 
+	background: url('icons-black-mobile.png') no-repeat center -590px, -ms-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); 
+	background: url('icons-black-mobile.png') no-repeat center -590px, linear-gradient(to bottom,  #ffffff 0%,#e6e6e6 100%) 0;
+	
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-attachment: scroll, scroll;
+    background-clip: border-box, border-box;
+}
+
+
+.icon:active {
+	background: #e6e6e6 url('icons-black-mobile.png') no-repeat center -590px;
+	background: url('icons-black-mobile.png') no-repeat center -590px, -moz-linear-gradient(top, #e6e6e6 0%, #ffffff 100%); 
+	background: url('icons-black-mobile.png') no-repeat center -590px, #e6e6e6; 
+	background: url('icons-black-mobile.png') no-repeat center -590px, -webkit-linear-gradient(top,  #e6e6e6 0%,#ffffff 100%); 
+	background: url('icons-black-mobile.png') no-repeat center -590px, -o-linear-gradient(top,  #e6e6e6 0%,#ffffff 100%); 
+	background: url('icons-black-mobile.png') no-repeat center -590px, -ms-linear-gradient(top,  #e6e6e6 0%,#ffffff 100%); 
+	background: url('icons-black-mobile.png') no-repeat center -590px, linear-gradient(to bottom,  #e6e6e6 0%,#ffffff 100%) 0;
+	
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-attachment: scroll, scroll;
+    background-clip: border-box, border-box;
+	
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(255,255,255,1);
+}
+.box {
+	float: left;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background: linear-gradient(#ffffff, #e6e6e6);
+	background: -ms-linear-gradient(#ffffff, #e6e6e6);
+	border: 1px solid #aaa;
+	/*background-size: 50px;
+	background-repeat: no-repeat;*/
+	/*-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e6e6e6))*/
+}

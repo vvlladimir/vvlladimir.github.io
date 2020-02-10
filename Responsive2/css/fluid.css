@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* 768px */
+
+@media only screen and (max-width:768px) and (min-width:481px){
+	@viewport { max-width:768px;}
+	@-o-viewport { max-width:768px;}
+
+
+
+.logo{
+	width:100%;
+	height:286px;
+	background-image:url(../images/radionica_768.jpg);
+	background-repeat:no-repeat;
+}
+
+
+
+
+	
+}
+
+/* 480px */
+
+@media only screen and (max-width:480px) and (min-width:321px){
+	@viewport { max-width:480px;}
+	@-o-viewport { max-width:480px;}
+*{
+	font-size:110%;
+}
+.logo{
+	width:100%;
+	height:179px;
+	background-image:url(../images/radionica_480.jpg);
+	background-repeat:no-repeat;
+}
+section{
+	width:100%;
+}
+
+aside{
+	width:100%;
+}
+	
+}
+
+
+/* 320px */
+
+@media only screen and (max-width:320px){
+	@viewport { max-width:320px;}
+	@-o-viewport { max-width:320px;}
+.logo{
+	width:100%;
+	height:119px;
+	background-image:url(../images/radionica_320.jpg);
+	background-repeat:no-repeat;
+}
+section{
+	width:100%;
+}
+
+aside{
+	width:100%;
+}
+
+	
+}
+
+/* 240px */
+
+@media only screen and (max-width:240px){
+	@viewport { max-width:240px;}
+	@-o-viewport { max-width:240px;}
+
+
+.logo{
+	width:100%;
+	height:90px;
+	background-image:url(../images/radionica_240.jpg);
+	background-repeat:no-repeat;
+}
+
+
+
+
+}

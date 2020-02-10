@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+.middle-part{
+	width:960px;
+}
+
+.margin-first{
+	margin:0 28px 0 0 !important;
+}
+
+.float-right{
+	float:right !important;
+}
+
+.float-left{
+	float:left !important;
+}
+
+.nazivStepa h1{
+	font-size:20px;
+	color:#FFF;
+	font-weight:400 !important;
+	margin:0;
+	padding:8px 0 0 18px;
+}
+
+.cart-content{
+	width:960px;
+	margin-top:20px;
+	padding-bottom:10px;
+	border-bottom:2px solid #7c50a1;
+
+}
+
+.cart-content h2{
+	font-size:16px;
+	font-weight:600;
+	color:#7c50a1;
+	margin:0;
+}
+
+.span-pass{
+	font-size:11px;
+}
+
+.span-exit{
+	font-size:11px;
+	color:#7c50a1;
+	padding:2px 5px 0 0;
+}
+.cart-first-line{
+	width:810px;
+	float:right;
+}
+
+.cart-first-line ul{
+	padding:0;
+	margin:0;
+	float:left;
+}
+
+.cart-first-line ul li{
+	line-height:15px;
+}
+
+.cart-second-line{
+	width:810px;
+	float:right;
+	margin-top:-23px;
+}
+
+.cart-second-line input{
+	width:16px;
+	height:20px;
+	border:1px solid #7c50a1;
+	margin-left:10px;
+	color:#f05137;
+	font-weight:bold;
+	padding-left:6px;
+	outline:none;
+}
+
+.cart-second-line ul{
+	padding:0;
+	margin:0;
+	float:right;
+}
+
+.cart-second-line li{
+	float:left;
+	margin-left:107px;
+}
+
+.price-cart{
+	font-size:12px;
+	color:#595959;
+
+}
+
+.price-cart-1{
+	font-size:14px;
+	color:#f05137;
+}
+.price-amount{
+	font-size:14px;
+	color:#595959;
+	font-weight:bold;
+}
+
+.old-price{
+	font-size:10px;
+}
+
+.sale-cart{
+	width:58px;
+	height:45px;
+	background-image:url(../images/stiker.png);
+	position:absolute;
+	z-index:100;
+	margin:54px 0 0 165px;
+	padding-top:13px;
+}
+
+.sale-cart-span{
+	font-size:20px;
+	font-weight:bold;
+	color:#FFF;
+	padding-left:6px;
+
+}
+
+.summ-cart{
+	font-size:16px;
+	color:#f05137;
+	font-weight:bold;
+	font-family:"Open Sans Semibold";
+}

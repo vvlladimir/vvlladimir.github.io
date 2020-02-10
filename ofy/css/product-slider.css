@@ -1,0 +1,27 @@
+
+
+
+/*
+	SLIDER
+*/
+.slider-wrap								{ width: 330px;}			
+.stripViewer .panelContainer 
+.panel ul									{ text-align: left;}
+.stripViewer								{ position: relative; overflow: hidden; width: 330px; height: 341px; }
+.stripViewer .panelContainer				{ position: relative; left: 0; top: 0; }
+.stripViewer .panelContainer .panel			{ float: left; height: 100%; position: relative; width: 330px; }
+.stripNavL, .stripNavR, .stripNav			{ display: none; }
+.nav-thumb 									{ border: 1px solid #0b78b9; padding:4px;}
+#movers-row									{ margin: 10px 0 0 -5px; width:335px;}
+#movers-row div								{ width: 20%; float: left; }
+#movers-row div a.cross-link 				{ float: right; }
+
+
+
+
+
+
+
+
+
+

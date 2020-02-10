@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+.margin-top-news{
+	margin-top:14px;
+}
+
+.nazivStepa-h1{
+	font-size:30px !important;
+	font-weight:400;
+	padding:1px 0 0 29px !important;
+	line-height:normal !important;
+}
+
+.nazivStepa ul{
+	padding:0;
+	margin:0;
+}
+
+.nazivStepa ul li{
+	float:left;
+	
+}
+
+.nazivStepa h2{
+	font-size:20px;
+	color:#FFF;
+	font-weight:400 !important;
+	margin:0;
+	padding:8px 0 0 532px;
+}
+
+.nazivStepa-news{
+	background-color:#13a14c !important;
+}
+
+.middle-right-part-menu{
+	width:180px;
+	float:right;
+	background-color:#13a14c;
+	margin-top:1px;
+}
+
+.middle-right-part-menu a{
+	outline:none;
+	cursor:pointer;
+}
+
+.middle-right-part-menu ul{
+	padding:0;
+	margin:0;
+}
+
+.middle-right-part-menu ul li{
+	line-height:17px;
+	border-bottom:1px solid #FFF;
+	padding:17px 0 17px 10px;
+	color:#FFF;
+}
+
+.middle-right-part-menu ul li ul{
+	margin-top:10px;
+	display:none;
+}
+
+.middle-right-part-menu ul li ul li{
+	line-height:17px;
+	border:none !important;
+	padding:2px 0 5px 21px !important;
+	line-height:12px;
+}
+
+.middle-right-part-menu ul li ul li a{
+	font-size:14px !important;
+}
+
+.middle-right-part-menu ul li ul li a:hover{
+	font-weight:bold;
+}
+
+.middle-right-part-menu li.sub-nav{
+	font-size:12px;
+	color:#0973ba;
+	font-weight:400;
+	cursor:pointer;
+}
+
+.middle-right-part-menu li.sub-nav:hover{
+	font-weight:700;
+}
+
+
+.middle-right-part-menu a{
+	text-decoration:none;
+	font-size:18px;
+	color:#FFF;
+	font-weight: 400;
+}
+
+.middle-right-part-menu span{
+	font-size:14px;
+	font-weight:bold;
+	color:#404040;
+	line-height:25px !important;
+}
+
+.middle-left-part-news{
+	width:780px;
+	float:left;
+}
+
+.news-content{
+	width:768px;
+
+	
+}
+
+.news-content img{
+	float:left;
+	padding-right:15px;
+}
+
+.news-content p{
+	font-size:16px;
+	color:#404040;
+	font-weight:300;
+	line-height:normal;
+	
+}
+
+.news-content-first-line{
+	width:100%;
+}
+
+.news-content-first-line h3{
+	padding:0;
+	float:left;
+	font-size:20px;
+	color:#595959;
+	font-weight:400;
+	margin:-7px 0 15px 0;
+	font-weight:400;
+}
+
+.date-news{
+	font-style:italic;
+	font-size:14px;
+	float:right;
+	color:#808080;
+}
+
+
+.news-content-second-line{
+	width:571px;
+	float:right;
+}
+
+.news-content-second-line a{
+	color:#13a14c;
+	font-size:12px;
+	font-weight:400;
+}
+
+.news-content-second-line a:hover{
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+

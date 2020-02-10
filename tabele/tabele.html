@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Proba</title>
+		<link rel="stylesheet" href="" />
+	<style type="text/css">
+	
+	
+	@media only screen and (max-width: 800px) {
+	
+	/* Force table to not be like tables anymore */
+	 table, 
+	 thead, 
+	 tbody, 
+	 th, 
+	 td, 
+	 tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	 thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	 tr { border: 1px solid #ccc; }
+ 
+	 td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	 td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	 td:before { content: attr(data-title); }
+}
+	</style>
+	
+	</head>
+	<body>
+		<table>
+	<thead>
+		<tr>
+			<th>Code</th>
+			<th>Company</th>
+			<th class="numeric">Price</th>
+			<th class="numeric">Change</th>
+			<th class="numeric">Change %</th>
+			<th class="numeric">Open</th>
+			<th class="numeric">High</th>
+			<th class="numeric">Low</th>
+			<th class="numeric">Volume</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-title="Code">AAC</td>
+			<td data-title="Company">AUSTRALIAN AGRICULTURAL COMPANY LIMITED.</td>
+			<td data-title="Price" class="numeric">$1.38</td>
+			<td data-title="Change" class="numeric">-0.01</td>
+			<td data-title="Change %" class="numeric">-0.36%</td>
+			<td data-title="Open" class="numeric">$1.39</td>
+			<td data-title="High" class="numeric">$1.39</td>
+			<td data-title="Low" class="numeric">$1.38</td>
+			<td data-title="Volume" class="numeric">9,395</td>
+		</tr>
+		<tr>
+			<td data-title="Code">AFJANHK</td>
+			<td data-title="Company">Serbian company</td>
+			<td data-title="Price" class="numeric">RSD1.38</td>
+			<td data-title="Change" class="numeric">-1.01</td>
+			<td data-title="Change %" class="numeric">-1.36%</td>
+			<td data-title="Open" class="numeric">$5.39</td>
+			<td data-title="High" class="numeric">$100.39</td>
+			<td data-title="Low" class="numeric">$101.38</td>
+			<td data-title="Volume" class="numeric">2,395</td>
+		</tr>
+	</tbody>
+</table>
+	</body>
+</html>

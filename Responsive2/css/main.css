@@ -1,0 +1,211 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+}
+::selection{
+	background:#000000;
+	color:#FFFFFF;
+}
+::-moz-selection{
+	background:#000000;
+	color:#FFFFFF;
+}
+.wrapper{
+	position:relative;
+	margin:0 auto;
+	padding:0;
+	max-width:960px;
+	width:100%;
+	background-color:#CCC;
+}
+.hidden{
+	display:none;
+}
+
+.clear-fix{
+	
+	clear:both;
+}
+.logo{
+	margin:0;
+	padding:0;
+	width:220px;
+	height:50px;
+	background-color:#FF0;
+}
+header{
+	margin:0;
+	padding:0;
+	display:block;
+	width:100%;
+}
+select{
+	margin:0 1%;
+	padding:0;
+	width:98%;
+	display:block;
+	background-color:#000099;
+	color:#FFF;
+	border:none;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+}
+
+/* NAVIGATION */
+nav{
+	margin:0px;
+	padding:0px;
+
+	background-color:#FF00FF;
+
+}
+nav hgroup{
+	margin:0px;
+	padding:0;
+	background-color:#FFF;
+	width:100%;
+	display:none;
+}
+nav hgroup h1{
+	margin:0;
+	padding:0;
+	color:#000000;
+	text-align:center;
+	text-indent:-9999px;
+}
+nav ul{
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+nav ul li{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display:inline;
+}
+nav ul li a{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	transition:ease-in-out 0.8s;
+	-webkit-transition:ease-in-out 0.8s;
+	-moz-transition:ease-in-out 0.8s;
+	-o-transition:ease-in-out 0.8s;
+	-ms-transition:ease-in-out 0.8s;
+}
+nav ul li a:hover{
+	color:#fff;
+	background-color:#000000;
+}
+
+/* SECTION */
+
+section{
+	margin:0;
+	padding:0;
+	float:left;
+	background-color:#333;
+	width:66.66%;
+}
+section hgroup{
+	margin:0px;
+	padding:0;
+	background-color:#FFF;
+	width:100%;
+	
+}
+section hgroup h1{
+	margin:0;
+	padding:0;
+	color:#000000;
+	text-align:center;
+}
+section hgroup p{
+	margin:0;
+	padding:10px;
+	color:#000000;
+	text-align:center;
+}
+
+/* ARTICLE */
+section article{
+	margin:10px 0;
+	padding:0;
+	float:left;
+	background-color:#999;
+	width:100%;
+}
+section article hgroup{
+	margin:0px;
+	padding:0;
+	background-color:#FFF;
+	width:100%;
+}
+section article hgroup h1{
+	margin:0;
+	padding:0;
+	color:#000000;
+	text-align:center;
+}
+section article hgroup p{
+	margin:0;
+	padding:10px;
+	color:#000000;
+	text-align:left;
+}
+section article p{
+	margin:0;
+	padding:10px;
+	color:#000000;
+	text-align:left;
+}
+
+
+/* ASIDE */
+
+aside{
+	margin:0;
+	padding:0;
+	float:left;
+	background-color:#000033;
+	width:33.33%;
+}
+aside hgroup{
+	margin:0;
+	padding:0;
+	background-color:#FFFF00;
+	width:100%;
+}
+aside hgroup h1, aside hgroup p{
+	margin:0;
+	padding:0;
+	text-align:center;
+	color:#900;
+}
+
+
+aside p{
+	margin:0;
+	padding:10px;
+	color:#fff;
+	text-align:left;
+}
+
+img{
+	width:100%;
+	float:left;
+}
+
+/* FOOTER */
+
+footer{
+	background-color: #000000;
+    color: #FFFFFF;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

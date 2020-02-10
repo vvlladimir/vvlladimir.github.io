@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+
+.middle-part{
+	width:960px;
+}
+
+.border-right-brend{
+	border-right:1px solid #e4e4e4;
+}
+
+.div-line-1{
+	width:100%;
+	border-top:2px dotted #cccccc;
+}
+
+.margin-brend{
+	margin:20px 0 20px 8px;
+}
+
+.padd-right-brend{
+	padding-right:5px;
+}
+
+.margin-bottom-null{
+	margin-bottom:0 !important;
+}
+
+.middle-left-part{
+	width:178px;
+	float:left;
+	border:1px solid #10a3ce;
+}
+
+.middle-left-part h2{
+	font-family: "Open Sans Semibold";
+	font-size:16px;
+	color:#FFF;
+	display:block;
+	padding:5px 10px 5px 14px;
+	background-color:#10a3ce;
+	margin:0;
+}
+
+.middle-left-part ul{
+	padding:7px 0 10px 13px;
+	margin:0;
+}
+
+.middle-left-part li{
+	line-height:17px;
+}
+
+.middle-left-part li.sub-nav{
+	font-size:12px;
+	color:#0973ba;
+	font-weight:400;
+	cursor:pointer;
+}
+
+.middle-left-part li.sub-nav:hover{
+	font-weight:700;
+}
+
+.middle-left-part li.sub-nav-1{
+	font-size:12px;
+	color:#0973ba;
+	font-weight:400;
+	cursor:pointer;
+}
+
+.middle-left-part li.sub-nav-1:hover{
+	font-weight:700;
+}
+
+.middle-left-part a{
+	text-decoration:none;
+	font-size:12px;
+	color:#404040;
+	font-weight: 400;
+}
+
+.middle-left-part a:hover{
+	font-weight:700;
+}
+
+.middle-left-part span{
+	font-size:14px;
+	font-weight:bold;
+	color:#404040;
+	line-height:25px !important;
+}
+
+.middle-left-years-content{
+	width:150px;
+	margin-left:17px;
+	height:105px;
+}
+
+
+.middle-left-part-years{
+	background-repeat:no-repeat;
+	width:30px;
+	height:38px;
+	float:left;
+	margin:0 17px 10px 0;
+}
+
+.main-right-years-1{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:0px 0px;
+}
+
+.main-right-years-2{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:-30px 0px;
+}
+
+.main-right-years-3{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:-60px 0px;
+	opacity:0.5;
+
+}
+.main-right-years-4{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:-90px 0px;
+	opacity:0.5;
+}
+
+.main-right-years-5{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:-121px 0px;
+	opacity:0.5;
+}
+
+.main-right-years-6{
+	background-image: url(../images/kruzici-proizvod1.png);
+    background-position:-152px 0px;
+	opacity:0.5;
+}
+
+.middle-right-part{
+	width:765px;
+	float:left;
+	padding-left:15px;
+}
+
+.middle-right-part h1{
+	font-size:30px;
+	padding:0;
+	margin:-12px 0 0 5px;
+}
+
+.middle-right-part ul{
+	padding:6px 0 0 0;
+	margin:0 0 40px 0;
+}
+
+.middle-right-part li{
+	float:left;
+	color:#0973ba;
+	font-size:14px;
+	font-family:"Open Sans Semibold";
+}
+
+.category-div{
+	width:100%;
+	margin-bottom:15px;
+}
+
+.category-div label{
+	float:left;
+	color:#808080;
+	font-size:15px;
+}
+
+.styled-select select {
+   background: transparent;
+   font-size: 12px;
+   border-radius: 0;
+   height: 20px;
+   -webkit-appearance: none;
+   border:0;
+   outline:none;
+   font-size:14px;
+   line-height:1;
+   color:#808080 !important;
+   cursor:pointer;
+   width: 120%;
+   overflow:hidden;
+   
+}
+   
+.styled-select {
+   width: 136px;
+   font-size:14px;
+   height: 20px;
+   overflow: hidden;
+   background: url(../images/select-drop.png) no-repeat right #FFF;
+   border: 2px solid #149dc7;
+   float:left;
+   margin:0 0 15px 10px;
+   cursor:pointer;
+}
+   
+.pagination-content{
+	height:30px;
+	float:right;
+}
+
+.pagination-content a{
+	float:left;
+	font-size:14px;
+	color:#0fa3cd;
+	font-weight:600;
+}
+
+.pagination-content a:hover{
+	color:#FFF;
+}
+
+.pagination-touch{
+	width:14px;
+	height:20px;
+	float:left;
+	border:2px solid #12a5c7;
+	margin-left:1px;
+	background-color:#FFF;
+	padding-left:6px;
+}
+
+.pagination-content a:hover .pagination-touch{
+	background-color:#12a5c7;
+}
+
+.pagination-content-second{
+	padding:15px 0 15px 0 !important;
+}
+ 
+.left-touch{
+	background-image:url(../images/paginacija_brend_sprite.png);
+	background-position:-2px -2px;
+}
+
+.left-touch:hover{
+	background-image:url(../images/paginacija_brend_sprite.png);
+	background-position: -2px -27px;
+}
+	
+.left-touch-1{
+	background-image:url(../images/paginacija_brend_sprite.png);
+	background-position:-27px -2px;
+}
+
+.left-touch-1:hover{
+	background-image:url(../images/paginacija_brend_sprite.png);
+	background-position:-27px 22px;
+}
+
+.right-touch{
+	background-image:url(../images/paginacija_brend_sprite.png);
+	background-position:-52px -2px;
+}
+
+.right-touch:hover{
+	background-image:url(../images/paginacija_brend_sprite.png);
+	background-position:-52px -27px;
+}
+	
+.right-touch-1{
+	background-image:url(../images/paginacija_brend_sprite.png);
+	background-position:-77px -2px;
+}
+
+.right-touch-1:hover{
+	background-image:url(../images/paginacija_brend_sprite.png);
+	background-position:-77px -27px;
+}

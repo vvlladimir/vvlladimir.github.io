@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* PRODAVNICE */
+
+.mapa_holder{
+	margin:0 0 53px 0;
+	padding:0;
+	display:inline-block;
+	float:right;
+	width:474px;
+	height:478px;
+	border:2px solid #f89f4e;
+}
+.mapa{
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
+	width:464px;
+	height:468px;
+	border:5px solid #FFF;
+}
+.prodavnice_holder{
+	margin:0 0px 0px 0;
+	padding:0;
+	display:inline-block;
+	width:478px;
+	height:480px;
+	
+}
+
+.radnja_holder{
+	margin:0 2px 2px 0;
+	padding:0;
+	display:inline-block;
+	float:left;
+	width:157px;
+	height:159px;
+	background-color:#f89f4e;
+}
+.radnja_holder:hover{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	background-color:#fff;
+	border:2px solid #f89f4e;
+}
+.radnja_holder:hover >  ul{ margin:32px 0 0 6px;}
+.radnja_holder ul{
+	margin:34px 0 0 8px;
+	padding:0;
+	display:block;
+	float:left;
+}
+
+.radnja_holder ul li h3 {
+	margin:0 0 20px 0;
+	padding:0;
+	display:block;
+	float:left;
+	font-size:12px;
+	font-weight:400;
+	color:#404040;
+}
+
+.radnja_holder ul li{
+	margin:0 ;
+	padding:0;
+	display:block;
+	float:left;
+	font-size:12px;
+	font-weight:300;
+	line-height:14px;
+}
+
+.naslovStrane{
+	margin:0 0 36px 0;
+	padding:0;
+	float:left;
+	display:block;
+	width:960px;
+	height:42px;
+	
+}
+
+.naslovStrane h1{
+	margin:0 0 0 21px;
+	padding:0;
+	float:left;
+	display:block;
+	color:#f89f4e;
+	line-height:42px;
+	font-weight:600;
+	font-size:24px;
+}

@@ -1,0 +1,667 @@
+﻿/* CSS styles for Invoicing Application */
+
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+
+
+/* INVOICING BODY */
+html {
+    height: 100%;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #f5f5f5;
+}
+:focus {
+	border: 1px solid #1ba8ed; 
+}
+.wrapper {
+	width: 1083px;
+	height: 773px;
+	position: absolute;
+	margin: auto;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	background: white;
+	box-shadow: 0px 25px 50px #656565;
+	border: none;
+}
+.invoicingHeader {
+	height: 60px;
+	width: 100%;
+	display: block;
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+.logo {
+	height: 60px;
+	width: 140px;
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: rgb(27,168,237);
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	line-height: 60px;
+	border: none;
+}
+.logo:hover, .logo:active, .logo:focus {
+	border: none;
+}
+.invoicingUser {
+	height: 60px;
+	width: 943px;
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 0 50px 0 0;
+	background: white;
+	text-align: right;
+	color: #1ba8ed;
+	font-size: 12px;
+	line-height: 60px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ie-box-sizing: border-box;
+	border-bottom: 1px solid #bbb;
+	display: none;
+}
+
+/* Navigation */
+
+.invoicingNav {
+	width: 140px;
+	height:713px;
+	display: inline-block;
+	float: left;
+	background: #2e333f;
+	color: white;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.customers, .items, .invoices {
+	padding: 0 0 0 40px;
+	margin: 0;
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+}
+.customers {
+	background: transparent url('../images/customers.png') no-repeat 14px center;
+	background-size: 15px auto;
+}
+.items {
+	background: transparent url('../images/items.png') no-repeat 14px center;
+	background-size: 16px auto;
+}
+.invoices {
+	background: transparent url('../images/invoices.png') no-repeat 14px center;
+	background-size: 15px auto;
+}
+.customers:hover {
+	background: rgb(235, 235, 235) url('../images/customers-active.png') no-repeat 14px center;
+	background-size: 15px auto;
+	color: #2e333f;
+	cursor: pointer;
+}
+.items:hover {
+	background: rgb(235, 235, 235) url('../images/items-active.png') no-repeat 14px center;
+	background-size: 16px auto;
+	color: #2e333f;
+	cursor: pointer;
+}
+.invoices:hover {
+	background: rgb(235, 235, 235) url('../images/invoices-active.png') no-repeat 14px center;
+	background-size: 15px auto;
+	color: #2e333f;
+	cursor: pointer;
+}
+.customers.active {
+	background: white url('../images/customers-active.png') no-repeat 14px center;
+	background-size: 15px auto;
+	color: #2e333f;
+	cursor: pointer;
+}
+.items.active {
+	background: white url('../images/items-active.png') no-repeat 14px center;
+	background-size: 16px auto;
+	color: #2e333f;
+	cursor: pointer;
+}
+.invoices.active {
+	background: white url('../images/invoices-active.png') no-repeat 14px center;
+	background-size: 15px auto;
+	color: #2e333f;
+	cursor: pointer;
+}
+.help, .userLog {
+	padding: 0 0 0 40px;
+	margin: 0;
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+}
+.help {
+	margin-top: 500px; 
+}
+#customersTable, #itemsTable, #invoicesTable {
+	display: none;
+}
+/* CONTENT */
+
+.contentCustomers {
+	width: 843px;
+	height: 672px;
+	background: white;
+	margin: 0;
+	padding: 0 50px 20px 50px;
+	float: left;
+	overflow-y: auto;
+	border: none;
+	border-top: 1px solid #bbb;
+}
+.contentCustomers table caption {
+	text-align: left;
+	height: 30px;
+	font-size: 24px;
+	position: absolute;
+	top: 15px;
+}
+.contentCustomers button.add {
+	position: absolute;
+	right: 67px;
+	height: 30px;
+	top: 15px;
+	width: 120px;
+	background: #1ba8ed;
+	border: none;
+	color: white;
+	line-height: 30px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.contentCustomers button.add:hover {
+	box-shadow: 0 1px 1px #bbb;
+	-webkit-box-shadow: 0 1px 1px #bbb;
+	-moz-box-shadow: 0 1px 1px #bbb;
+	-o-box-shadow: 0 1px 1px #bbb;
+	-ms-box-shadow: 0 1px 1px #bbb;
+	outline: none;
+}
+.contentCustomers button.add:active {
+	outline: none;
+	color: #54278B;
+	background: none;
+	border: 2px solid #1ba8ed;
+	line-height: 28px;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+.contentCustomers table tbody {
+	font-size: 12px;
+	text-align: left;
+	line-height: 40px;
+	padding-left: 10px;
+	width: 843px;
+}
+.contentCustomers table thead {
+	text-align: left;
+	font-size: 12px;
+	color: #a691c1;
+	line-height: 40px;
+	border-bottom: 1px solid #bbb;
+}
+.contentCustomers table tbody tr:nth-child(even) {
+	background: #f1f6fd;
+}
+.contentCustomers table tbody tr:hover, .contentCustomers table tbody tr:nth-child(even):hover {
+	background: rgb(235, 235, 235);
+}
+.contentCustomers table tbody tr td:first-child, .contentCustomers table thead tr th:first-child {
+	padding-left: 10px;
+}
+.contentCustomers .edit-icon {
+	width: 40px;
+	height: 40px;
+	background: transparent url('../images/edit.png') no-repeat center center;
+	cursor: pointer;
+	border: none;
+	vertical-align: middle;
+}
+.contentCustomers .edit-icon:active, .contentCustomers .edit-icon:hover {
+	background: rgb(255, 255, 239) url('../images/edit-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+	box-shadow: 0 1px 1px #bbb;
+}
+.contentCustomers .edit-icon:focus {
+	background: transparent url('../images/edit-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+}
+
+.contentCustomers .delete-icon {
+	width: 40px;
+	height: 40px;
+	background: transparent url('../images/delete.png') no-repeat center center;
+	cursor: pointer;
+	border: none;
+	vertical-align: middle;
+}
+.contentCustomers .delete-icon:active, .contentCustomers .delete-icon:hover {
+	background: rgb(255, 255, 239) url('../images/delete-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+	box-shadow: 0 1px 1px #bbb;
+}
+.contentCustomers .delete-icon:focus {
+	background: transparent url('../images/delete-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+}
+.contentCustomers td.btn, .contentCustomers th.btn {
+	width: 40px;
+}
+
+/* CONTENT ITEMS */
+.contentItems {
+	width: 843px;
+	height: 672px;
+	background: white;
+	margin: 0;
+	padding: 0 50px 20px 50px;
+	float: left;
+	overflow-y: auto;
+	border: none;
+	border-top: 1px solid #bbb;
+}
+
+.contentItems table caption {
+	text-align: left;
+	height: 30px;
+	font-size: 24px;
+	position: absolute;
+	top: 15px;
+}
+
+.contentItems button.add {
+	position: absolute;
+	right: 67px;
+	height: 30px;
+	top: 15px;
+	width: 120px;
+	background: #1ba8ed;
+	border: none;
+	color: white;
+	line-height: 30px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.contentItems button.add:hover {
+	box-shadow: 0 1px 1px #bbb;
+	-webkit-box-shadow: 0 1px 1px #bbb;
+	-moz-box-shadow: 0 1px 1px #bbb;
+	-o-box-shadow: 0 1px 1px #bbb;
+	-ms-box-shadow: 0 1px 1px #bbb;
+	outline: none;
+}
+.contentItems button.add:active {
+	outline: none;
+	color: #54278B;
+	background: none;
+	border: 2px solid #1ba8ed;
+	line-height: 28px;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+.contentItems table tbody {
+	font-size: 12px;
+	text-align: left;
+	line-height: 40px;
+	padding-left: 10px;
+}
+.contentItems table thead{
+	text-align: left;
+	font-size: 12px;
+	color: #a691c1;
+	line-height: 40px;
+	border-bottom: 1px solid #bbb;
+}
+.contentItems table tbody tr:nth-child(even) {
+	background: #f1f6fd;
+}
+.contentItems table tbody tr:hover, .contentItems table tbody tr:nth-child(even):hover {
+	background: rgb(235, 235, 235);
+}
+.contentItems table tbody tr td:first-child, .contentItems table thead tr th:first-child {
+	padding-left: 10px;
+}
+.contentItems .edit-icon {
+	width: 40px;
+	height: 40px;
+	background: transparent url('../images/edit.png') no-repeat center center;
+	cursor: pointer;
+	border: none;
+	vertical-align: middle;
+}
+.contentItems .edit-icon:active, .contentItems .edit-icon:hover {
+	background: rgb(255, 255, 239) url('../images/edit-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+	box-shadow: 0 1px 1px #bbb;
+}
+.contentItems .edit-icon:focus {
+	background: transparent url('../images/edit-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+}
+.contentItems .delete-icon {
+	width: 40px;
+	height: 40px;
+	background: transparent url('../images/delete.png') no-repeat center center;
+	cursor: pointer;
+	border: none;
+	vertical-align: middle;
+}
+.contentItems .delete-icon:active, .contentItems .delete-icon:hover {
+	background: rgb(255, 255, 239) url('../images/delete-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+	box-shadow: 0 1px 1px #bbb;
+}
+.contentItems .delete-icon:focus {
+	background: transparent url('../images/delete-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+}
+.contentItems td.btn, .contentItems  th.btn {
+	width: 40px;
+}
+
+/* CONTENT INVOICES */
+.contentInvoices {
+	width: 843px;
+	height: 672px;
+	background: white;
+	margin: 0;
+	padding: 0 50px 20px 50px;
+	float: left;
+	overflow-y: auto;
+	border: none;
+	border-top: 1px solid #bbb;
+}
+.contentInvoices table caption {
+	text-align: left;
+	height: 30px;
+	font-size: 24px;
+	position: absolute;
+	top: 15px;
+}
+
+.contentInvoices button.add {
+	position: absolute;
+	right: 67px;
+	height: 30px;
+	top: 15px;
+	width: 120px;
+	background: #1ba8ed;
+	border: none;
+	color: white;
+	line-height: 30px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.contentInvoices button.add:hover {
+	box-shadow: 0 1px 1px #bbb;
+	-webkit-box-shadow: 0 1px 1px #bbb;
+	-moz-box-shadow: 0 1px 1px #bbb;
+	-o-box-shadow: 0 1px 1px #bbb;
+	-ms-box-shadow: 0 1px 1px #bbb;
+	outline: none;
+}
+.contentInvoices button.add:active {
+	outline: none;
+	color: #54278B;
+	background: none;
+	border: 2px solid #1ba8ed;
+	line-height: 28px;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+.contentInvoices table tbody {
+	font-size: 12px;
+	text-align: left;
+	line-height: 40px;
+	padding-left: 10px;
+}
+.contentInvoices table thead{
+	text-align: left;
+	font-size: 12px;
+	color: #a691c1;
+	line-height: 40px;
+	border-bottom: 1px solid #bbb;
+}
+.contentInvoices table tbody tr:nth-child(even) {
+	background: #f1f6fd;
+}
+.contentInvoices table tbody tr:hover, .contentInvoices table tbody tr:nth-child(even):hover {
+	background: rgb(235, 235, 235);
+}
+.contentInvoices table tbody tr td:first-child, .contentInvoices table thead tr th:first-child {
+	padding-left: 10px;
+	text-align: left;
+}
+.contentInvoices .edit-icon {
+	width: 40px;
+	height: 40px;
+	background: transparent url('../images/edit.png') no-repeat center center;
+	cursor: pointer;
+	border: none;
+	vertical-align: middle;
+}
+.contentInvoices .edit-icon:active, .contentInvoices .edit-icon:hover {
+	background: rgb(255, 255, 239) url('../images/edit-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+	box-shadow: 0 1px 1px #bbb;
+}
+.contentInvoices .edit-icon:focus {
+	background: transparent url('../images/edit-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+}
+.contentInvoices .delete-icon {
+	width: 40px;
+	height: 40px;
+	background: transparent url('../images/delete.png') no-repeat center center;
+	cursor: pointer;
+	border: none;
+	vertical-align: middle;
+}
+.contentInvoices .delete-icon:active, .contentInvoices .delete-icon:hover {
+	background: rgb(255, 255, 239) url('../images/delete-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+	box-shadow: 0 1px 1px #bbb;
+}
+.contentInvoices .delete-icon:focus {
+	background: transparent url('../images/delete-active.png') no-repeat center center;
+	border: none;
+	vertical-align: middle;
+}
+.numbers {
+	text-align: right;
+	padding-right: 20px;
+}
+.btn {
+	text-align: center;
+	padding: 4px;
+}
+.contentInvoices td.btn, .contentInvoices  th.btn {
+	width: 40px;
+}
+/* ADD DIALOG CUSTOMERS */
+#addCustomerDialog, #addItemDialog, #addInvoiceDialog , #editCustomerDialog, #editItemDialog, #editInvoiceDialog {
+	display: none;
+}
+.dialog-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: rgba(0,0,0,0.6);
+	z-index: 99;
+}
+.dialog-box {
+	position: absolute;
+	width: 300px;
+	height: 266px;
+	margin: auto;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10000;
+	background: white;
+	border: 1px solid #1ba8ed;
+	box-shadow: 0 5px 30px black;
+	-webkit-box-shadow: 0 5px 30px black;
+	-moz-box-shadow: 0 5px 30px black;
+	-o-box-shadow: 0 5px 30px black;
+	-ms-box-shadow: 0 5px 30px black;
+}
+.dialog-box-header {
+	height: 50px;
+	border-bottom: 1px solid #bbb;
+}
+.dialog-name {
+	text-align: left;
+	color: #1ba8ed;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 50px;
+	margin: 0 0 0 10px;
+	display: inline-block;
+}
+.close-btn {
+	background: #1ba8ed url(../images/close.png) no-repeat center;
+	border: none;
+	width: 30px;
+	height: 30px;
+	margin: 10px 10px 0 0;
+	float: right;
+	cursor: pointer;
+}
+.close-btn:hover {
+	box-shadow: 0 1px #3d2a54;
+	-webkit-box-shadow: 0 1px #3d2a54;
+	-moz-box-shadow: 0 1px #3d2a54;
+	-o-box-shadow: 0 1px #3d2a54;
+	-ms-box-shadow: 0 1px #3d2a54;
+}
+.close-btn:active {
+	box-shadow: 0 2px #3d2a54;
+	-webkit-box-shadow: 0 2px #3d2a54;
+	-moz-box-shadow: 0 2px #3d2a54;
+	-o-box-shadow: 0 2px #3d2a54;
+	-ms-box-shadow: 0 2px #3d2a54;
+}
+.dialog-box-content input {
+	width: 269px;
+	height: 40px;
+	border: 1px solid #bbb;
+	display: block;
+	margin: 10px;
+	padding: 0 0 0 10px;
+	font-size: 12px;
+	-webkit-appearance: textfield;
+}
+.dialog-box-content input.dialog-btn {
+	width: 279px;
+	height: 40px;
+	padding: 0;
+	background: #1ba8ed; 
+	border: none;
+	color: white;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+#editInvoiceDialog.dialog-wrapper .dialog-box {
+	height: 475px;
+}
+#addInvoiceDialog.dialog-wrapper .dialog-box {
+	height: 475px;
+}
