@@ -423,7 +423,7 @@ input, button {
 }
 @media (max-width: 1795px) {
     .title-page {
-        padding: 0 30px;
+        padding: 0 20px;
     }
     .title-page h3 {
         font-size: 54px;
