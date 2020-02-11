@@ -392,7 +392,54 @@ input, button {
         margin-right: 0;
     }
 }
-
+@media (max-width: 10000px) and (max-height: 700px) {
+    .left-side {
+        position: fixed;
+        width: 60%;
+    }
+    .right-side {
+        width: 40%;
+        margin-left: 60%;
+        overflow: auto;
+    }
+    .btn-login-next {
+        margin-bottom: 10px;
+    }
+    .plus18 {
+        position: relative;
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .btn-login-next {
+        height: 70px;
+    }
+    .login-input {
+        height: 60px;
+        padding: 0 15px;
+    }
+}
+@media (max-width: 1795px) {
+    .title-page {
+        padding: 0 30px;
+    }
+    .title-page h3 {
+        font-size: 60px;
+    }
+    .title-page h4 {
+        font-size: 41px;
+    }
+}
+@media (max-width: 1490px) {
+    .title-page h3 {
+        font-size: 45px;
+    }
+    .title-page h4 {
+        font-size: 32px;
+    }
+}
 @media (max-width: 1440px) {
     .left-side {
         width: 60%;
@@ -421,7 +468,10 @@ input, button {
         padding: 0 10px;
     }
     .input-div {
-        margin: 0 0 0 15px;
+        margin: 0 0 0 10px;
+    }
+    .login-input .icon-view, .login-input .icon-check {
+        right: 5px;
     }
     .icon-lock,
     .icon-user,
@@ -429,12 +479,19 @@ input, button {
         width: 26px;
         height: 26px;
     }
+    .login-input label {
+        font-size: 12px;
+    }
+    .login-input input {
+        font-size: 16px;
+    }
     .social-content {
         width: 100%;
     }
     .social-icons {
         width: 100%;
     }
+    
     .social-title,
     .social-divider {
         display: none;
@@ -460,7 +517,110 @@ input, button {
         font-size: 28px;
     }
 }
-
+@media (max-width: 700px) and (min-height: 1025px) {
+    body {
+        flex-direction: column;
+    }
+    .left-side {
+        position: relative !important;
+        width: 100% !important;
+        height: 258px;
+    }
+    .login-form {
+        width: 100%;
+        max-width: 374px;
+    }
+    .title-page {
+        order: 4;
+        height: 120px;
+        width: 100%;
+    }
+    .box-img1 {
+        order: 1;
+        height: 138px;
+        width: 33.33%;
+    }
+    .box-img2 {
+        order: 2;
+        height: 138px;
+        width: 33.33%;
+    }
+    .box-img3 {
+        order: 3;
+        height: 138px;
+        width: 33.33%;
+    }
+    .title-page h3 {
+        font-size: 42px !important;
+        text-align: center;
+    }
+    .title-page h4 {
+        font-size: 22px !important;
+        text-align: center;
+    }
+    .right-side {
+        position: relative;
+        width: 100% !important;
+        height: 100%;
+        overflow: visible;
+        padding: 20px 20px 35px 20px;
+        margin: 0 !important;
+    }
+    .plus18 {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .login-title p {
+        font-size: 18px;
+        margin: 0 0 16px 0;
+    } 
+    .login-input {
+        padding: 0 18px;
+    }
+    .login-input label {
+        font-size: 12px;
+    }
+    .login-input input {
+        font-size: 16px;
+    }
+    .icon-lock,
+    .icon-user,
+    .icon-envelope {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .btn-login-next {
+        margin-bottom: 44px !important;
+        height: 70px;
+        font-size: 18px;
+    }
+    .social-content {
+        width: 100%;
+    }
+    .social-title {
+        font-size: 14px;
+    }
+    .social-divider {
+        width: 40px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .social-icons .facebook,
+    .social-icons .instagram,
+    .social-icons .snapchat {
+        width: 45px;
+        height: 45px;
+        margin-right: 8px;
+    }
+    .social-icons .snapchat {
+        margin-right: 0;
+    }
+}
 @media (max-width: 823px) and (max-height: 414px) {
     .left-side {
         width: 50% !important;
@@ -568,9 +728,9 @@ input, button {
     }
     .plus18 {
         position: relative;
-        width: 80px;
-        height: 80px;
-        line-height: 80px;
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
         font-size: 32px;
         margin-bottom: 20px;
     }
@@ -650,6 +810,7 @@ input, button {
     }
     .login-form {
         width: 100%;
+        max-width: 374px;
     }
     .title-page {
         order: 4;
