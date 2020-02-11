@@ -305,8 +305,92 @@ input, button {
     align-items: center;
 }
 
-@media (min-width: 1921px) {
-
+@media (max-height: 940px) {
+    .right-side {
+        padding-top: 100px;
+    }
+    .title-page h3 {
+        font-size: 45px;
+    }
+    .title-page h4 {
+        font-size: 35px;
+    }
+    .plus18 {
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1441px) and (max-height: 900px) {
+    .right-side {
+        padding-top: 20px;
+        margin-bottom: 0px;
+    }
+    .login-input {
+        margin-bottom: 10px;
+    }
+    .title-page h3 {
+        font-size: 54px;
+    }
+    .title-page h4 {
+        font-size: 45px;
+    }
+    .btn-login-next {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+}
+@media (min-width: 1620px) and (max-height: 780px) {
+    .plus18 {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .login-title p {
+        font-size: 18px;
+        margin: 0 0 16px 0;
+    } 
+    .login-input {
+        padding: 0 18px;
+    }
+    .login-input label {
+        font-size: 12px;
+    }
+    .login-input input {
+        font-size: 16px;
+    }
+    .icon-lock,
+    .icon-user,
+    .icon-envelope {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .btn-login-next {
+        margin-bottom: 44px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .social-content {
+        width: 100%;
+        justify-content: center;
+    }
+    .social-divider,    
+    .social-title {
+        display: none;
+    }
+    
+    .social-icons .facebook,
+    .social-icons .instagram,
+    .social-icons .snapchat {
+        width: 45px;
+        height: 45px;
+        margin-right: 8px;
+    }
+    .social-icons .snapchat {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -355,14 +439,12 @@ input, button {
     .social-divider {
         display: none;
     }
+    .btn-login-next {
+        margin-bottom: 10px;
+    }
 }
-@media (max-width: 1366px) and (max-height: 1024px) {
 
-}
 
-@media (max-width: 1024px) and (min-height: 768px) {
-  
-}
 @media (max-width: 1024px) {
     .login-form {
         width: 100%;
@@ -370,6 +452,12 @@ input, button {
     .right-side {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .title-page h3 {
+        font-size: 34px;
+    }
+    .title-page h4 {
+        font-size: 28px;
     }
 }
 
@@ -497,7 +585,7 @@ input, button {
         font-size: 12px;
     }
     .login-input input {
-        font-size: 16px;
+        font-size: 14px;
     }
     .login-input {
         padding: 0 10px;
@@ -511,9 +599,17 @@ input, button {
         width: 26px;
         height: 26px;
     }
-    
+    .login-input .icon-view, .login-input .icon-check {
+        right: 4px;
+    }
+    .login-input .icon-check {
+        background-size: 12px;
+    }
+    .login-input .icon-view {
+        background-size: 21px;
+    }
     .btn-login-next {
-        margin-bottom: 44px;
+        margin-bottom: 10px;
         height: 70px;
         font-size: 18px;
     }
@@ -529,6 +625,7 @@ input, button {
         display: none;
     }
 }
+
 @media (max-width: 568px) and (max-height: 320px) {
     .login-input {
         padding: 0 5px;
@@ -541,7 +638,7 @@ input, button {
         margin: 0 0 0 12px;
     }
 }
-@media (max-width: 425px) and (max-height: 1024px) {
+@media (max-width: 670px) and (max-height: 1024px) {
 
     body {
         flex-direction: column;
